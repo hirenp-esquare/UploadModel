@@ -1,0 +1,519 @@
+* Input file for SDM-Struc Tool (list of "used-by" variables).
+* Source: D:\a\UploadModel\UploadModel\mtl2.0_models/agg_v15_2019_06_14.mdl (11/26/20 - 11:56 AM)
+* This file created on 11/26/20 - 11:56 AM
+* This file created by SDM-Doc Tool 1.0
+* Decision and Information Sciences Division
+* Argonne National Laboratory
+Acceptable Delay to Starting Service; Adjunctive Difference between Actual and Acceptable Start Delays; Adjunctive Patients Waiting to Start a Service; CC Difference between Actual and Acceptable Start Delays; CC Patients Waiting to Start a Service; EBPsych Difference between Actual and Acceptable Start Delays; EBPsych Patients Waiting to Start a Service; Group Difference between Actual and Acceptable Start Delays; Group Patients Waiting to Start a Service; Intake Patients Waiting for Intake Evaluation; MM Difference between Actual and Acceptable Start Delays; MM Patients Waiting to Start a Service; Psych Difference between Actual and Acceptable Start Delays; Psych Patients Waiting to Start a Service
+"Adjuctive % w PTSD"; Adjuctive Patients w PTSD; Adjuctive Starting a Service w PTSD
+Adjuctive Patients w PTSD; Total Patients w PTSD
+Adjuctive Starting a Service w PTSD; Total Starting any Service w PTSD
+"Adjunctive % of Hours per Service"
+"Adjunctive % w AUD"; Adjunctive Patients w AUD; Adjunctive Starting a Service w AUD
+"Adjunctive % w DEP"; Adjunctive Patients w DEP; Adjunctive Starting a Service w DEP
+"Adjunctive % w Other Needs"; Adjunctive Patients w Other Needs; Adjunctive Starting a Service w Other Needs
+"Adjunctive % w OUD"; Adjunctive Patients w OUD; Adjunctive Starting a Service w OUD
+Adjunctive Actual Engagement Time; Adjunctive Ending Service Rate
+Adjunctive Actual Hours Available for Service; Adjunctive Actual Service Capacity; Adjunctive Appointments; Adjunctive Potential Completion Rate; Adjunctive Work Pressure; Total Actual Hours Available for Service
+Adjunctive Actual Return Visit Interval; Adjunctive Difference between Actual and Standard RVI
+Adjunctive Actual Service Capacity; Adjunctive Appointment Rate for Service Capacity
+"Adjunctive Actual True Missed Appointment %"; Adjunctive Actual Service Capacity; Adjunctive True Missed Appointment Rate
+Adjunctive Appointment Rate for Service Capacity; Adjunctive Initial Patients; Adjunctive Patient Start Rate
+Adjunctive Appointment Supply; Adjunctive Hours for Calculating Total Official Team Hours; Adjunctive Official Hours Available for Service
+"Adjunctive Appointment Supply (median)"; Adjunctive Hours for Calculating Total Official Team Hours; Adjunctive Official Hours Available for Service
+Adjunctive Appointments; Adjunctive Actual Return Visit Interval; Adjunctive Desired Completion Rate; Adjunctive Maximum Completion Rate
+Adjunctive Appointments to Reschedule; Adjunctive Rescheduling Rate
+Adjunctive Booking Rate; Adjunctive Appointments
+Adjunctive Completing Rate; Adjunctive Actual Return Visit Interval; Adjunctive Appointments; Adjunctive True Missed Appointment Rate
+"Adjunctive Current Pt Appts / week"; Adjunctive Booking Rate
+Adjunctive Delay to Starting Service; Adjunctive Difference between Actual and Acceptable Start Delays
+Adjunctive Demand per Patient per Week; Adjunctive Initial Patients; Adjunctive Patient Start Rate
+Adjunctive Desired Clinical Hours; Adjunctive Work Pressure
+Adjunctive Desired Completion Rate; Adjunctive Completing Rate; Adjunctive Desired Clinical Hours
+Adjunctive Difference between Actual and Acceptable Start Delays; Adjunctive Effect of Start Delays on Treatment Decisions
+Adjunctive Difference between Actual and Standard RVI; Adjunctive Effect of RVI Delays on Treatment Decisions
+Adjunctive Effect of Care Delays on Treatment Decisions; Adjunctive Treatment Decision Rate
+Adjunctive Effect of RVI Delays on Treatment Decisions; Adjunctive Effect of Care Delays on Treatment Decisions
+Adjunctive Effect of Start Delays on Treatment Decisions; Adjunctive Effect of Care Delays on Treatment Decisions
+Adjunctive Effect of Work Pressure on Overtime; Adjunctive Actual Hours Available for Service
+Adjunctive Effect of Work Pressure on Scheduled Return Visit Interval; Adjunctive Scheduled Return Visit Interval
+Adjunctive Ending Service Rate; Adjunctive Patients in Service
+Adjunctive Engagement Duration; Adjunctive Actual Engagement Time; Adjunctive Patient Start Rate
+"Adjunctive Engagement Duration (median)"; Adjunctive Engagement Duration
+Adjunctive Hours for Calculating Total Official Team Hours; "Total Appt. Supply"
+Adjunctive Initial Patients; Adjunctive Patients in Service
+Adjunctive Maximum Completion Rate; Adjunctive Completing Rate
+Adjunctive Maximum Start Rate Service; Adjunctive Starting a Service Rate
+Adjunctive Official Hours Available for Service; "Adjunctive % of Hours per Service"; Adjunctive Actual Hours Available for Service
+Adjunctive Patient Start Rate; Adjunctive Service Proportions Balanced Across Team Variables; Adjunctive Starting a Service Rate
+Adjunctive Patients in Service; Adjuctive Patients w PTSD; "Adjunctive Current Pt Appts / week"; Adjunctive Ending Service Rate; Adjunctive Patients w AUD; Adjunctive Patients w DEP; Adjunctive Patients w Other Needs; Adjunctive Patients w OUD; Total Patients in all Services
+Adjunctive Patients per Appointment; "Adjunctive Current Pt Appts / week"; Adjunctive Demand per Patient per Week
+Adjunctive Patients w AUD; Total Patients w AUD
+Adjunctive Patients w DEP; Total Patients w DEP
+Adjunctive Patients w Other Needs; Total Patients w Other Needs
+Adjunctive Patients w OUD; Total Patients w OUD
+Adjunctive Patients Waiting to Start a Service; Adjunctive Delay to Starting Service; Adjunctive Maximum Start Rate Service
+Adjunctive Potential Completion Rate; Adjunctive Completing Rate
+Adjunctive Rescheduling Rate; Adjunctive Appointments; Adjunctive Appointments to Reschedule
+"Adjunctive Return Visit Interval (median)"; Adjunctive RVI
+"Adjunctive Return Visit Interval (RVI)"; Adjunctive RVI
+Adjunctive RVI; Adjunctive Appointments; Adjunctive Demand per Patient per Week; Adjunctive Difference between Actual and Standard RVI; Adjunctive RVI used when Completing; Adjunctive Scheduled Return Visit Interval
+Adjunctive RVI used when Completing; Adjunctive Desired Completion Rate
+Adjunctive Scheduled Return Visit Interval; "Adjunctive Current Pt Appts / week"
+Adjunctive Service Proportions; Adjunctive Treatment Decision Rate
+Adjunctive Service Proportions Balanced Across Team Variables; Adjunctive Service Proportions
+Adjunctive Service Proportions from Team Data; Adjunctive Service Proportions
+Adjunctive Starting a Service Rate; Adjuctive Starting a Service w PTSD; Adjunctive Delay to Starting Service; Adjunctive Patients in Service; Adjunctive Patients Waiting to Start a Service; Adjunctive Starting a Service w AUD; Adjunctive Starting a Service w DEP; Adjunctive Starting a Service w Other Needs; Adjunctive Starting a Service w OUD; Total Starting any Service
+Adjunctive Starting a Service w AUD; Total Starting any Service w AUD
+Adjunctive Starting a Service w DEP; Total Starting any Service w DEP
+Adjunctive Starting a Service w Other Needs; Total Starting any Service w Other Needs
+Adjunctive Starting a Service w OUD; Total Starting any Service w OUD
+Adjunctive Time per Appointment; Adjunctive Appointment Rate for Service Capacity; Adjunctive Appointments; Adjunctive Desired Clinical Hours; Adjunctive Potential Completion Rate
+Adjunctive Treatment Decision Rate; Adjunctive Patients Waiting to Start a Service
+"Adjunctive True Missed Appointment %"; "Adjunctive Actual True Missed Appointment %"; Adjunctive Appointments
+Adjunctive True Missed Appointment Rate; Adjunctive Appointments to Reschedule
+"Adjunctive User-defined Engagement Duration"; Adjunctive Engagement Duration
+"Adjunctive User-defined Service Proportions from Team Data"; Adjunctive Service Proportions
+"Adjunctive User-defined True Missed Appointment %"; "Adjunctive Actual True Missed Appointment %"
+Adjunctive Work Pressure; Adjunctive Effect of Work Pressure on Overtime; Adjunctive Effect of Work Pressure on Scheduled Return Visit Interval
+Burnout Onset Time; "Long-Term Overtime"
+"CC % of Hours per Service"
+"CC % w AUD"; CC Patients w AUD; CC Starting a Service w AUD
+"CC % w DEP"; CC Patients w DEP; CC Starting a Service w DEP
+"CC % w Other Needs"; CC Patients w Other Needs; CC Starting a Service w Other Needs
+"CC % w OUD"; CC Patients w OUD; CC Starting a Service w OUD
+"CC % w PTSD"; CC Patients w PTSD; CC Starting a Service w PTSD
+CC Actual Engagement Time; CC Ending Service Rate
+CC Actual Hours Available for Service; CC Actual Service Capacity; CC Appointments; CC Potential Completion Rate; CC Work Pressure; Total Actual Hours Available for Service
+CC Actual Return Visit Interval; CC Difference between Actual and Standard RVI
+CC Actual Service Capacity; CC Appointment Rate for Service Capacity
+"CC Actual True Missed Appointment %"; CC Actual Service Capacity; CC True Missed Appointment Rate
+CC Appointment Rate for Service Capacity; CC Initial Patients; CC Patient Start Rate
+CC Appointment Supply; CC Hours for Calculating Total Official Team Hours; CC Official Hours Available for Service
+"CC Appointment Supply (median)"; CC Hours for Calculating Total Official Team Hours; CC Official Hours Available for Service
+CC Appointments; CC Actual Return Visit Interval; CC Desired Completion Rate; CC Maximum Completion Rate
+CC Appointments to Reschedule; CC Rescheduling Rate
+CC Booking Rate; CC Appointments
+CC Completing Rate; CC Actual Return Visit Interval; CC Appointments; CC True Missed Appointment Rate
+"CC Current Pt Appts / week"; CC Booking Rate
+CC Delay to Starting Service; CC Difference between Actual and Acceptable Start Delays
+CC Demand per Patient per Week; CC Initial Patients; CC Patient Start Rate
+CC Desired Clinical Hours; CC Work Pressure
+CC Desired Completion Rate; CC Completing Rate; CC Desired Clinical Hours
+CC Difference between Actual and Acceptable Start Delays; CC Effect of Start Delays on Treatment Decisions
+CC Difference between Actual and Standard RVI; CC Effect of RVI Delays on Treatment Decisions
+CC Effect of Care Delays on Treatment Decisions; CC Treatment Decision Rate
+CC Effect of RVI Delays on Treatment Decisions; CC Effect of Care Delays on Treatment Decisions
+CC Effect of Start Delays on Treatment Decisions; CC Effect of Care Delays on Treatment Decisions
+CC Effect of Work Pressure on Overtime; CC Actual Hours Available for Service
+CC Effect of Work Pressure on Scheduled Return Visit Interval; CC Scheduled Return Visit Interval
+CC Ending Service Rate; CC Patients in Service
+CC Engagement Duration; CC Actual Engagement Time; CC Patient Start Rate
+"CC Engagement Duration (median)"; CC Engagement Duration
+CC Hours for Calculating Total Official Team Hours; "Total Appt. Supply"
+CC Initial Patients; CC Patients in Service
+CC Maximum Completion Rate; CC Completing Rate
+CC Maximum Start Rate Service; CC Starting a Service Rate
+CC Official Hours Available for Service; "CC % of Hours per Service"; CC Actual Hours Available for Service
+CC Patient Start Rate; CC Service Proportions Balanced Across Team Variables; CC Starting a Service Rate
+CC Patients in Service; "CC Current Pt Appts / week"; CC Ending Service Rate; CC Patients w AUD; CC Patients w DEP; CC Patients w Other Needs; CC Patients w OUD; CC Patients w PTSD; Total Patients in all Services
+CC Patients per Appointment; "CC Current Pt Appts / week"; CC Demand per Patient per Week
+CC Patients w AUD; Total Patients w AUD
+CC Patients w DEP; Total Patients w DEP
+CC Patients w Other Needs; Total Patients w Other Needs
+CC Patients w OUD; Total Patients w OUD
+CC Patients w PTSD; Total Patients w PTSD
+CC Patients Waiting to Start a Service; CC Delay to Starting Service; CC Maximum Start Rate Service
+CC Potential Completion Rate; CC Completing Rate
+CC Rescheduling Rate; CC Appointments; CC Appointments to Reschedule
+"CC Return Visit Interval (median)"; CC RVI
+"CC Return Visit Interval (RVI)"; CC RVI
+CC RVI; CC Appointments; CC Demand per Patient per Week; CC Difference between Actual and Standard RVI; CC RVI used when Completing; CC Scheduled Return Visit Interval
+CC RVI used when Completing; CC Desired Completion Rate
+CC Scheduled Return Visit Interval; "CC Current Pt Appts / week"
+CC Service Proportions; CC Treatment Decision Rate
+CC Service Proportions Balanced Across Team Variables; CC Service Proportions
+CC Service Proportions from Team Data; CC Service Proportions
+CC Starting a Service Rate; CC Delay to Starting Service; CC Patients in Service; CC Patients Waiting to Start a Service; CC Starting a Service w AUD; CC Starting a Service w DEP; CC Starting a Service w Other Needs; CC Starting a Service w OUD; CC Starting a Service w PTSD; Total Starting any Service
+CC Starting a Service w AUD; Total Starting any Service w AUD
+CC Starting a Service w DEP; Total Starting any Service w DEP
+CC Starting a Service w Other Needs; Total Starting any Service w Other Needs
+CC Starting a Service w OUD; Total Starting any Service w OUD
+CC Starting a Service w PTSD; Total Starting any Service w PTSD
+CC Time per Appointment; CC Appointment Rate for Service Capacity; CC Appointments; CC Desired Clinical Hours; CC Potential Completion Rate
+CC Treatment Decision Rate; CC Patients Waiting to Start a Service
+"CC True Missed Appointment %"; "CC Actual True Missed Appointment %"; CC Appointments
+CC True Missed Appointment Rate; CC Appointments to Reschedule
+"CC User-defined Engagement Duration"; CC Engagement Duration
+"CC User-defined Service Proportions from Team Data"; CC Service Proportions
+"CC User-defined True Missed Appointment %"; "CC Actual True Missed Appointment %"
+CC Work Pressure; CC Effect of Work Pressure on Overtime; CC Effect of Work Pressure on Scheduled Return Visit Interval
+Data on Review Rate; Review Rate
+Difference between Excess and Official Team Hours; "Long-Term Overtime"; "Short-Term Overtime"
+"EBPsych % of Hours per Service"
+"EBPsych % w AUD"; EBPsych Patients w AUD; EBPsych Starting a Service w AUD
+"EBPsych % w DEP"; EBPsych Patients w DEP; EBPsych Starting a Service w DEP
+"EBPsych % w Other Needs"; EBPsych Patients w Other Needs; EBPsych Starting a Service w Other Needs
+"EBPsych % w OUD"; EBPsych Patients w OUD; EBPsych Starting a Service w OUD
+"EBPsych % w PTSD"; EBPsych Patients w PTSD; EBPsych Starting a Service w PTSD
+EBPsych Actual Engagement Time; EBPsych Ending Service Rate
+EBPsych Actual Hours Available for Service; EBPsych Actual Service Capacity; EBPsych Appointments; EBPsych Potential Completion Rate; EBPsych Work Pressure; Total Actual Hours Available for Service
+EBPsych Actual Return Visit Interval; EBPsych Difference between Actual and Standard RVI
+EBPsych Actual Service Capacity; EBPsych Appointment Rate for Service Capacity
+"EBPsych Actual True Missed Appointment %"; EBPsych Actual Service Capacity; EBPsych True Missed Appointment Rate
+EBPsych Appointment Rate for Service Capacity; EBPsych Initial Patients; EBPsych Patient Start Rate
+EBPsych Appointment Supply; EBPsych Hours for Calculating Total Official Team Hours; EBPsych Official Hours Available for Service
+"EBPsych Appointment Supply (median)"; EBPsych Hours for Calculating Total Official Team Hours; EBPsych Official Hours Available for Service
+EBPsych Appointments; EBPsych Actual Return Visit Interval; EBPsych Desired Completion Rate; EBPsych Maximum Completion Rate
+EBPsych Appointments to Reschedule; EBPsych Rescheduling Rate
+EBPsych Booking Rate; EBPsych Appointments
+EBPsych Completing Rate; EBPsych Actual Return Visit Interval; EBPsych Appointments; EBPsych True Missed Appointment Rate
+"EBPsych Current Pt Appts / week"; EBPsych Booking Rate
+EBPsych Delay to Starting Service; EBPsych Difference between Actual and Acceptable Start Delays
+EBPsych Demand per Patient per Week; EBPsych Initial Patients; EBPsych Patient Start Rate
+EBPsych Desired Clinical Hours; EBPsych Work Pressure
+EBPsych Desired Completion Rate; EBPsych Completing Rate; EBPsych Desired Clinical Hours
+EBPsych Difference between Actual and Acceptable Start Delays; EBPsych Effect of Start Delays on Treatment Decisions
+EBPsych Difference between Actual and Standard RVI; EBPsych Effect of RVI Delays on Treatment Decisions
+EBPsych Effect of Care Delays on Treatment Decisions; EBPsych Treatment Decision Rate
+EBPsych Effect of RVI Delays on Treatment Decisions; EBPsych Effect of Care Delays on Treatment Decisions
+EBPsych Effect of Start Delays on Treatment Decisions; EBPsych Effect of Care Delays on Treatment Decisions
+EBPsych Effect of Work Pressure on Overtime; EBPsych Actual Hours Available for Service
+EBPsych Effect of Work Pressure on Scheduled Return Visit Interval; EBPsych Scheduled Return Visit Interval
+EBPsych Ending Service Rate; EBPsych Patients in Service
+EBPsych Engagement Duration; EBPsych Actual Engagement Time; EBPsych Patient Start Rate
+"EBPsych Engagement Duration (median)"; EBPsych Engagement Duration
+EBPsych Hours for Calculating Total Official Team Hours; "Total Appt. Supply"
+EBPsych Initial Patients; EBPsych Patients in Service
+EBPsych Maximum Completion Rate; EBPsych Completing Rate
+EBPsych Maximum Start Rate Service; EBPsych Starting a Service Rate
+EBPsych Official Hours Available for Service; "EBPsych % of Hours per Service"; EBPsych Actual Hours Available for Service
+EBPsych Patient Start Rate; EBPsych Service Proportions Balanced Across Team Variables; EBPsych Starting a Service Rate
+EBPsych Patients in Service; "EBPsych Current Pt Appts / week"; EBPsych Ending Service Rate; EBPsych Patients w AUD; EBPsych Patients w DEP; EBPsych Patients w Other Needs; EBPsych Patients w OUD; EBPsych Patients w PTSD; Total Patients in all Services
+EBPsych Patients per Appointment; "EBPsych Current Pt Appts / week"; EBPsych Demand per Patient per Week
+EBPsych Patients w AUD; Total Patients w AUD
+EBPsych Patients w DEP; Total Patients w DEP
+EBPsych Patients w Other Needs; Total Patients w Other Needs
+EBPsych Patients w OUD; Total Patients w OUD
+EBPsych Patients w PTSD; Total Patients w PTSD
+EBPsych Patients Waiting to Start a Service; EBPsych Delay to Starting Service; EBPsych Maximum Start Rate Service
+EBPsych Potential Completion Rate; EBPsych Completing Rate
+EBPsych Rescheduling Rate; EBPsych Appointments; EBPsych Appointments to Reschedule
+"EBPsych Return Visit Interval (median)"; EBPsych RVI
+"EBPsych Return Visit Interval (RVI)"; EBPsych RVI
+EBPsych RVI; EBPsych Appointments; EBPsych Demand per Patient per Week; EBPsych Difference between Actual and Standard RVI; EBPsych RVI used when Completing; EBPsych Scheduled Return Visit Interval
+EBPsych RVI used when Completing; EBPsych Desired Completion Rate
+EBPsych Scheduled Return Visit Interval; "EBPsych Current Pt Appts / week"
+EBPsych Service Proportions; EBPsych Treatment Decision Rate
+EBPsych Service Proportions Balanced Across Team Variables; EBPsych Service Proportions
+EBPsych Service Proportions from Team Data; EBPsych Service Proportions
+EBPsych Starting a Service Rate; EBPsych Delay to Starting Service; EBPsych Patients in Service; EBPsych Patients Waiting to Start a Service; EBPsych Starting a Service w AUD; EBPsych Starting a Service w DEP; EBPsych Starting a Service w Other Needs; EBPsych Starting a Service w OUD; EBPsych Starting a Service w PTSD; Total Starting any Service
+EBPsych Starting a Service w AUD; Total Starting any Service w AUD
+EBPsych Starting a Service w DEP; Total Starting any Service w DEP
+EBPsych Starting a Service w Other Needs; Total Starting any Service w Other Needs
+EBPsych Starting a Service w OUD; Total Starting any Service w OUD
+EBPsych Starting a Service w PTSD; Total Starting any Service w PTSD
+EBPsych Time per Appointment; EBPsych Appointment Rate for Service Capacity; EBPsych Appointments; EBPsych Desired Clinical Hours; EBPsych Potential Completion Rate
+EBPsych Treatment Decision Rate; EBPsych Patients Waiting to Start a Service
+"EBPsych True Missed Appointment %"; "EBPsych Actual True Missed Appointment %"; EBPsych Appointments
+EBPsych True Missed Appointment Rate; EBPsych Appointments to Reschedule
+"EBPsych User-defined Engagement Duration"; EBPsych Engagement Duration
+"EBPsych User-defined Service Proportions from Team Data"; EBPsych Service Proportions
+"EBPsych User-defined True Missed Appointment %"; "EBPsych Actual True Missed Appointment %"
+EBPsych Work Pressure; EBPsych Effect of Work Pressure on Overtime; EBPsych Effect of Work Pressure on Scheduled Return Visit Interval
+"Effect of Long-Term Overtime on Burnout"; Adjunctive Official Hours Available for Service; CC Official Hours Available for Service; EBPsych Official Hours Available for Service; Group Official Hours Available for Service; Intake Official Hours Available for Service; MM Official Hours Available for Service; Psych Official Hours Available for Service
+Effect of Provider Fatigue on Patient's Engagement Time; Adjunctive Actual Engagement Time; CC Actual Engagement Time; EBPsych Actual Engagement Time; Group Actual Engagement Time; MM Actual Engagement Time; Psych Actual Engagement Time
+"Effect of Short-Term Overtime on Missed Appointments"; "Adjunctive Actual True Missed Appointment %"; "CC Actual True Missed Appointment %"; "EBPsych Actual True Missed Appointment %"; "Group Actual True Missed Appointment %"; "Intake Actual True Missed Appointment %"; "MM Actual True Missed Appointment %"; "Psych Actual True Missed Appointment %"
+Fatigue Onset Time; "Short-Term Overtime"
+FINAL TIME
+"Group % of Hours per Service"
+"Group % w AUD"; Group Patients w AUD; Group Starting a Service w AUD
+"Group % w DEP"; Group Patients w DEP; Group Starting a Service w DEP
+"Group % w Other Needs"; Group Patients w Other Needs; Group Starting a Service w Other Needs
+"Group % w OUD"; Group Patients w OUD; Group Starting a Service w OUD
+"Group % w PTSD"; Group Patients w PTSD; Group Starting a Service w PTSD
+Group Actual Engagement Time; Group Ending Service Rate
+Group Actual Hours Available for Service; Group Actual Service Capacity; Group Appointments; Group Potential Completion Rate; Group Work Pressure; Total Actual Hours Available for Service
+Group Actual Return Visit Interval; Group Difference between Actual and Standard RVI
+Group Actual Service Capacity; Group Appointment Rate for Service Capacity
+"Group Actual True Missed Appointment %"; Group Actual Service Capacity; Group True Missed Appointment Rate
+Group Appointment Rate for Service Capacity; Group Initial Patients; Group Patient Start Rate
+Group Appointment Supply; Group Hours for Calculating Total Official Team Hours; Group Official Hours Available for Service
+"Group Appointment Supply (median)"; Group Hours for Calculating Total Official Team Hours; Group Official Hours Available for Service
+Group Appointments; Group Actual Return Visit Interval; Group Desired Completion Rate; Group Maximum Completion Rate
+Group Appointments to Reschedule; Group Rescheduling Rate
+Group Booking Rate; Group Appointments
+Group Completing Rate; Group Actual Return Visit Interval; Group Appointments; Group True Missed Appointment Rate
+"Group Current Pt Appts / week"; Group Booking Rate
+Group Delay to Starting Service; Group Difference between Actual and Acceptable Start Delays
+Group Demand per Patient per Week; Group Initial Patients; Group Patient Start Rate
+Group Desired Clinical Hours; Group Work Pressure
+Group Desired Completion Rate; Group Completing Rate; Group Desired Clinical Hours
+Group Difference between Actual and Acceptable Start Delays; Group Effect of Start Delays on Treatment Decisions
+Group Difference between Actual and Standard RVI; Group Effect of RVI Delays on Treatment Decisions
+Group Effect of Care Delays on Treatment Decisions; Group Treatment Decision Rate
+Group Effect of RVI Delays on Treatment Decisions; Group Effect of Care Delays on Treatment Decisions
+Group Effect of Start Delays on Treatment Decisions; Group Effect of Care Delays on Treatment Decisions
+Group Effect of Work Pressure on Overtime; Group Actual Hours Available for Service
+Group Effect of Work Pressure on Scheduled Return Visit Interval; Group Scheduled Return Visit Interval
+Group Ending Service Rate; Group Patients in Service
+Group Engagement Duration; Group Actual Engagement Time; Group Patient Start Rate
+"Group Engagement Duration (median)"; Group Engagement Duration
+Group Hours for Calculating Total Official Team Hours; "Total Appt. Supply"
+Group Initial Patients; Group Patients in Service
+Group Maximum Completion Rate; Group Completing Rate
+Group Maximum Start Rate Service; Group Starting a Service Rate
+Group Official Hours Available for Service; "Group % of Hours per Service"; Group Actual Hours Available for Service
+Group Patient Start Rate; Group Service Proportions Balanced Across Team Variables; Group Starting a Service Rate
+Group Patients in Service; "Group Current Pt Appts / week"; Group Ending Service Rate; Group Patients w AUD; Group Patients w DEP; Group Patients w Other Needs; Group Patients w OUD; Group Patients w PTSD; Total Patients in all Services
+Group Patients per Appointment; "Group Current Pt Appts / week"; Group Demand per Patient per Week
+Group Patients w AUD; Total Patients w AUD
+Group Patients w DEP; Total Patients w DEP
+Group Patients w Other Needs; Total Patients w Other Needs
+Group Patients w OUD; Total Patients w OUD
+Group Patients w PTSD; Total Patients w PTSD
+Group Patients Waiting to Start a Service; Group Delay to Starting Service; Group Maximum Start Rate Service
+Group Potential Completion Rate; Group Completing Rate
+Group Rescheduling Rate; Group Appointments; Group Appointments to Reschedule
+"Group Return Visit Interval (median)"; Group RVI
+"Group Return Visit Interval (RVI)"; Group RVI
+Group RVI; Group Appointments; Group Demand per Patient per Week; Group Difference between Actual and Standard RVI; Group RVI used when Completing; Group Scheduled Return Visit Interval
+Group RVI used when Completing; Group Desired Completion Rate
+Group Scheduled Return Visit Interval; "Group Current Pt Appts / week"
+Group Service Proportions; Group Treatment Decision Rate
+Group Service Proportions Balanced Across Team Variables; Group Service Proportions
+Group Service Proportions from Team Data; Group Service Proportions
+Group Starting a Service Rate; Group Delay to Starting Service; Group Patients in Service; Group Patients Waiting to Start a Service; Group Starting a Service w AUD; Group Starting a Service w DEP; Group Starting a Service w Other Needs; Group Starting a Service w OUD; Group Starting a Service w PTSD; Total Starting any Service
+Group Starting a Service w AUD; Total Starting any Service w AUD
+Group Starting a Service w DEP; Total Starting any Service w DEP
+Group Starting a Service w Other Needs; Total Starting any Service w Other Needs
+Group Starting a Service w OUD; Total Starting any Service w OUD
+Group Starting a Service w PTSD; Total Starting any Service w PTSD
+Group Time per Appointment; Group Appointment Rate for Service Capacity; Group Appointments; Group Desired Clinical Hours; Group Potential Completion Rate
+Group Treatment Decision Rate; Group Patients Waiting to Start a Service
+"Group True Missed Appointment %"; "Group Actual True Missed Appointment %"; Group Appointments
+Group True Missed Appointment Rate; Group Appointments to Reschedule
+"Group User-defined Engagement Duration"; Group Engagement Duration
+"Group User-defined Service Proportions from Team Data"; Group Service Proportions
+"Group User-defined True Missed Appointment %"; "Group Actual True Missed Appointment %"
+Group Work Pressure; Group Effect of Work Pressure on Overtime; Group Effect of Work Pressure on Scheduled Return Visit Interval
+INITIAL TIME; Time
+"Intake % of Hours per Service"
+Intake Acceptable Intake Eval Wait Time; Intake Difference between Intake Eval Wait Times
+Intake Actual Hours Available for Service; Intake Actual Service Capacity; Intake Potential Completion Rate; Intake Work Pressure; Total Actual Hours Available for Service
+Intake Actual Service Capacity; Intake Appointment Rate for Service Capacity
+"Intake Actual True Missed Appointment %"; Intake Actual Service Capacity; Intake True Missed Appointment Rate
+Intake Appointment Rate for Service Capacity; Intake Patient Start Rate
+Intake Appointment Supply; Intake Hours for Calculating Total Official Team Hours; Intake Official Hours Available for Service
+"Intake Appointment Supply (median)"; Intake Hours for Calculating Total Official Team Hours; Intake Official Hours Available for Service
+Intake Appointments; Intake Desired Completion Rate; Intake Maximum Completion Rate
+Intake Appointments to Reschedule; Intake Rescheduling Rate
+Intake Appropriate Intake Evaluations for Supply; Intake Evaluation Rate
+Intake Booking Rate; Intake Appointments
+Intake Completing Rate; Intake Appointments; Intake True Missed Appointment Rate
+Intake Completion Rate; Adjunctive Service Proportions Balanced Across Team Variables; Adjunctive Treatment Decision Rate; CC Service Proportions Balanced Across Team Variables; CC Treatment Decision Rate; EBPsych Service Proportions Balanced Across Team Variables; EBPsych Treatment Decision Rate; Group Service Proportions Balanced Across Team Variables; Group Treatment Decision Rate; Intake Intake Evaluation Wait Time; "Intake New Pt Appts / week"; Intake Patients Waiting for Intake Evaluation; MM Service Proportions Balanced Across Team Variables; MM Treatment Decision Rate; Psych Service Proportions Balanced Across Team Variables; Psych Treatment Decision Rate
+Intake Demand per Patient per Week; Intake Patient Start Rate
+Intake Desired Clinical Hours; Intake Work Pressure
+Intake Desired Completion Rate; Intake Completing Rate; Intake Desired Clinical Hours
+Intake Difference between Intake Eval Wait Times; Intake Effect of Wait Times on Intake Evaluation Rate
+Intake Effect of Wait Times on Intake Evaluation Rate; Intake Evaluation Rate
+Intake Effect of Work Pressure on Overtime; Intake Actual Hours Available for Service
+Intake Engagement Duration; Intake Patient Start Rate
+Intake Evaluation Rate; Intake Patients Waiting for Intake Evaluation
+Intake Hours for Calculating Total Official Team Hours; "Total Appt. Supply"
+Intake Intake Evaluation Wait Time; Intake Difference between Intake Eval Wait Times
+Intake Maximum Completion Rate; Intake Completing Rate
+Intake Maximum Start Rate Intake; Intake Completion Rate
+Intake Minimum Time to Schedule; Intake Maximum Start Rate Intake
+"Intake New Pt Appts / week"; Intake Booking Rate
+Intake Official Hours Available for Service; "Intake % of Hours per Service"; Intake Actual Hours Available for Service
+Intake Patient Start Rate; Data on Review Rate; Intake Appropriate Intake Evaluations for Supply; Intake Completion Rate
+Intake Patients per Appointment; Intake Demand per Patient per Week; "Intake New Pt Appts / week"
+Intake Patients Waiting for Intake Evaluation; Intake Intake Evaluation Wait Time; Intake Maximum Start Rate Intake
+Intake Potential Completion Rate; Intake Completing Rate
+Intake Rescheduling Rate; Intake Appointments; Intake Appointments to Reschedule
+"Intake Return Visit Interval (median)"; Intake Appointments; Intake Demand per Patient per Week; Intake Desired Completion Rate
+Intake Sensitivity of Intake Evaluation Rate to Wait Times; Intake Effect of Wait Times on Intake Evaluation Rate
+Intake Time per Appointment; Intake Appointment Rate for Service Capacity; Intake Desired Clinical Hours; Intake Potential Completion Rate
+Intake Time to Perceive Intake Evaluation Wait Times; Intake Effect of Wait Times on Intake Evaluation Rate
+"Intake True Missed Appointment %"; "Intake Actual True Missed Appointment %"
+Intake True Missed Appointment Rate; Intake Appointments to Reschedule
+"Intake User-defined Intake Evaluation Rate"; Intake Evaluation Rate
+"Intake User-defined True Missed Appointment %"; "Intake Actual True Missed Appointment %"
+Intake Work Pressure; Intake Effect of Work Pressure on Overtime
+"Long-Term Overtime"; "Effect of Long-Term Overtime on Burnout"
+Minimum RVI; Adjunctive Maximum Completion Rate; CC Maximum Completion Rate; EBPsych Maximum Completion Rate; Group Maximum Completion Rate; Intake Maximum Completion Rate; MM Maximum Completion Rate; Psych Maximum Completion Rate
+Minimum Time to Schedule; Adjunctive Maximum Start Rate Service; CC Maximum Start Rate Service; EBPsych Maximum Start Rate Service; Group Maximum Start Rate Service; MM Maximum Start Rate Service; Psych Maximum Start Rate Service
+"MM % of Hours per Service"
+"MM % w AUD"; MM Patients w AUD; MM Starting a Service w AUD
+"MM % w DEP"; MM Patients w DEP; MM Starting a Service w DEP
+"MM % w Other Needs"; MM Patients w Other Needs; MM Starting a Service w Other Needs
+"MM % w OUD"; MM Patients w OUD; MM Starting a Service w OUD
+"MM % w PTSD"; MM Patients w PTSD; MM Starting a Service w PTSD
+MM Actual Engagement Time; MM Ending Service Rate
+MM Actual Hours Available for Service; MM Actual Service Capacity; MM Appointments; MM Potential Completion Rate; MM Work Pressure; Total Actual Hours Available for Service
+MM Actual Return Visit Interval; MM Difference between Actual and Standard RVI
+MM Actual Service Capacity; MM Appointment Rate for Service Capacity
+"MM Actual True Missed Appointment %"; MM Actual Service Capacity; MM True Missed Appointment Rate
+MM Appointment Rate for Service Capacity; MM Initial Patients; MM Patient Start Rate
+MM Appointment Supply; MM Hours for Calculating Total Official Team Hours; MM Official Hours Available for Service
+"MM Appointment Supply (median)"; MM Hours for Calculating Total Official Team Hours; MM Official Hours Available for Service
+MM Appointments; MM Actual Return Visit Interval; MM Desired Completion Rate; MM Maximum Completion Rate
+MM Appointments to Reschedule; MM Rescheduling Rate
+MM Booking Rate; MM Appointments
+MM Completing Rate; MM Actual Return Visit Interval; MM Appointments; MM True Missed Appointment Rate
+"MM Current Pt Appts / week"; MM Booking Rate
+MM Delay to Starting Service; MM Difference between Actual and Acceptable Start Delays
+MM Demand per Patient per Week; MM Initial Patients; MM Patient Start Rate
+MM Desired Clinical Hours; MM Work Pressure
+MM Desired Completion Rate; MM Completing Rate; MM Desired Clinical Hours
+MM Difference between Actual and Acceptable Start Delays; MM Effect of Start Delays on Treatment Decisions
+MM Difference between Actual and Standard RVI; MM Effect of RVI Delays on Treatment Decisions
+MM Effect of Care Delays on Treatment Decisions; MM Treatment Decision Rate
+MM Effect of RVI Delays on Treatment Decisions; MM Effect of Care Delays on Treatment Decisions
+MM Effect of Start Delays on Treatment Decisions; MM Effect of Care Delays on Treatment Decisions
+MM Effect of Work Pressure on Overtime; MM Actual Hours Available for Service
+MM Effect of Work Pressure on Scheduled Return Visit Interval; MM Scheduled Return Visit Interval
+MM Ending Service Rate; MM Patients in Service
+MM Engagement Duration; MM Actual Engagement Time; MM Patient Start Rate
+"MM Engagement Duration (median)"; MM Engagement Duration
+MM Hours for Calculating Total Official Team Hours; "Total Appt. Supply"
+MM Initial Patients; MM Patients in Service
+MM Maximum Completion Rate; MM Completing Rate
+MM Maximum Start Rate Service; MM Starting a Service Rate
+MM Official Hours Available for Service; "MM % of Hours per Service"; MM Actual Hours Available for Service
+MM Patient Start Rate; MM Service Proportions Balanced Across Team Variables; MM Starting a Service Rate
+MM Patients in Service; "MM Current Pt Appts / week"; MM Ending Service Rate; MM Patients w AUD; MM Patients w DEP; MM Patients w Other Needs; MM Patients w OUD; MM Patients w PTSD; Total Patients in all Services
+MM Patients per Appointment; "MM Current Pt Appts / week"; MM Demand per Patient per Week
+MM Patients w AUD; Total Patients w AUD
+MM Patients w DEP; Total Patients w DEP
+MM Patients w Other Needs; Total Patients w Other Needs
+MM Patients w OUD; Total Patients w OUD
+MM Patients w PTSD; Total Patients w PTSD
+MM Patients Waiting to Start a Service; MM Delay to Starting Service; MM Maximum Start Rate Service
+MM Potential Completion Rate; MM Completing Rate
+MM Rescheduling Rate; MM Appointments; MM Appointments to Reschedule
+"MM Return Visit Interval (median)"; MM RVI
+"MM Return Visit Interval (RVI)"; MM RVI
+MM RVI; MM Appointments; MM Demand per Patient per Week; MM Difference between Actual and Standard RVI; MM RVI used when Completing; MM Scheduled Return Visit Interval
+MM RVI used when Completing; MM Desired Completion Rate
+MM Scheduled Return Visit Interval; "MM Current Pt Appts / week"
+MM Service Proportions; MM Treatment Decision Rate
+MM Service Proportions Balanced Across Team Variables; MM Service Proportions
+MM Service Proportions from Team Data; MM Service Proportions
+MM Starting a Service Rate; MM Delay to Starting Service; MM Patients in Service; MM Patients Waiting to Start a Service; MM Starting a Service w AUD; MM Starting a Service w DEP; MM Starting a Service w Other Needs; MM Starting a Service w OUD; MM Starting a Service w PTSD; Total Starting any Service
+MM Starting a Service w AUD; Total Starting any Service w AUD
+MM Starting a Service w DEP; Total Starting any Service w DEP
+MM Starting a Service w Other Needs; Total Starting any Service w Other Needs
+MM Starting a Service w OUD; Total Starting any Service w OUD
+MM Starting a Service w PTSD; Total Starting any Service w PTSD
+MM Time per Appointment; MM Appointment Rate for Service Capacity; MM Appointments; MM Desired Clinical Hours; MM Potential Completion Rate
+MM Treatment Decision Rate; MM Patients Waiting to Start a Service
+"MM True Missed Appointment %"; "MM Actual True Missed Appointment %"; MM Appointments
+MM True Missed Appointment Rate; MM Appointments to Reschedule
+"MM User-defined Engagement Duration"; MM Engagement Duration
+"MM User-defined Service Proportions from Team Data"; MM Service Proportions
+"MM User-defined True Missed Appointment %"; "MM Actual True Missed Appointment %"
+MM Work Pressure; MM Effect of Work Pressure on Overtime; MM Effect of Work Pressure on Scheduled Return Visit Interval
+"New Patient Start Rate (mean)"; Data on Review Rate
+"Psych % of Hours per Service"
+"Psych % w AUD"; Psych Patients w AUD; Psych Starting a Service w AUD
+"Psych % w DEP"; Psych Patients w DEP; Psych Starting a Service w DEP
+"Psych % w Other Needs"; Psych Patients w Other Needs; Psych Starting a Service w Other Needs
+"Psych % w OUD"; Psych Patients w OUD; Psych Starting a Service w OUD
+"Psych % w PTSD"; Psych Patients w PTSD; Psych Starting a Service w PTSD
+Psych Actual Engagement Time; Psych Ending Service Rate
+Psych Actual Hours Available for Service; Psych Actual Service Capacity; Psych Appointments; Psych Potential Completion Rate; Psych Work Pressure; Total Actual Hours Available for Service
+Psych Actual Return Visit Interval; Psych Difference between Actual and Standard RVI
+Psych Actual Service Capacity; Psych Appointment Rate for Service Capacity
+"Psych Actual True Missed Appointment %"; Psych Actual Service Capacity; Psych True Missed Appointment Rate
+Psych Appointment Rate for Service Capacity; Psych Initial Patients; Psych Patient Start Rate
+Psych Appointment Supply; Psych Hours for Calculating Total Official Team Hours; Psych Official Hours Available for Service
+"Psych Appointment Supply (median)"; Psych Hours for Calculating Total Official Team Hours; Psych Official Hours Available for Service
+Psych Appointments; Psych Actual Return Visit Interval; Psych Desired Completion Rate; Psych Maximum Completion Rate
+Psych Appointments to Reschedule; Psych Rescheduling Rate
+Psych Booking Rate; Psych Appointments
+Psych Completing Rate; Psych Actual Return Visit Interval; Psych Appointments; Psych True Missed Appointment Rate
+"Psych Current Pt Appts / week"; Psych Booking Rate
+Psych Delay to Starting Service; Psych Difference between Actual and Acceptable Start Delays
+Psych Demand per Patient per Week; Psych Initial Patients; Psych Patient Start Rate
+Psych Desired Clinical Hours; Psych Work Pressure
+Psych Desired Completion Rate; Psych Completing Rate; Psych Desired Clinical Hours
+Psych Difference between Actual and Acceptable Start Delays; Psych Effect of Start Delays on Treatment Decisions
+Psych Difference between Actual and Standard RVI; Psych Effect of RVI Delays on Treatment Decisions
+Psych Effect of Care Delays on Treatment Decisions; Psych Treatment Decision Rate
+Psych Effect of RVI Delays on Treatment Decisions; Psych Effect of Care Delays on Treatment Decisions
+Psych Effect of Start Delays on Treatment Decisions; Psych Effect of Care Delays on Treatment Decisions
+Psych Effect of Work Pressure on Overtime; Psych Actual Hours Available for Service
+Psych Effect of Work Pressure on Scheduled Return Visit Interval; Psych Scheduled Return Visit Interval
+Psych Ending Service Rate; Psych Patients in Service
+Psych Engagement Duration; Psych Actual Engagement Time; Psych Patient Start Rate
+"Psych Engagement Duration (median)"; Psych Engagement Duration
+Psych Hours for Calculating Total Official Team Hours; "Total Appt. Supply"
+Psych Initial Patients; Psych Patients in Service
+Psych Maximum Completion Rate; Psych Completing Rate
+Psych Maximum Start Rate Service; Psych Starting a Service Rate
+Psych Official Hours Available for Service; "Psych % of Hours per Service"; Psych Actual Hours Available for Service
+Psych Patient Start Rate; Psych Service Proportions Balanced Across Team Variables; Psych Starting a Service Rate
+Psych Patients in Service; "Psych Current Pt Appts / week"; Psych Ending Service Rate; Psych Patients w AUD; Psych Patients w DEP; Psych Patients w Other Needs; Psych Patients w OUD; Psych Patients w PTSD; Total Patients in all Services
+Psych Patients per Appointment; "Psych Current Pt Appts / week"; Psych Demand per Patient per Week
+Psych Patients w AUD; Total Patients w AUD
+Psych Patients w DEP; Total Patients w DEP
+Psych Patients w Other Needs; Total Patients w Other Needs
+Psych Patients w OUD; Total Patients w OUD
+Psych Patients w PTSD; Total Patients w PTSD
+Psych Patients Waiting to Start a Service; Psych Delay to Starting Service; Psych Maximum Start Rate Service
+Psych Potential Completion Rate; Psych Completing Rate
+Psych Rescheduling Rate; Psych Appointments; Psych Appointments to Reschedule
+"Psych Return Visit Interval (median)"; Psych RVI
+"Psych Return Visit Interval (RVI)"; Psych RVI
+Psych RVI; Psych Appointments; Psych Demand per Patient per Week; Psych Difference between Actual and Standard RVI; Psych RVI used when Completing; Psych Scheduled Return Visit Interval
+Psych RVI used when Completing; Psych Desired Completion Rate
+Psych Scheduled Return Visit Interval; "Psych Current Pt Appts / week"
+Psych Service Proportions; Psych Treatment Decision Rate
+Psych Service Proportions Balanced Across Team Variables; Psych Service Proportions
+Psych Service Proportions from Team Data; Psych Service Proportions
+Psych Starting a Service Rate; Psych Delay to Starting Service; Psych Patients in Service; Psych Patients Waiting to Start a Service; Psych Starting a Service w AUD; Psych Starting a Service w DEP; Psych Starting a Service w Other Needs; Psych Starting a Service w OUD; Psych Starting a Service w PTSD; Total Starting any Service
+Psych Starting a Service w AUD; Total Starting any Service w AUD
+Psych Starting a Service w DEP; Total Starting any Service w DEP
+Psych Starting a Service w Other Needs; Total Starting any Service w Other Needs
+Psych Starting a Service w OUD; Total Starting any Service w OUD
+Psych Starting a Service w PTSD; Total Starting any Service w PTSD
+Psych Time per Appointment; Psych Appointment Rate for Service Capacity; Psych Appointments; Psych Desired Clinical Hours; Psych Potential Completion Rate
+Psych Treatment Decision Rate; Psych Patients Waiting to Start a Service
+"Psych True Missed Appointment %"; "Psych Actual True Missed Appointment %"; Psych Appointments
+Psych True Missed Appointment Rate; Psych Appointments to Reschedule
+"Psych User-defined Engagement Duration"; Psych Engagement Duration
+"Psych User-defined Service Proportions from Team Data"; Psych Service Proportions
+"Psych User-defined True Missed Appointment %"; "Psych Actual True Missed Appointment %"
+Psych Work Pressure; Psych Effect of Work Pressure on Overtime; Psych Effect of Work Pressure on Scheduled Return Visit Interval
+Review Rate; Adjunctive Service Proportions Balanced Across Team Variables; Adjunctive Treatment Decision Rate; CC Service Proportions Balanced Across Team Variables; CC Treatment Decision Rate; EBPsych Service Proportions Balanced Across Team Variables; EBPsych Treatment Decision Rate; Group Service Proportions Balanced Across Team Variables; Group Treatment Decision Rate; MM Service Proportions Balanced Across Team Variables; MM Treatment Decision Rate; Psych Service Proportions Balanced Across Team Variables; Psych Treatment Decision Rate
+SAVEPER
+Sensitivity of Overtime to Work Pressure; Adjunctive Effect of Work Pressure on Overtime; CC Effect of Work Pressure on Overtime; EBPsych Effect of Work Pressure on Overtime; Group Effect of Work Pressure on Overtime; Intake Effect of Work Pressure on Overtime; MM Effect of Work Pressure on Overtime; Psych Effect of Work Pressure on Overtime
+Sensitivity of Patient's Engagement Time to Provider Fatigue; Effect of Provider Fatigue on Patient's Engagement Time
+Sensitivity of Scheduled Return Visit Interval to Work Pressure; Adjunctive Effect of Work Pressure on Scheduled Return Visit Interval; CC Effect of Work Pressure on Scheduled Return Visit Interval; EBPsych Effect of Work Pressure on Scheduled Return Visit Interval; Group Effect of Work Pressure on Scheduled Return Visit Interval; MM Effect of Work Pressure on Scheduled Return Visit Interval; Psych Effect of Work Pressure on Scheduled Return Visit Interval
+"Sensitivity of Staff Burnout Due to Long-Term Overtime"; "Effect of Long-Term Overtime on Burnout"
+"Sensitivity of Staff Missed Appointments Due to Short-Term Overtime"; "Effect of Short-Term Overtime on Missed Appointments"
+Sensitivity of Treatment Decisions to Existing Patient Care Delays; Adjunctive Effect of RVI Delays on Treatment Decisions; Adjunctive Effect of Start Delays on Treatment Decisions; CC Effect of RVI Delays on Treatment Decisions; CC Effect of Start Delays on Treatment Decisions; EBPsych Effect of RVI Delays on Treatment Decisions; EBPsych Effect of Start Delays on Treatment Decisions; Group Effect of RVI Delays on Treatment Decisions; Group Effect of Start Delays on Treatment Decisions; MM Effect of RVI Delays on Treatment Decisions; MM Effect of Start Delays on Treatment Decisions; Psych Effect of RVI Delays on Treatment Decisions; Psych Effect of Start Delays on Treatment Decisions
+"Short-Term Overtime"; Effect of Provider Fatigue on Patient's Engagement Time; "Effect of Short-Term Overtime on Missed Appointments"
+TIME STEP; SAVEPER
+Time to Change Scheduled RVI; Adjunctive Effect of Work Pressure on Scheduled Return Visit Interval; CC Effect of Work Pressure on Scheduled Return Visit Interval; EBPsych Effect of Work Pressure on Scheduled Return Visit Interval; Group Effect of Work Pressure on Scheduled Return Visit Interval; MM Effect of Work Pressure on Scheduled Return Visit Interval; Psych Effect of Work Pressure on Scheduled Return Visit Interval
+Time to Change Staff Hours; Adjunctive Effect of Work Pressure on Overtime; CC Effect of Work Pressure on Overtime; EBPsych Effect of Work Pressure on Overtime; Group Effect of Work Pressure on Overtime; Intake Effect of Work Pressure on Overtime; MM Effect of Work Pressure on Overtime; Psych Effect of Work Pressure on Overtime
+Time to Perceive Internal Delays; Adjunctive Effect of RVI Delays on Treatment Decisions; Adjunctive Effect of Start Delays on Treatment Decisions; CC Effect of RVI Delays on Treatment Decisions; CC Effect of Start Delays on Treatment Decisions; EBPsych Effect of RVI Delays on Treatment Decisions; EBPsych Effect of Start Delays on Treatment Decisions; Group Effect of RVI Delays on Treatment Decisions; Group Effect of Start Delays on Treatment Decisions; MM Effect of RVI Delays on Treatment Decisions; MM Effect of Start Delays on Treatment Decisions; Psych Effect of RVI Delays on Treatment Decisions; Psych Effect of Start Delays on Treatment Decisions
+Time to Reschedule; Adjunctive Appointments to Reschedule; Adjunctive Rescheduling Rate; CC Appointments to Reschedule; CC Rescheduling Rate; EBPsych Appointments to Reschedule; EBPsych Rescheduling Rate; Group Appointments to Reschedule; Group Rescheduling Rate; Intake Appointments to Reschedule; Intake Rescheduling Rate; MM Appointments to Reschedule; MM Rescheduling Rate; Psych Appointments to Reschedule; Psych Rescheduling Rate
+Total Actual Hours Available for Service; Difference between Excess and Official Team Hours
+"Total Appt. Supply"; "Adjunctive % of Hours per Service"; "CC % of Hours per Service"; Difference between Excess and Official Team Hours; "EBPsych % of Hours per Service"; "Group % of Hours per Service"; "Intake % of Hours per Service"; "MM % of Hours per Service"; "Psych % of Hours per Service"
+Total Patients in all Services
+Total Patients w AUD
+Total Patients w DEP
+Total Patients w Other Needs
+Total Patients w OUD
+Total Patients w PTSD
+Total Starting any Service
+Total Starting any Service w AUD
+Total Starting any Service w DEP
+Total Starting any Service w Other Needs
+Total Starting any Service w OUD
+Total Starting any Service w PTSD
+Use Team Data on New Pt Referrals; Adjunctive Service Proportions; CC Service Proportions; EBPsych Service Proportions; Group Service Proportions; MM Service Proportions; Psych Service Proportions
+"User-defined Review Rate"; Review Rate

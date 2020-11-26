@@ -1,0 +1,315 @@
+* Input file for SDM-Struc Tool (list of "used-by" variables).
+* Source: D:\a\UploadModel\UploadModel\mtl2.0_models/mm_v36_2019_09_06.mdl (11/26/20 - 11:56 AM)
+* This file created on 11/26/20 - 11:56 AM
+* This file created by SDM-Doc Tool 1.0
+* Decision and Information Sciences Division
+* Argonne National Laboratory
+"% Appointment Slots Where Provider has X-Waiver"; "Proportion of Appointment Slots where Provider has X-Waiver"
+"Appointment Slots % (with X waiver)"; "Proportion of Appointment Slots where Provider has X-Waiver"
+Appointment Supply; Official Total Appointment Supply
+"Appointment Supply (75th Percentile)"; Official Total Appointment Supply
+"Appointment Supply (no X-Waiver)"; AUD Current Appointment Supply; DEP Current Appointment Supply; OtherNeeds Current Appointment Supply; OUD Current Appointment Supply
+"Appointment Supply (with X-Waiver)"; AUD Current Appointment Supply; DEP Current Appointment Supply; OtherNeeds Current Appointment Supply; OUD Current Appointment Supply
+"AUD % Slots Allocated (no X w RVI)"; Total x
+"AUD % Slots Allocated (w X w RVI)"; Total y
+"AUD % Slots Allocated to Each Diagnosis (no X)"; AUD Current Appointment Supply
+"AUD % Slots Allocated to Each Diagnosis (w X)"; AUD Current Appointment Supply
+"AUD Actual Missed Appointment %"; AUD fRVI; AUD Ratio of Appts for Existing Pts; AUD Ratio of Appts for New Pts; "AUD Ratio of Appts for New Pts w/DataRVI"; AUD True Missed Appointment Rate
+AUD Actual RVI; Average Actual RVI
+"AUD Adjusted New Patient Wait Time (median)"; AUD Target New Patient Wait Time
+AUD Appointment Slots Reserved for New Patients; AUD Appointments Available for New Patients; AUD Current Appointment Supply
+AUD Appointments Available for New Patients; AUD Starting Rate
+AUD Appointments for Existing Patients; AUD Appointments Available for New Patients; AUD Completing Rate
+AUD Appointments in MM; AUD Actual RVI; AUD Desired Appointment Completion Rate
+AUD Appointments to Reschedule; AUD Rescheduling Rate
+AUD Appt Completion Rate; AUD Initial Appointments
+AUD Appts for Existing Pts; AUD Appt Completion Rate
+AUD Appts for New Pts; "AUD Patient Start Rate based on Supply and RVI and Missed Appt% and Engagement Duration"
+"AUD Appts for New Pts w/DataRVI"; "AUD If Existing Pt RVI then New Pt Starts
+AUD Booking Rate; AUD Appointments in MM
+AUD Completing Rate; AUD Actual RVI; AUD Appointments in MM; AUD True Missed Appointment Rate
+AUD Current Appointment Supply; AUD Appointments Available for New Patients; AUD Appointments for Existing Patients; AUD Appts for Existing Pts; AUD Appts for New Pts; "AUD Appts for New Pts w/DataRVI"; AUD fRVI; Total Current Supply
+AUD Desired Appointment Completion Rate; AUD Appointments for Existing Patients
+AUD Effect of Wait Time on Referrals; AUD Referral Rate
+AUD Ending Rate; AUD Patients in MM
+AUD Engagement Duration; AUD Ending Rate; AUD fRVI; AUD Initial Patients; AUD Ratio of Appts for Existing Pts; AUD Ratio of Appts for New Pts; "AUD Ratio of Appts for New Pts w/DataRVI"
+AUD fRVI; "AUD If New Pt Start Rate then RVI; AUD RVI used when Booking
+"AUD If Existing Pt RVI then New Pt Starts
+"AUD If New Pt Start Rate then RVI
+AUD Initial Appointments; AUD Appointments in MM
+AUD Initial Patients; AUD Patients in MM
+AUD Initial Patients Waiting to Start; AUD Waiting to Start
+AUD Maximum Start Rate; AUD Starting Rate
+AUD Median Engagement; AUD Engagement Duration
+AUD Minimum Time to Schedule; "AUD Adjusted New Patient Wait Time (median)"; AUD Maximum Start Rate
+AUD New Patient Wait Time; AUD Perceived Wait Time
+"AUD New Patient Wait Time (median)"; "AUD Adjusted New Patient Wait Time (median)"
+"AUD Normalized % Patients by Diagnosis (no X)"; "AUD % Slots Allocated (no X w RVI)"; "AUD Normalized % Slots Allocated (no X w RVI)"
+"AUD Normalized % Patients by Diagnosis (w X)"; "AUD % Slots Allocated (w X w RVI)"; "AUD Normalized % Slots Allocated (w X w RVI)"
+"AUD Normalized % Slots Allocated (no X w RVI)"; "AUD % Slots Allocated to Each Diagnosis (no X)"
+"AUD Normalized % Slots Allocated (w X w RVI)"; "AUD % Slots Allocated to Each Diagnosis (w X)"
+AUD Overbooks; AUD Current Appointment Supply
+"AUD Patient Start Rate based on Supply and RVI and Missed Appt% and Engagement Duration"; AUD Initial Patients; AUD Initial Patients Waiting to Start; AUD Referral Rate inferred from Data
+AUD Patients in MM; AUD Booking Rate; AUD Ending Rate
+AUD Patients per Appointment; AUD Booking Rate; AUD fRVI; "AUD If Existing Pt RVI then New Pt Starts; "AUD Patient Start Rate based on Supply and RVI and Missed Appt% and Engagement Duration"; AUD Starting Rate
+AUD Perceived Wait Time; AUD Effect of Wait Time on Referrals
+AUD Ratio of Appts for Existing Pts; AUD Appts for Existing Pts
+AUD Ratio of Appts for New Pts; AUD Appts for New Pts
+"AUD Ratio of Appts for New Pts w/DataRVI"; "AUD Appts for New Pts w/DataRVI"
+AUD Referral Rate; AUD Waiting to Start
+AUD Referral Rate inferred from Data; "AUD Adjusted New Patient Wait Time (median)"; AUD Referral Rate
+AUD Relative RVI; "AUD % Slots Allocated (no X w RVI)"; "AUD % Slots Allocated (w X w RVI)"; "AUD Normalized % Slots Allocated (no X w RVI)"; "AUD Normalized % Slots Allocated (w X w RVI)"
+AUD Rescheduling Rate; AUD Appointments in MM; AUD Appointments to Reschedule
+AUD Return Visit Interval; AUD RVI used when Booking
+"AUD Return Visit Interval (median)"; "AUD Ratio of Appts for New Pts w/DataRVI"; AUD Relative RVI; AUD RVI used when Booking; Total RVI
+AUD RVI used when Booking; AUD Booking Rate; AUD Initial Appointments; AUD Ratio of Appts for Existing Pts; AUD Ratio of Appts for New Pts; AUD RVI used when Completing
+AUD RVI used when Completing; AUD Desired Appointment Completion Rate
+AUD Sensitivity of Referrals to Wait Time; AUD Effect of Wait Time on Referrals
+"AUD Slots Allocation % (with X waiver)"; "AUD Normalized % Patients by Diagnosis (w X)"; "Total Slots Allocation % (with X waiver)"
+"AUD Slots Allocation % (without X waiver)"; "AUD Normalized % Patients by Diagnosis (no X)"; "Total Slots Allocation % (without X waiver)"
+"AUD Slots Allocation (with X waiver)"; "AUD % Slots Allocated to Each Diagnosis (w X)"
+"AUD Slots Allocation (without X waiver)"; "AUD % Slots Allocated to Each Diagnosis (no X)"
+AUD Starting Rate; AUD Booking Rate; AUD New Patient Wait Time; AUD Patients in MM; AUD Waiting to Start
+"AUD Starting Rate (mean)"; AUD fRVI
+AUD Target New Patient Wait Time; AUD Effect of Wait Time on Referrals; AUD Initial Patients Waiting to Start
+AUD Target Wait Time; AUD Target New Patient Wait Time
+AUD Time to Perceive Wait Time; AUD Perceived Wait Time
+AUD Time to Reschedule; AUD Appointments to Reschedule; AUD Rescheduling Rate
+"AUD True Missed Appointment %"; "AUD Actual Missed Appointment %"
+AUD True Missed Appointment Rate; AUD Appointments to Reschedule
+AUD User Median Engagement; AUD Engagement Duration
+"AUD User-defined Referral Rate"; AUD Referral Rate
+"AUD User-defined True Missed Appointment %"; "AUD Actual Missed Appointment %"
+AUD Waiting to Start; AUD Maximum Start Rate; AUD New Patient Wait Time
+Average Actual RVI; Overbook Downside Onset Time
+"DEP % Slots Allocated (no X w RVI)"; Total x
+"DEP % Slots Allocated (w X w RVI)"; Total y
+"DEP % Slots Allocated to Each Diagnosis (no X)"; DEP Current Appointment Supply
+"DEP % Slots Allocated to Each Diagnosis (w X)"; DEP Current Appointment Supply
+"DEP Actual Missed Appointment %"; DEP fRVI; DEP Ratio of Appts for Existing Pts; DEP Ratio of Appts for New Pts; "DEP Ratio of Appts for New Pts w/DataRVI"; DEP True Missed Appointment Rate
+DEP Actual RVI; Average Actual RVI
+"DEP Adjusted New Patient Wait Time (median)"; DEP Target New Patient Wait Time
+DEP Appointment Slots Reserved for New Patients; DEP Appointments Available for New Patients; DEP Current Appointment Supply
+DEP Appointments Available for New Patients; DEP Starting Rate
+DEP Appointments for Existing Patients; DEP Appointments Available for New Patients; DEP Completing Rate
+DEP Appointments in MM; DEP Actual RVI; DEP Desired Appointment Completion Rate
+DEP Appointments to Reschedule; DEP Rescheduling Rate
+DEP Appt Completion Rate; DEP Initial Appointments
+DEP Appts for Existing Pts; DEP Appt Completion Rate
+DEP Appts for New Pts; "DEP Patient Start Rate based on Supply and RVI and Missed Appt% and Engagement Duration"
+"DEP Appts for New Pts w/DataRVI"; "DEP If Existing Pt RVI then New Pt Starts
+DEP Booking Rate; DEP Appointments in MM
+DEP Completing Rate; DEP Actual RVI; DEP Appointments in MM; DEP True Missed Appointment Rate
+DEP Current Appointment Supply; DEP Appointments Available for New Patients; DEP Appointments for Existing Patients; DEP Appts for Existing Pts; DEP Appts for New Pts; "DEP Appts for New Pts w/DataRVI"; DEP fRVI; Total Current Supply
+DEP Desired Appointment Completion Rate; DEP Appointments for Existing Patients
+DEP Effect of Wait Time on Referrals; DEP Referral Rate
+DEP Ending Rate; DEP Patients in MM
+DEP Engagement Duration; DEP Ending Rate; DEP fRVI; DEP Initial Patients; DEP Ratio of Appts for Existing Pts; DEP Ratio of Appts for New Pts; "DEP Ratio of Appts for New Pts w/DataRVI"
+DEP fRVI; "DEP If New Pt Start Rate then RVI; DEP RVI used when Booking
+"DEP If Existing Pt RVI then New Pt Starts
+"DEP If New Pt Start Rate then RVI
+DEP Initial Appointments; DEP Appointments in MM
+DEP Initial Patients; DEP Patients in MM
+DEP Initial Patients Waiting to Start; DEP Waiting to Start
+DEP Maximum Start Rate; DEP Starting Rate
+DEP Median Engagement; DEP Engagement Duration
+DEP Minimum Time to Schedule; "DEP Adjusted New Patient Wait Time (median)"; DEP Maximum Start Rate
+DEP New Patient Wait Time; DEP Perceived Wait Time
+"DEP New Patient Wait Time (median)"; "DEP Adjusted New Patient Wait Time (median)"
+"DEP Normalized % Patients by Diagnosis (no X)"; "DEP % Slots Allocated (no X w RVI)"; "DEP Normalized % Slots Allocated (no X w RVI)"
+"DEP Normalized % Patients by Diagnosis (w X)"; "DEP % Slots Allocated (w X w RVI)"; "DEP Normalized % Slots Allocated (w X w RVI)"
+"DEP Normalized % Slots Allocated (no X w RVI)"; "DEP % Slots Allocated to Each Diagnosis (no X)"
+"DEP Normalized % Slots Allocated (w X w RVI)"; "DEP % Slots Allocated to Each Diagnosis (w X)"
+DEP Overbooks; DEP Current Appointment Supply
+"DEP Patient Start Rate based on Supply and RVI and Missed Appt% and Engagement Duration"; DEP Initial Patients; DEP Initial Patients Waiting to Start; DEP Referral Rate inferred from Data
+DEP Patients in MM; DEP Booking Rate; DEP Ending Rate
+DEP Patients per Appointment; DEP Booking Rate; DEP fRVI; "DEP If Existing Pt RVI then New Pt Starts; "DEP Patient Start Rate based on Supply and RVI and Missed Appt% and Engagement Duration"; DEP Starting Rate
+DEP Perceived Wait Time; DEP Effect of Wait Time on Referrals
+DEP Ratio of Appts for Existing Pts; DEP Appts for Existing Pts
+DEP Ratio of Appts for New Pts; DEP Appts for New Pts
+"DEP Ratio of Appts for New Pts w/DataRVI"; "DEP Appts for New Pts w/DataRVI"
+DEP Referral Rate; DEP Waiting to Start
+DEP Referral Rate inferred from Data; "DEP Adjusted New Patient Wait Time (median)"; DEP Referral Rate
+DEP Relative RVI; "DEP % Slots Allocated (no X w RVI)"; "DEP % Slots Allocated (w X w RVI)"; "DEP Normalized % Slots Allocated (no X w RVI)"; "DEP Normalized % Slots Allocated (w X w RVI)"
+DEP Rescheduling Rate; DEP Appointments in MM; DEP Appointments to Reschedule
+DEP Return Visit Interval; DEP RVI used when Booking
+"DEP Return Visit Interval (median)"; "DEP Ratio of Appts for New Pts w/DataRVI"; DEP Relative RVI; DEP RVI used when Booking; Total RVI
+DEP RVI used when Booking; DEP Booking Rate; DEP Initial Appointments; DEP Ratio of Appts for Existing Pts; DEP Ratio of Appts for New Pts; DEP RVI used when Completing
+DEP RVI used when Completing; DEP Desired Appointment Completion Rate
+DEP Sensitivity of Referrals to Wait Time; DEP Effect of Wait Time on Referrals
+"DEP Slots Allocation % (with X waiver)"; "DEP Normalized % Patients by Diagnosis (w X)"; "Total Slots Allocation % (with X waiver)"
+"DEP Slots Allocation % (without X waiver)"; "DEP Normalized % Patients by Diagnosis (no X)"; "Total Slots Allocation % (without X waiver)"
+"DEP Slots Allocation (with X waiver)"; "DEP % Slots Allocated to Each Diagnosis (w X)"
+"DEP Slots Allocation (without X waiver)"; "DEP % Slots Allocated to Each Diagnosis (no X)"
+DEP Starting Rate; DEP Booking Rate; DEP New Patient Wait Time; DEP Patients in MM; DEP Waiting to Start
+"DEP Starting Rate (mean)"; DEP fRVI
+DEP Target New Patient Wait Time; DEP Effect of Wait Time on Referrals; DEP Initial Patients Waiting to Start
+DEP Target Wait Time; DEP Target New Patient Wait Time
+DEP Time to Perceive Wait Time; DEP Perceived Wait Time
+DEP Time to Reschedule; DEP Appointments to Reschedule; DEP Rescheduling Rate
+"DEP True Missed Appointment %"; "DEP Actual Missed Appointment %"
+DEP True Missed Appointment Rate; DEP Appointments to Reschedule
+DEP User Median Engagement; DEP Engagement Duration
+"DEP User-defined Referral Rate"; DEP Referral Rate
+"DEP User-defined True Missed Appointment %"; "DEP Actual Missed Appointment %"
+DEP Waiting to Start; DEP Maximum Start Rate; DEP New Patient Wait Time
+"Effect of \"Other MM Tasks Time\" on Missed Appointments"; AUD True Missed Appointment Rate; DEP True Missed Appointment Rate; OtherNeeds True Missed Appointment Rate; OUD True Missed Appointment Rate
+Experiment Week; "AUD % Slots Allocated to Each Diagnosis (no X)"; "AUD % Slots Allocated to Each Diagnosis (w X)"; "AUD Actual Missed Appointment %"; AUD Appointments Available for New Patients; AUD Current Appointment Supply; AUD Engagement Duration; AUD Referral Rate; AUD RVI used when Booking; AUD Target New Patient Wait Time; "DEP % Slots Allocated to Each Diagnosis (no X)"; "DEP % Slots Allocated to Each Diagnosis (w X)"; "DEP Actual Missed Appointment %"; DEP Appointments Available for New Patients; DEP Current Appointment Supply; DEP Engagement Duration; DEP Referral Rate; DEP RVI used when Booking; DEP Target New Patient Wait Time; Official Total Appointment Supply; "OtherNeeds % Slots Allocated to Each Diagnosis (no X)"; "OtherNeeds % Slots Allocated to Each Diagnosis (w X)"; "OtherNeeds Actual Missed Appointment %"; OtherNeeds Appointments Available for New Patients; OtherNeeds Current Appointment Supply; OtherNeeds Engagement Duration; OtherNeeds Referral Rate; OtherNeeds RVI used when Booking; OtherNeeds Target New Patient Wait Time; "OUD % Slots Allocated to Each Diagnosis (no X)"; "OUD % Slots Allocated to Each Diagnosis (w X)"; "OUD Actual Missed Appointment %"; OUD Appointments Available for New Patients; OUD Current Appointment Supply; OUD Engagement Duration; OUD Referral Rate; OUD RVI used when Booking; OUD Target New Patient Wait Time; "Proportion of Appointment Slots where Provider has X-Waiver"
+FINAL TIME
+INITIAL TIME; Time
+Measured versus Actual Time; "Effect of \"Other MM Tasks Time\" on Missed Appointments"
+Official Total Appointment Supply; "Appointment Supply (no X-Waiver)"; "Appointment Supply (with X-Waiver)"; Measured versus Actual Time
+"OtherNeeds % Slots Allocated (no X w RVI)"; Total x
+"OtherNeeds % Slots Allocated (w X w RVI)"; Total y
+"OtherNeeds % Slots Allocated to Each Diagnosis (no X)"; OtherNeeds Current Appointment Supply
+"OtherNeeds % Slots Allocated to Each Diagnosis (w X)"; OtherNeeds Current Appointment Supply
+"OtherNeeds Actual Missed Appointment %"; OtherNeeds fRVI; OtherNeeds Ratio of Appts for Existing Pts; OtherNeeds Ratio of Appts for New Pts; "OtherNeeds Ratio of Appts for New Pts w/DataRVI"; OtherNeeds True Missed Appointment Rate
+OtherNeeds Actual RVI; Average Actual RVI
+"OtherNeeds Adjusted New Patient Wait Time (median)"; OtherNeeds Target New Patient Wait Time
+OtherNeeds Appointment Slots Reserved for New Patients; OtherNeeds Appointments Available for New Patients; OtherNeeds Current Appointment Supply
+OtherNeeds Appointments Available for New Patients; OtherNeeds Starting Rate
+OtherNeeds Appointments for Existing Patients; OtherNeeds Appointments Available for New Patients; OtherNeeds Completing Rate
+OtherNeeds Appointments in MM; OtherNeeds Actual RVI; OtherNeeds Desired Appointment Completion Rate
+OtherNeeds Appointments to Reschedule; OtherNeeds Rescheduling Rate
+OtherNeeds Appt Completion Rate; OtherNeeds Initial Appointments
+OtherNeeds Appts for Existing Pts; OtherNeeds Appt Completion Rate
+OtherNeeds Appts for New Pts; "OtherNeeds Patient Start Rate based on Supply and RVI and Missed Appt% and Engagement Duration"
+"OtherNeeds Appts for New Pts w/DataRVI"; "OtherNeeds If Existing Pt RVI then New Pt Starts
+OtherNeeds Booking Rate; OtherNeeds Appointments in MM
+OtherNeeds Completing Rate; OtherNeeds Actual RVI; OtherNeeds Appointments in MM; OtherNeeds True Missed Appointment Rate
+OtherNeeds Current Appointment Supply; OtherNeeds Appointments Available for New Patients; OtherNeeds Appointments for Existing Patients; OtherNeeds Appts for Existing Pts; OtherNeeds Appts for New Pts; "OtherNeeds Appts for New Pts w/DataRVI"; OtherNeeds fRVI; Total Current Supply
+OtherNeeds Desired Appointment Completion Rate; OtherNeeds Appointments for Existing Patients
+OtherNeeds Effect of Wait Time on Referrals; OtherNeeds Referral Rate
+OtherNeeds Ending Rate; OtherNeeds Patients in MM
+OtherNeeds Engagement Duration; OtherNeeds Ending Rate; OtherNeeds fRVI; OtherNeeds Initial Patients; OtherNeeds Ratio of Appts for Existing Pts; OtherNeeds Ratio of Appts for New Pts; "OtherNeeds Ratio of Appts for New Pts w/DataRVI"
+OtherNeeds fRVI; "OtherNeeds If New Pt Start Rate then RVI; OtherNeeds RVI used when Booking
+"OtherNeeds If Existing Pt RVI then New Pt Starts
+"OtherNeeds If New Pt Start Rate then RVI
+OtherNeeds Initial Appointments; OtherNeeds Appointments in MM
+OtherNeeds Initial Patients; OtherNeeds Patients in MM
+OtherNeeds Initial Patients Waiting to Start; OtherNeeds Waiting to Start
+OtherNeeds Maximum Start Rate; OtherNeeds Starting Rate
+OtherNeeds Median Engagement; OtherNeeds Engagement Duration
+OtherNeeds Minimum Time to Schedule; "OtherNeeds Adjusted New Patient Wait Time (median)"; OtherNeeds Maximum Start Rate
+OtherNeeds New Patient Wait Time; OtherNeeds Perceived Wait Time
+"OtherNeeds New Patient Wait Time (median)"; "OtherNeeds Adjusted New Patient Wait Time (median)"
+"OtherNeeds Normalized % Patients by Diagnosis (no X)"; "OtherNeeds % Slots Allocated (no X w RVI)"; "OtherNeeds Normalized % Slots Allocated (no X w RVI)"
+"OtherNeeds Normalized % Patients by Diagnosis (w X)"; "OtherNeeds % Slots Allocated (w X w RVI)"; "OtherNeeds Normalized % Slots Allocated (w X w RVI)"
+"OtherNeeds Normalized % Slots Allocated (no X w RVI)"; "OtherNeeds % Slots Allocated to Each Diagnosis (no X)"
+"OtherNeeds Normalized % Slots Allocated (w X w RVI)"; "OtherNeeds % Slots Allocated to Each Diagnosis (w X)"
+OtherNeeds Overbooks; OtherNeeds Current Appointment Supply
+"OtherNeeds Patient Start Rate based on Supply and RVI and Missed Appt% and Engagement Duration"; OtherNeeds Initial Patients; OtherNeeds Initial Patients Waiting to Start; OtherNeeds Referral Rate inferred from Data
+OtherNeeds Patients in MM; OtherNeeds Booking Rate; OtherNeeds Ending Rate
+OtherNeeds Patients per Appointment; OtherNeeds Booking Rate; OtherNeeds fRVI; "OtherNeeds If Existing Pt RVI then New Pt Starts; "OtherNeeds Patient Start Rate based on Supply and RVI and Missed Appt% and Engagement Duration"; OtherNeeds Starting Rate
+OtherNeeds Perceived Wait Time; OtherNeeds Effect of Wait Time on Referrals
+OtherNeeds Ratio of Appts for Existing Pts; OtherNeeds Appts for Existing Pts
+OtherNeeds Ratio of Appts for New Pts; OtherNeeds Appts for New Pts
+"OtherNeeds Ratio of Appts for New Pts w/DataRVI"; "OtherNeeds Appts for New Pts w/DataRVI"
+OtherNeeds Referral Rate; OtherNeeds Waiting to Start
+OtherNeeds Referral Rate inferred from Data; "OtherNeeds Adjusted New Patient Wait Time (median)"; OtherNeeds Referral Rate
+OtherNeeds Relative RVI; "OtherNeeds % Slots Allocated (no X w RVI)"; "OtherNeeds % Slots Allocated (w X w RVI)"; "OtherNeeds Normalized % Slots Allocated (no X w RVI)"; "OtherNeeds Normalized % Slots Allocated (w X w RVI)"
+OtherNeeds Rescheduling Rate; OtherNeeds Appointments in MM; OtherNeeds Appointments to Reschedule
+OtherNeeds Return Visit Interval; OtherNeeds RVI used when Booking
+"OtherNeeds Return Visit Interval (median)"; "OtherNeeds Ratio of Appts for New Pts w/DataRVI"; OtherNeeds Relative RVI; OtherNeeds RVI used when Booking; Total RVI
+OtherNeeds RVI used when Booking; OtherNeeds Booking Rate; OtherNeeds Initial Appointments; OtherNeeds Ratio of Appts for Existing Pts; OtherNeeds Ratio of Appts for New Pts; OtherNeeds RVI used when Completing
+OtherNeeds RVI used when Completing; OtherNeeds Desired Appointment Completion Rate
+OtherNeeds Sensitivity of Referrals to Wait Time; OtherNeeds Effect of Wait Time on Referrals
+"OtherNeeds Slots Allocation % (with X waiver)"; "OtherNeeds Normalized % Patients by Diagnosis (w X)"; "Total Slots Allocation % (with X waiver)"
+"OtherNeeds Slots Allocation % (without X waiver)"; "OtherNeeds Normalized % Patients by Diagnosis (no X)"; "Total Slots Allocation % (without X waiver)"
+"OtherNeeds Slots Allocation (with X waiver)"; "OtherNeeds % Slots Allocated to Each Diagnosis (w X)"
+"OtherNeeds Slots Allocation (without X waiver)"; "OtherNeeds % Slots Allocated to Each Diagnosis (no X)"
+OtherNeeds Starting Rate; OtherNeeds Booking Rate; OtherNeeds New Patient Wait Time; OtherNeeds Patients in MM; OtherNeeds Waiting to Start
+"OtherNeeds Starting Rate (mean)"; OtherNeeds fRVI
+OtherNeeds Target New Patient Wait Time; OtherNeeds Effect of Wait Time on Referrals; OtherNeeds Initial Patients Waiting to Start
+OtherNeeds Target Wait Time; OtherNeeds Target New Patient Wait Time
+OtherNeeds Time to Perceive Wait Time; OtherNeeds Perceived Wait Time
+OtherNeeds Time to Reschedule; OtherNeeds Appointments to Reschedule; OtherNeeds Rescheduling Rate
+"OtherNeeds True Missed Appointment %"; "OtherNeeds Actual Missed Appointment %"
+OtherNeeds True Missed Appointment Rate; OtherNeeds Appointments to Reschedule
+OtherNeeds User Median Engagement; OtherNeeds Engagement Duration
+"OtherNeeds User-defined Referral Rate"; OtherNeeds Referral Rate
+"OtherNeeds User-defined True Missed Appointment %"; "OtherNeeds Actual Missed Appointment %"
+OtherNeeds Waiting to Start; OtherNeeds Maximum Start Rate; OtherNeeds New Patient Wait Time
+"OUD % Slots Allocated (no X w RVI)"; Total x
+"OUD % Slots Allocated (w X w RVI)"; Total y
+"OUD % Slots Allocated to Each Diagnosis (no X)"; OUD Current Appointment Supply
+"OUD % Slots Allocated to Each Diagnosis (w X)"; OUD Current Appointment Supply
+"OUD Actual Missed Appointment %"; OUD fRVI; OUD Ratio of Appts for Existing Pts; OUD Ratio of Appts for New Pts; "OUD Ratio of Appts for New Pts w/DataRVI"; OUD True Missed Appointment Rate
+OUD Actual RVI; Average Actual RVI
+"OUD Adjusted New Patient Wait Time (median)"; OUD Target New Patient Wait Time
+OUD Appointment Slots Reserved for New Patients; OUD Appointments Available for New Patients; OUD Current Appointment Supply
+OUD Appointments Available for New Patients; OUD Starting Rate
+OUD Appointments for Existing Patients; OUD Appointments Available for New Patients; OUD Completing Rate
+OUD Appointments in MM; OUD Actual RVI; OUD Desired Appointment Completion Rate
+OUD Appointments to Reschedule; OUD Rescheduling Rate
+OUD Appt Completion Rate; OUD Initial Appointments
+OUD Appts for Existing Pts; OUD Appt Completion Rate
+OUD Appts for New Pts; "OUD Patient Start Rate based on Supply and RVI and Missed Appt% and Engagement Duration"
+"OUD Appts for New Pts w/DataRVI"; "OUD If Existing Pt RVI then New Pt Starts
+OUD Booking Rate; OUD Appointments in MM
+OUD Completing Rate; OUD Actual RVI; OUD Appointments in MM; OUD True Missed Appointment Rate
+OUD Current Appointment Supply; OUD Appointments Available for New Patients; OUD Appointments for Existing Patients; OUD Appts for Existing Pts; OUD Appts for New Pts; "OUD Appts for New Pts w/DataRVI"; OUD fRVI; Total Current Supply
+OUD Desired Appointment Completion Rate; OUD Appointments for Existing Patients
+OUD Effect of Wait Time on Referrals; OUD Referral Rate
+OUD Ending Rate; OUD Patients in MM
+OUD Engagement Duration; OUD Ending Rate; OUD fRVI; OUD Initial Patients; OUD Ratio of Appts for Existing Pts; OUD Ratio of Appts for New Pts; "OUD Ratio of Appts for New Pts w/DataRVI"
+OUD fRVI; "OUD If New Pt Start Rate then RVI; OUD RVI used when Booking
+"OUD If Existing Pt RVI then New Pt Starts
+"OUD If New Pt Start Rate then RVI
+OUD Initial Appointments; OUD Appointments in MM
+OUD Initial Patients; OUD Patients in MM
+OUD Initial Patients Waiting to Start; OUD Waiting to Start
+OUD Maximum Start Rate; OUD Starting Rate
+OUD Median Engagement; OUD Engagement Duration
+OUD Minimum Time to Schedule; "OUD Adjusted New Patient Wait Time (median)"; OUD Maximum Start Rate
+OUD New Patient Wait Time; OUD Perceived Wait Time
+"OUD New Patient Wait Time (median)"; "OUD Adjusted New Patient Wait Time (median)"
+"OUD Normalized % Patients by Diagnosis (no X)"; "OUD % Slots Allocated (no X w RVI)"; "OUD Normalized % Slots Allocated (no X w RVI)"
+"OUD Normalized % Patients by Diagnosis (w X)"; "OUD % Slots Allocated (w X w RVI)"; "OUD Normalized % Slots Allocated (w X w RVI)"
+"OUD Normalized % Slots Allocated (no X w RVI)"; "OUD % Slots Allocated to Each Diagnosis (no X)"
+"OUD Normalized % Slots Allocated (w X w RVI)"; "OUD % Slots Allocated to Each Diagnosis (w X)"
+OUD Overbooks; OUD Current Appointment Supply
+"OUD Patient Start Rate based on Supply and RVI and Missed Appt% and Engagement Duration"; OUD Initial Patients; OUD Initial Patients Waiting to Start; OUD Referral Rate inferred from Data
+OUD Patients in MM; OUD Booking Rate; OUD Ending Rate
+OUD Patients per Appointment; OUD Booking Rate; OUD fRVI; "OUD If Existing Pt RVI then New Pt Starts; "OUD Patient Start Rate based on Supply and RVI and Missed Appt% and Engagement Duration"; OUD Starting Rate
+OUD Perceived Wait Time; OUD Effect of Wait Time on Referrals
+OUD Ratio of Appts for Existing Pts; OUD Appts for Existing Pts
+OUD Ratio of Appts for New Pts; OUD Appts for New Pts
+"OUD Ratio of Appts for New Pts w/DataRVI"; "OUD Appts for New Pts w/DataRVI"
+OUD Referral Rate; OUD Waiting to Start
+OUD Referral Rate inferred from Data; "OUD Adjusted New Patient Wait Time (median)"; OUD Referral Rate
+OUD Relative RVI; "OUD % Slots Allocated (no X w RVI)"; "OUD % Slots Allocated (w X w RVI)"; "OUD Normalized % Slots Allocated (no X w RVI)"; "OUD Normalized % Slots Allocated (w X w RVI)"
+OUD Rescheduling Rate; OUD Appointments in MM; OUD Appointments to Reschedule
+OUD Return Visit Interval; OUD RVI used when Booking
+"OUD Return Visit Interval (median)"; "OUD Ratio of Appts for New Pts w/DataRVI"; OUD Relative RVI; OUD RVI used when Booking; Total RVI
+OUD RVI used when Booking; OUD Booking Rate; OUD Initial Appointments; OUD Ratio of Appts for Existing Pts; OUD Ratio of Appts for New Pts; OUD RVI used when Completing
+OUD RVI used when Completing; OUD Desired Appointment Completion Rate
+OUD Sensitivity of Referrals to Wait Time; OUD Effect of Wait Time on Referrals
+"OUD Slots Allocation % (with X waiver)"; "OUD Normalized % Patients by Diagnosis (w X)"; "Total Slots Allocation % (with X waiver)"
+"OUD Slots Allocation % (without X waiver)"; "OUD Normalized % Patients by Diagnosis (no X)"; "Total Slots Allocation % (without X waiver)"
+"OUD Slots Allocation (with X waiver)"; "OUD % Slots Allocated to Each Diagnosis (w X)"
+"OUD Slots Allocation (without X waiver)"; "OUD % Slots Allocated to Each Diagnosis (no X)"
+OUD Starting Rate; OUD Booking Rate; OUD New Patient Wait Time; OUD Patients in MM; OUD Waiting to Start
+"OUD Starting Rate (mean)"; OUD fRVI
+OUD Target New Patient Wait Time; OUD Effect of Wait Time on Referrals; OUD Initial Patients Waiting to Start
+OUD Target Wait Time; OUD Target New Patient Wait Time
+OUD Time to Perceive Wait Time; OUD Perceived Wait Time
+OUD Time to Reschedule; OUD Appointments to Reschedule; OUD Rescheduling Rate
+"OUD True Missed Appointment %"; "OUD Actual Missed Appointment %"
+OUD True Missed Appointment Rate; OUD Appointments to Reschedule
+OUD User Median Engagement; OUD Engagement Duration
+"OUD User-defined Referral Rate"; OUD Referral Rate
+"OUD User-defined True Missed Appointment %"; "OUD Actual Missed Appointment %"
+OUD Waiting to Start; OUD Maximum Start Rate; OUD New Patient Wait Time
+Overbook Downside Onset Time; "Effect of \"Other MM Tasks Time\" on Missed Appointments"
+"Proportion of Appointment Slots where Provider has X-Waiver"; "Appointment Supply (no X-Waiver)"; "Appointment Supply (with X-Waiver)"
+SAVEPER
+Sensitivity of Changes in Other MM Tasks Time on Missed Appointments; "Effect of \"Other MM Tasks Time\" on Missed Appointments"
+TIME STEP; SAVEPER
+Total Current Supply; Measured versus Actual Time
+Total RVI; AUD Relative RVI; DEP Relative RVI; OtherNeeds Relative RVI; OUD Relative RVI
+"Total Slots Allocation % (with X waiver)"; "AUD Normalized % Patients by Diagnosis (w X)"; "DEP Normalized % Patients by Diagnosis (w X)"; "OtherNeeds Normalized % Patients by Diagnosis (w X)"; "OUD Normalized % Patients by Diagnosis (w X)"
+"Total Slots Allocation % (without X waiver)"; "AUD Normalized % Patients by Diagnosis (no X)"; "DEP Normalized % Patients by Diagnosis (no X)"; "OtherNeeds Normalized % Patients by Diagnosis (no X)"; "OUD Normalized % Patients by Diagnosis (no X)"
+Total x; "AUD Normalized % Slots Allocated (no X w RVI)"; "DEP Normalized % Slots Allocated (no X w RVI)"; "OtherNeeds Normalized % Slots Allocated (no X w RVI)"; "OUD Normalized % Slots Allocated (no X w RVI)"
+Total y; "AUD Normalized % Slots Allocated (w X w RVI)"; "DEP Normalized % Slots Allocated (w X w RVI)"; "OtherNeeds Normalized % Slots Allocated (w X w RVI)"; "OUD Normalized % Slots Allocated (w X w RVI)"
+Use Team Data for Starting Rate or Return Visit Interval; AUD RVI used when Booking; DEP RVI used when Booking; OtherNeeds RVI used when Booking; OUD RVI used when Booking

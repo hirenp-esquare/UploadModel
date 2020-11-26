@@ -1,0 +1,312 @@
+* Input file for SDM-Struc Tool (list of "used-by" variables).
+* Source: D:\a\UploadModel\UploadModel\mtl2.0_models/psy_v21_2019_11_04.mdl (11/26/20 - 11:56 AM)
+* This file created on 11/26/20 - 11:56 AM
+* This file created by SDM-Doc Tool 1.0
+* Decision and Information Sciences Division
+* Argonne National Laboratory
+"# Pts <3mo in Team w/AUD"; HS Bronze Standard for AUD
+"# Pts <3mo in Team w/OUD"; HS Bronze Standard for OUD
+"# Pts <3mo in Team w/PTSD"; HS Bronze Standard for PTSD
+"# Pts <3mo in Team with Depression"; HS Bronze Standard for Depression
+"% One-n-Dones"; Ending After First Visit Rate
+"%Visit1-n-Done"
+"%Visit2-7<3mo and More"
+"%Visit8PL-n-More"
+"<3mo Visit 1 who can start 2"; Ending who can Initiate
+A
+"Actual Completers Who Graduate %"; "Actual Completers Who Graduate % including IOP Effect"; Sankey Completers who Get More Later; Sankey Graduators
+"Actual Completers Who Graduate % including IOP Effect"; "Continuing Treatment Rate (after 3 Months) from Patients in Over 7 Visits"; Graduation Rate
+"Actual Initiators Who Complete %"; "Actual Initiators who Complete % including IOP Effect"
+"Actual Initiators who Complete % including IOP Effect"; Initation Rate who will Return; Initiation Rate who will Complete
+"Actual Initiators Who Quit Early %"; "Actual Initiators Who Quit Early % including any IOP Effect"
+"Actual Initiators Who Quit Early % including any IOP Effect"; Initation Rate who will Return; Initiation Rate who will Quit
+"Actual Starters Who Initiate %"; "% One-n-Dones"; "Actual Starters who Initiate % including any IOP Effect"; Sankey One and Dones
+"Actual Starters who Initiate % including any IOP Effect"; Initation Rate who will Return; Initiation Rate who will Complete; Initiation Rate who will Quit
+"Actual Starters Who Return Later %"; "% One-n-Dones"; "Continuing Treatment Rate (after 3 Months) From Patients in First Visit"; Sankey One and Dones
+Appointment Supply; Appointments Available for New Patients; Appointments for Existing Patients; Completing Rate; Supply Available for New Pts who can start 2nd visit
+"Appointment Supply (75th percentile)"; Appointment Supply
+Appointments Available for New Patients; Booking Rate; Percieved New pts appt Supply; Starting Psychotherapy
+Appointments for Existing Patients; Appointments Available for New Patients; Booking Rate; Supply Available for New Pts who can start 2nd visit
+Appointments in Psychotherapy
+"AUD within 3 months %"; "# Pts <3mo in Team w/AUD"; HS Gold Standard for AUD; HS Silver Standard for AUD
+"Avg RVI >3mo"; Ballpark Initial Appointments in Psychotherapy
+B
+Ballpark Initial Appointments in Psychotherapy; Appointments in Psychotherapy
+Bars E3; "C-Bars"; "D-Bars"; "E-Bars"; "Exp-C-Bars"; "Exp-D-Bars"; "Exp-E-Bars"; "Exp-G-Bars"; "Exp-H-Bars"; "G-Bars"; "H-Bars"
+Bars E4; "Bars E4-Final"; "Bars E4-Initial"
+"Bars E4-Final"; "Exp-C-Bars"
+"Bars E4-Initial"; "C-Bars"
+Bars E5; "Bars E5-Final"; "D-Bars"
+"Bars E5-Final"; "Exp-D-Bars"
+Bars E6; "E-Bars"; "Exp-E-Bars"
+"Bars E6 >3mo"; "Bars E6 >3mo-Final"; "Bars E6 >3mo-Initial"
+"Bars E6 >3mo-Final"; "Exp-E-Bars"
+"Bars E6 >3mo-Initial"; "E-Bars"
+Bars E7; "Bars E7-Final"; "Exp-H-Bars"; "G-Bars"; "H-Bars"
+"Bars E7-Final"; "Exp-G-Bars"
+Bars E8; "Bars E8-Final"; "Exp-H-Bars"; "G-Bars"; "H-Bars"
+"Bars E8-Final"; "Exp-G-Bars"
+Bars E9; "Bars E9-Final"; "Bars E9-Initial"
+"Bars E9-Final"; "Exp-H-Bars"
+"Bars E9-Initial"; "H-Bars"
+Booking Rate; Appointments in Psychotherapy
+C; "Appointment Supply (75th percentile)"; "AUD within 3 months %"; "Completers Who Graduate %"; "DEP within 3 months %"; "ET - From 1 Visit (1st Quartile)"; "ET - From 1 Visit (4th Quartile)"; "ET - From 1 Visit (Mean)"; "ET - From 2 to 7 Visits (1st Quartile)"; "ET - From 2 to 7 Visits (4th Quartile)"; "ET - From 2 to 7 Visits (Mean)"; "ET - From 8 or More Visits (1st Quartile)"; "ET - From 8 or More Visits (4th Quartile)"; "ET - From 8 or More Visits (Mean)"; "ET - Initiators Who Complete"; "ET - Initiators Who Quit Early"; "Initiators Who Complete %"; "Initiators Who Quit Early %"; "OUD within 3 months %"; "PTSD within 3 months %"; "RVI <3mo - 1Visit"; "RVI <3mo - 2-7Visits-n-done"; "RVI <3mo - 2-7Visits-n-More<3mo"; "RVI <3mo - 2-7Visits-n-More>3mo"; "RVI >3mo - 1Visit-HighD"; "RVI >3mo - 1Visit-LowD"; "RVI >3mo - 1Visit-MidD"; "RVI >3mo - 2-7Visits-HighD"; "RVI >3mo - 2-7Visits-LowD"; "RVI >3mo - 2-7Visits-MidD"; "RVI >3mo - 8-12Visits-HighD"; "RVI >3mo - 8-12Visits-LowD"; "RVI >3mo - 8-12Visits-MidD"; SankeyScalar; "Starters Who Initiate %"; "Starters Who Return Later %"; Team Data on New Patients Starts
+"C-Bars"
+Change in Engagement Time of Patients Past 3 Months; "ET Change Delayed by RVI - 1-HighD"; "ET Change Delayed by RVI - 1-LowD"; "ET Change Delayed by RVI - 1-MidD"; "ET Change Delayed by RVI - 2-7-HighD"; "ET Change Delayed by RVI - 2-7-LowD"; "ET Change Delayed by RVI - 2-7-MidD"; "ET Change Delayed by RVI - 8-12-HighD"; "ET Change Delayed by RVI - 8-12-LowD"; "ET Change Delayed by RVI - 8-12-MidD"
+Change in RVI of Patient's Past 3 Months; Bars E4; "Bars E6 >3mo"; Bars E9; "RVI Change Delayed by RVI - 1-HighD"; "RVI Change Delayed by RVI - 1-LowD"; "RVI Change Delayed by RVI - 1-MidD"; "RVI Change Delayed by RVI - 2-7-HighD"; "RVI Change Delayed by RVI - 2-7-LowD"; "RVI Change Delayed by RVI - 2-7-MidD"; "RVI Change Delayed by RVI - 8-12-HighD"; "RVI Change Delayed by RVI - 8-12-LowD"; "RVI Change Delayed by RVI - 8-12-MidD"
+"Completers Who Graduate %"; "%Visit8PL-n-More"; "Actual Completers Who Graduate %"; "Completers who Return %"; G; H
+"Completers who Return %"
+Completing Rate; Appointments in Psychotherapy; Ballpark Initial Appointments in Psychotherapy
+Completion Rate; Patients in Over 7 Visits
+"Continuing Treatment Rate (after 3 Months) From Patients in First Visit"; From Starters into High D; From Starters into Low D; From Starters into Mid D
+"Continuing Treatment Rate (after 3 Months) from Patients in Over 7 Visits"; From Completers into High D; From Completers into Low D; From Completers into Mid D
+"Continuing Treatment Rate (after 3 Months) from Patients in Visit 2 to 7"; From Initiators into High D; From Initiators into Low D; From Initiators into Mid D; Initiators who will Return
+Continuting on to Visit 8 Rate; Completion Rate; Initiators who will Continue
+D; "Appointment Supply (75th percentile)"; "AUD within 3 months %"; Bars E4; "Bars E6 >3mo"; Bars E9; "Completers Who Graduate %"; "DEP within 3 months %"; "ET - From 1 Visit (1st Quartile)"; "ET - From 1 Visit (4th Quartile)"; "ET - From 1 Visit (Mean)"; "ET - From 2 to 7 Visits (1st Quartile)"; "ET - From 2 to 7 Visits (4th Quartile)"; "ET - From 2 to 7 Visits (Mean)"; "ET - From 8 or More Visits (1st Quartile)"; "ET - From 8 or More Visits (4th Quartile)"; "ET - From 8 or More Visits (Mean)"; "ET - Initiators Who Complete"; "ET - Initiators Who Quit Early"; "Initiators Who Complete %"; "Initiators Who Quit Early %"; "OUD within 3 months %"; "PTSD within 3 months %"; "RVI <3mo - 1Visit"; "RVI <3mo - 2-7Visits-n-done"; "RVI <3mo - 2-7Visits-n-More<3mo"; "RVI <3mo - 2-7Visits-n-More>3mo"; "RVI >3mo - 1Visit-HighD"; "RVI >3mo - 1Visit-LowD"; "RVI >3mo - 1Visit-MidD"; "RVI >3mo - 2-7Visits-HighD"; "RVI >3mo - 2-7Visits-LowD"; "RVI >3mo - 2-7Visits-MidD"; "RVI >3mo - 8-12Visits-HighD"; "RVI >3mo - 8-12Visits-LowD"; "RVI >3mo - 8-12Visits-MidD"; SankeyScalar; "Starters Who Initiate %"; "Starters Who Return Later %"; Supply Used by Completers who Continue; Supply Used by Initiators; Supply Used by Initiators who Return; Supply Used by New Patients who Return; Team Data on New Patients Starts
+"D-Bars"
+"DEP within 3 months %"; "# Pts <3mo in Team with Depression"; HS Gold Standard for Depression; HS Silver Standard for Depression
+E; "Actual Starters Who Return Later %"; Appointment Supply; "Appointment Supply (75th percentile)"; "AUD within 3 months %"; Bars E4; "Bars E6 >3mo"; Bars E9; "Completers Who Graduate %"; "DEP within 3 months %"; "ET - From 1 Visit (1st Quartile)"; "ET - From 1 Visit (4th Quartile)"; "ET - From 1 Visit (Mean)"; "ET - From 2 to 7 Visits (1st Quartile)"; "ET - From 2 to 7 Visits (4th Quartile)"; "ET - From 2 to 7 Visits (Mean)"; "ET - From 8 or More Visits (1st Quartile)"; "ET - From 8 or More Visits (4th Quartile)"; "ET - From 8 or More Visits (Mean)"; "ET - Initiators Who Complete"; "ET - Initiators Who Quit Early"; "Initiators Who Complete %"; "Initiators Who Quit Early %"; "OUD within 3 months %"; "PTSD within 3 months %"; "RVI <3mo - 1Visit"; "RVI <3mo - 2-7Visits-n-done"; "RVI <3mo - 2-7Visits-n-More<3mo"; "RVI <3mo - 2-7Visits-n-More>3mo"; "RVI >3mo - 1Visit-HighD"; "RVI >3mo - 1Visit-LowD"; "RVI >3mo - 1Visit-MidD"; "RVI >3mo - 2-7Visits-HighD"; "RVI >3mo - 2-7Visits-LowD"; "RVI >3mo - 2-7Visits-MidD"; "RVI >3mo - 8-12Visits-HighD"; "RVI >3mo - 8-12Visits-LowD"; "RVI >3mo - 8-12Visits-MidD"; SankeyScalar; "Starters Who Initiate %"; "Starters Who Return Later %"; Team Data on New Patients Starts
+"E-Bars"
+EBP Bronze Standard for AUD
+EBP Bronze Standard for Depression
+EBP Bronze Standard for OUD
+EBP Bronze Standard for PTSD
+EBP Gold Standard for AUD
+EBP Gold Standard for Depression
+EBP Gold Standard for OUD
+EBP Gold Standard for PTSD
+EBP Silver Standard for AUD; EBP Gold Standard for AUD
+EBP Silver Standard for Depression; EBP Gold Standard for Depression
+EBP Silver Standard for OUD; EBP Gold Standard for OUD
+EBP Silver Standard for PTSD; EBP Gold Standard for PTSD
+"Effect of Implement IOP on Completer %"; "Actual Completers Who Graduate % including IOP Effect"
+Effect of Implement IOP on Durations; "Continuing Treatment Rate (after 3 Months) from Patients in Visit 2 to 7"; Continuting on to Visit 8 Rate; Ending After 8 or More Visits Rate; Ending During Visit 2 to 7 Rate
+Effect of Implement IOP on Frequency; Supply Used by Completers; Supply Used by Initiators
+"Effect of Implement IOP on Initiator %s"; "Actual Initiators who Complete % including IOP Effect"; "Actual Initiators Who Quit Early % including any IOP Effect"; "Actual Starters who Initiate % including any IOP Effect"
+EightPlusAfter; Patients in Care More Than 3 Months
+Ending After 8 or More Visits Rate; "Continuing Treatment Rate (after 3 Months) from Patients in Over 7 Visits"; Graduation Rate; Patients in Over 7 Visits
+Ending After First Visit Rate
+Ending During Visit 2 to 7 Rate; Initiators who will Quit
+Ending First Visit; Ending After First Visit Rate; Patients in First Visit
+Ending Rate
+Ending who can Initiate; "<3mo Visit 1 who can start 2"; "Continuing Treatment Rate (after 3 Months) From Patients in First Visit"; Initation Rate who will Return; Initiation Rate who will Complete; Initiation Rate who will Quit
+"Engagement Time - From 1 Visit (1st Quartile)"; Bars E4; From Starters Ending Low D
+"Engagement Time - From 1 Visit (4th Quartile)"; Bars E4; From Starters Ending High D
+"Engagement Time - From 1 Visit (Mean)"; Bars E4; From Starters Ending Mid D
+"Engagement Time - From 2 to 7 Visits (1st Quartile)"; "Bars E6 >3mo"; From Initiators Ending Low D
+"Engagement Time - From 2 to 7 Visits (4th Quartile)"; "Bars E6 >3mo"; From Initiators Ending High D
+"Engagement Time - From 2 to 7 Visits (Mean)"; "Bars E6 >3mo"; From Initiators Ending Mid D
+"Engagement Time - From 8 or More Visits (1st Quartile)"; Bars E9; From Completers Ending Low D
+"Engagement Time - From 8 or More Visits (4th Quartile)"; Bars E9; From Completers Ending High D
+"Engagement Time - From 8 or More Visits (Mean)"; Bars E9; From Completers Ending Mid D
+"ET - Completers who Graduate"; Bars E8; Ending After 8 or More Visits Rate
+"ET - From 1 Visit (1st Quartile)"; "Engagement Time - From 1 Visit (1st Quartile)"
+"ET - From 1 Visit (4th Quartile)"; "Engagement Time - From 1 Visit (4th Quartile)"
+"ET - From 1 Visit (Mean)"; "Engagement Time - From 1 Visit (Mean)"
+"ET - From 2 to 7 Visits (1st Quartile)"; "Engagement Time - From 2 to 7 Visits (1st Quartile)"
+"ET - From 2 to 7 Visits (4th Quartile)"; "Engagement Time - From 2 to 7 Visits (4th Quartile)"
+"ET - From 2 to 7 Visits (Mean)"; "Engagement Time - From 2 to 7 Visits (Mean)"
+"ET - From 8 or More Visits (1st Quartile)"; "Engagement Time - From 8 or More Visits (1st Quartile)"
+"ET - From 8 or More Visits (4th Quartile)"; "Engagement Time - From 8 or More Visits (4th Quartile)"
+"ET - From 8 or More Visits (Mean)"; "Engagement Time - From 8 or More Visits (Mean)"
+"ET - Initiators Who Complete"; Bars E7; Continuting on to Visit 8 Rate; "ET - Completers who Graduate"
+"ET - Initiators Who Quit Early"; Bars E5; Ending During Visit 2 to 7 Rate
+"ET - Initiators Who Return"; Bars E6; "Continuing Treatment Rate (after 3 Months) from Patients in Visit 2 to 7"
+"ET Change Delayed by RVI - 1-HighD"; "Engagement Time - From 1 Visit (4th Quartile)"
+"ET Change Delayed by RVI - 1-LowD"; "Engagement Time - From 1 Visit (1st Quartile)"
+"ET Change Delayed by RVI - 1-MidD"; "Engagement Time - From 1 Visit (Mean)"
+"ET Change Delayed by RVI - 2-7-HighD"; "Engagement Time - From 2 to 7 Visits (4th Quartile)"
+"ET Change Delayed by RVI - 2-7-LowD"; "Engagement Time - From 2 to 7 Visits (1st Quartile)"
+"ET Change Delayed by RVI - 2-7-MidD"; "Engagement Time - From 2 to 7 Visits (Mean)"
+"ET Change Delayed by RVI - 8-12-HighD"; "Engagement Time - From 8 or More Visits (4th Quartile)"
+"ET Change Delayed by RVI - 8-12-LowD"; "Engagement Time - From 8 or More Visits (1st Quartile)"
+"ET Change Delayed by RVI - 8-12-MidD"; "Engagement Time - From 8 or More Visits (Mean)"
+"Exp-A"
+"Exp-B"
+"Exp-C"
+"Exp-C-Bars"
+"Exp-D"
+"Exp-D-Bars"
+"Exp-E"
+"Exp-E-Bars"
+Experiment wk; "Actual Completers Who Graduate %"; "Actual Initiators Who Complete %"; "Actual Initiators Who Quit Early %"; "Actual Starters Who Initiate %"; "Actual Starters Who Return Later %"; Appointment Supply; Appointments Available for New Patients; Bars E4; "Bars E6 >3mo"; Bars E9; "ET Change Delayed by RVI - 1-HighD"; "ET Change Delayed by RVI - 1-LowD"; "ET Change Delayed by RVI - 1-MidD"; "ET Change Delayed by RVI - 2-7-HighD"; "ET Change Delayed by RVI - 2-7-LowD"; "ET Change Delayed by RVI - 2-7-MidD"; "ET Change Delayed by RVI - 8-12-HighD"; "ET Change Delayed by RVI - 8-12-LowD"; "ET Change Delayed by RVI - 8-12-MidD"; "RVI Change Delayed by RVI - 1-HighD"; "RVI Change Delayed by RVI - 1-LowD"; "RVI Change Delayed by RVI - 1-MidD"; "RVI Change Delayed by RVI - 2-7-HighD"; "RVI Change Delayed by RVI - 2-7-LowD"; "RVI Change Delayed by RVI - 2-7-MidD"; "RVI Change Delayed by RVI - 8-12-HighD"; "RVI Change Delayed by RVI - 8-12-LowD"; "RVI Change Delayed by RVI - 8-12-MidD"; Supply Available for New Pts who can start 2nd visit
+"Exp-F"
+"Exp-G"
+"Exp-G-Bars"
+"Exp-H"
+"Exp-H-Bars"
+"Exp-SankeyScalar"; "Exp-A"; "Exp-B"; "Exp-C"; "Exp-D"; "Exp-E"; "Exp-F"; "Exp-G"; "Exp-H"
+F; "Actual Starters Who Return Later %"; Appointment Supply
+FINAL TIME; "Bars E4-Final"; "Bars E5-Final"; "Bars E6 >3mo-Final"; "Bars E7-Final"; "Bars E8-Final"; "Bars E9-Final"; "Exp-A"; "Exp-B"; "Exp-C"; "Exp-C-Bars"; "Exp-D"; "Exp-D-Bars"; "Exp-E"; "Exp-E-Bars"; "Exp-F"; "Exp-G"; "Exp-G-Bars"; "Exp-H"; "Exp-H-Bars"; "Exp-SankeyScalar"; Patient Starts at Final Time; Percent Change in Patient Starts; Sankey Completers; Sankey Completers who Get More Later; Sankey E2; Sankey E3; Sankey E4; Sankey E5; Sankey E6; Sankey E7; Sankey E8; Sankey E9; Sankey Graduators; Sankey Initaitors; Sankey Initiators who Get More Later; Sankey Initiators who quit; Sankey One and Dones; Sankey One and More Laters; "Sankey One n Dones + Initiators + One n More Laters"
+From Completers Ending High D; Ending Rate; "From Completers-HighD"
+From Completers Ending Low D; Ending Rate; "From Completers-LowD"
+From Completers Ending Mid D; Ending Rate; "From Completers-MidD"
+From Completers into High D; "From Completers-HighD"
+From Completers into Low D; "From Completers-LowD"
+From Completers into Mid D; "From Completers-MidD"
+"From Completers-HighD"; EightPlusAfter; From Completers Ending High D; Supply Used by Completers who Continue
+"From Completers-LowD"; EightPlusAfter; From Completers Ending Low D; Supply Used by Completers who Continue
+"From Completers-MidD"; EightPlusAfter; From Completers Ending Mid D; Supply Used by Completers who Continue
+From Initiators Ending High D; Ending Rate; "From Initiators-HighD"
+From Initiators Ending Low D; Ending Rate; "From Initiators-LowD"
+From Initiators Ending Mid D; Ending Rate; "From Initiators-MidD"
+From Initiators into High D; "From Initiators-HighD"
+From Initiators into Low D; "From Initiators-LowD"
+From Initiators into Mid D; "From Initiators-MidD"
+"From Initiators-HighD"; From Initiators Ending High D; Supply Used by Initiators who Return; TwoSevenAfter
+"From Initiators-LowD"; From Initiators Ending Low D; Supply Used by Initiators who Return; TwoSevenAfter
+"From Initiators-MidD"; From Initiators Ending Mid D; Supply Used by Initiators who Return; TwoSevenAfter
+From Starters Ending High D; Ending Rate; "From Starters-HighD"
+From Starters Ending Low D; Ending Rate; "From Starters-LowD"
+From Starters Ending Mid D; Ending Rate; "From Starters-MidD"
+From Starters into High D; "From Starters-HighD"; Sankey One and More Laters
+From Starters into Low D; "From Starters-LowD"; Sankey One and More Laters
+From Starters into Mid D; "From Starters-MidD"; Sankey One and More Laters
+"From Starters-HighD"; From Starters Ending High D; OneAfter; Supply Used by New Patients who Return
+"From Starters-LowD"; From Starters Ending Low D; OneAfter; Supply Used by New Patients who Return
+"From Starters-MidD"; From Starters Ending Mid D; OneAfter; Supply Used by New Patients who Return
+G; "Appointment Supply (75th percentile)"; "AUD within 3 months %"; "Completers Who Graduate %"; "DEP within 3 months %"; "ET - From 1 Visit (1st Quartile)"; "ET - From 1 Visit (4th Quartile)"; "ET - From 1 Visit (Mean)"; "ET - From 2 to 7 Visits (1st Quartile)"; "ET - From 2 to 7 Visits (4th Quartile)"; "ET - From 2 to 7 Visits (Mean)"; "ET - From 8 or More Visits (1st Quartile)"; "ET - From 8 or More Visits (4th Quartile)"; "ET - From 8 or More Visits (Mean)"; "ET - Initiators Who Complete"; "ET - Initiators Who Quit Early"; "Initiators Who Complete %"; "Initiators Who Quit Early %"; "OUD within 3 months %"; "PTSD within 3 months %"; "RVI <3mo - 1Visit"; "RVI <3mo - 2-7Visits-n-done"; "RVI <3mo - 2-7Visits-n-More<3mo"; "RVI <3mo - 2-7Visits-n-More>3mo"; "RVI >3mo - 1Visit-HighD"; "RVI >3mo - 1Visit-LowD"; "RVI >3mo - 1Visit-MidD"; "RVI >3mo - 2-7Visits-HighD"; "RVI >3mo - 2-7Visits-LowD"; "RVI >3mo - 2-7Visits-MidD"; "RVI >3mo - 8-12Visits-HighD"; "RVI >3mo - 8-12Visits-LowD"; "RVI >3mo - 8-12Visits-MidD"; SankeyScalar; "Starters Who Initiate %"; "Starters Who Return Later %"; Team Data on New Patients Starts
+"G-Bars"
+Graduation Rate
+H; "Actual Starters Who Return Later %"; Appointment Supply
+"H-Bars"
+"HS Bronze Standard - All"; Octane Ratio
+HS Bronze Standard for AUD; EBP Bronze Standard for AUD
+HS Bronze Standard for Depression; EBP Bronze Standard for Depression
+HS Bronze Standard for OUD; EBP Bronze Standard for OUD
+HS Bronze Standard for PTSD; EBP Bronze Standard for PTSD
+"HS Gold Standard - All"; "Octane Ratio - Completers"; "Octane Ratio - Initiators"
+HS Gold Standard for AUD
+HS Gold Standard for Depression
+HS Gold Standard for OUD
+HS Gold Standard for PTSD
+"HS Silver Standard - All"; "Octane Ratio - Initiators"
+HS Silver Standard for AUD; EBP Silver Standard for AUD
+HS Silver Standard for Depression; EBP Silver Standard for Depression
+HS Silver Standard for OUD; EBP Silver Standard for OUD
+HS Silver Standard for PTSD; EBP Silver Standard for PTSD
+Initation Rate who will Return; Initiation Rate; Initiators who will Return; Sankey Initaitors; Sankey Initiators who Get More Later
+"Initators who Return Later %"
+INITIAL TIME; "Bars E4-Initial"; "Bars E6 >3mo-Initial"; "Bars E9-Initial"; Time
+Initiation Rate
+Initiation Rate who will Complete; Initiation Rate; Initiators who will Continue; Sankey Completers; Sankey Completers who Get More Later; Sankey Graduators; Sankey Initaitors
+Initiation Rate who will Quit; Initiation Rate; Initiators who will Quit; Sankey Initaitors; Sankey Initiators who quit
+"Initiators Who Complete %"; "%Visit2-7<3mo and More"; "Actual Initiators Who Complete %"; E; F; G; H; "Initators who Return Later %"
+"Initiators Who Quit Early %"; "%Visit2-7<3mo and More"; "Actual Initiators Who Quit Early %"; D; E; "Initators who Return Later %"
+Initiators who will Continue; Continuting on to Visit 8 Rate; Patients in Visits 2 to 7; Supply Used by Initiators; Total Initiators; "Total Pts <3months"
+Initiators who will Quit; Ending During Visit 2 to 7 Rate; Patients in Visits 2 to 7; Supply Used by Initiators; Total Initiators; "Total Pts <3months"
+Initiators who will Return; "Continuing Treatment Rate (after 3 Months) from Patients in Visit 2 to 7"; Patients in Visits 2 to 7; Supply Used by Initiators; Total Initiators; "Total Pts <3months"
+"Max Effect of IOP on %s"; "Effect of Implement IOP on Completer %"; "Effect of Implement IOP on Initiator %s"
+Max Effect of IOP on Durations; Effect of Implement IOP on Durations
+Max Effect of IOP on Frequency; Effect of Implement IOP on Frequency
+Median Time in Visit 1; Bars E3; Ending First Visit; Ending who can Initiate; "ET - Completers who Graduate"
+New Patient Scheduling Efficiency; Starting Psychotherapy; Starting Psychotherapy who can start 2
+Octane Ratio
+"Octane Ratio - Completers"
+"Octane Ratio - Initiators"
+OneAfter; Patients in Care More Than 3 Months
+"OUD within 3 months %"; "# Pts <3mo in Team w/OUD"; HS Gold Standard for OUD; HS Silver Standard for OUD
+Patient Starts at Final Time; Percent Change in Patient Starts
+Patient Starts at Initial Time; Percent Change in Patient Starts
+Patients in Care More Than 3 Months; Total Pts in Psych
+Patients in First Visit; Ending First Visit; Supply Used by New Patients; "Total Pts <3months"
+Patients in Over 7 Visits; Ending After 8 or More Visits Rate; "HS Gold Standard - All"; HS Gold Standard for AUD; HS Gold Standard for Depression; HS Gold Standard for OUD; HS Gold Standard for PTSD; HS Silver Standard for AUD; HS Silver Standard for Depression; HS Silver Standard for OUD; HS Silver Standard for PTSD; Supply Used by Completers; "Total Pts <3months"
+Patients in Visits 2 to 7
+"Patients with Adequate EBP Templates %"; EBP Bronze Standard for AUD; EBP Bronze Standard for Depression; EBP Bronze Standard for OUD; EBP Bronze Standard for PTSD; EBP Gold Standard for AUD; EBP Gold Standard for Depression; EBP Gold Standard for OUD; EBP Gold Standard for PTSD; EBP Silver Standard for AUD; EBP Silver Standard for Depression; EBP Silver Standard for OUD; EBP Silver Standard for PTSD
+Percent Change in Patient Starts; "Exp-SankeyScalar"
+Percieved New pts appt Supply
+Percieved New pts appt Supply who can start 2
+Pts per appt; Bars E3; Bars E4; Bars E5; Bars E6; "Bars E6 >3mo"; Bars E7; Bars E8; Bars E9; Starting Psychotherapy; Starting Psychotherapy who can start 2; Supply Used by Completers; Supply Used by Completers who Continue; Supply Used by Initiators; Supply Used by Initiators who Return; Supply Used by New Patients; Supply Used by New Patients who Return
+"PTSD within 3 months %"; "# Pts <3mo in Team w/PTSD"; HS Gold Standard for PTSD; HS Silver Standard for PTSD
+Reserve Appointments for New Patients; Appointments Available for New Patients; Supply Available for New Pts who can start 2nd visit
+Return Visit Interval
+"RVI - Completers who Graduate"
+"RVI - From 1 Visit (1st Quartile)"
+"RVI - From 1 Visit (4th Quartile)"
+"RVI - From 1 Visit (Mean)"
+"RVI - From 2 to 7 Visits (1st Quartile)"
+"RVI - From 2 to 7 Visits (4th Quartile)"
+"RVI - From 2 to 7 Visits (Mean)"
+"RVI - From 8 or More Visits (1st Quartile)"
+"RVI - From 8 or More Visits (4th Quartile)"
+"RVI - From 8 or More Visits (Mean)"
+"RVI - Initiators who Complete"
+"RVI - Initiators who Quit Early"
+"RVI <3mo - 1Visit"; Bars E3; Supply Used by New Patients
+"RVI <3mo - 2-7Visits-n-done"; Bars E5; "RVI - Initiators who Quit Early"; Supply Used by Initiators
+"RVI <3mo - 2-7Visits-n-More<3mo"; Bars E7; "RVI - Initiators who Complete"; "RVI <3mo - 8-12 Visits"; Supply Used by Initiators
+"RVI <3mo - 2-7Visits-n-More>3mo"; Bars E6; Supply Used by Initiators
+"RVI <3mo - 8-12 Visits"; Bars E8; "RVI - Completers who Graduate"; Supply Used by Completers
+"RVI >3mo - 1Visit-HighD"; "Avg RVI >3mo"; Bars E4; "ET Change Delayed by RVI - 1-HighD"; "RVI - From 1 Visit (4th Quartile)"; "RVI Change Delayed by RVI - 1-HighD"; Supply Used by New Patients who Return
+"RVI >3mo - 1Visit-LowD"; "Avg RVI >3mo"; Bars E4; "ET Change Delayed by RVI - 1-LowD"; "RVI - From 1 Visit (1st Quartile)"; "RVI Change Delayed by RVI - 1-LowD"; Supply Used by New Patients who Return
+"RVI >3mo - 1Visit-MidD"; "Avg RVI >3mo"; Bars E4; "ET Change Delayed by RVI - 1-MidD"; "RVI - From 1 Visit (Mean)"; "RVI Change Delayed by RVI - 1-MidD"; Supply Used by New Patients who Return
+"RVI >3mo - 2-7Visits-HighD"; "Avg RVI >3mo"; "Bars E6 >3mo"; "ET Change Delayed by RVI - 2-7-HighD"; "RVI - From 2 to 7 Visits (4th Quartile)"; "RVI Change Delayed by RVI - 2-7-HighD"; Supply Used by Initiators who Return
+"RVI >3mo - 2-7Visits-LowD"; "Avg RVI >3mo"; "Bars E6 >3mo"; "ET Change Delayed by RVI - 2-7-LowD"; "RVI - From 2 to 7 Visits (1st Quartile)"; "RVI Change Delayed by RVI - 2-7-LowD"; Supply Used by Initiators who Return
+"RVI >3mo - 2-7Visits-MidD"; "Avg RVI >3mo"; "Bars E6 >3mo"; "ET Change Delayed by RVI - 2-7-MidD"; "RVI - From 2 to 7 Visits (Mean)"; "RVI Change Delayed by RVI - 2-7-MidD"; Supply Used by Initiators who Return
+"RVI >3mo - 8-12Visits-HighD"; "Avg RVI >3mo"; Bars E9; "ET Change Delayed by RVI - 8-12-HighD"; "RVI - From 8 or More Visits (4th Quartile)"; "RVI Change Delayed by RVI - 8-12-HighD"; Supply Used by Completers who Continue
+"RVI >3mo - 8-12Visits-LowD"; "Avg RVI >3mo"; Bars E9; "ET Change Delayed by RVI - 8-12-LowD"; "RVI - From 8 or More Visits (1st Quartile)"; "RVI Change Delayed by RVI - 8-12-LowD"; Supply Used by Completers who Continue
+"RVI >3mo - 8-12Visits-MidD"; "Avg RVI >3mo"; Bars E9; "ET Change Delayed by RVI - 8-12-MidD"; "RVI - From 8 or More Visits (Mean)"; "RVI Change Delayed by RVI - 8-12-MidD"; Supply Used by Completers who Continue
+"RVI Change Delayed by RVI - 1-HighD"; Supply Used by New Patients who Return
+"RVI Change Delayed by RVI - 1-LowD"; Supply Used by New Patients who Return
+"RVI Change Delayed by RVI - 1-MidD"; Supply Used by New Patients who Return
+"RVI Change Delayed by RVI - 2-7-HighD"; Supply Used by Initiators who Return
+"RVI Change Delayed by RVI - 2-7-LowD"; Supply Used by Initiators who Return
+"RVI Change Delayed by RVI - 2-7-MidD"; Supply Used by Initiators who Return
+"RVI Change Delayed by RVI - 8-12-HighD"; Supply Used by Completers who Continue
+"RVI Change Delayed by RVI - 8-12-LowD"; Supply Used by Completers who Continue
+"RVI Change Delayed by RVI - 8-12-MidD"; Supply Used by Completers who Continue
+Sankey Completers; Sankey E7; Sankey E8; Sankey E9
+Sankey Completers who Get More Later; Sankey E9
+Sankey E2; "Exp-A"; "Exp-D"; "Exp-E"; "Exp-F"; "Exp-G"; "Exp-H"
+Sankey E3; "Exp-B"
+Sankey E4; "Exp-C"
+Sankey E5; "Exp-D"
+Sankey E6; "Exp-E"
+Sankey E7; "Exp-F"; "Exp-G"; "Exp-H"
+Sankey E8; "Exp-G"
+Sankey E9; "Exp-H"
+Sankey Graduators; Sankey E8
+Sankey Initaitors; Sankey E2; Sankey E5; Sankey E6; Sankey E7; "Sankey One n Dones + Initiators + One n More Laters"
+Sankey Initiators who Get More Later; Sankey E6
+Sankey Initiators who quit; Sankey E5
+Sankey One and Dones; Sankey E3; "Sankey One n Dones + Initiators + One n More Laters"
+Sankey One and More Laters; Sankey E4; "Sankey One n Dones + Initiators + One n More Laters"
+"Sankey One n Dones + Initiators + One n More Laters"; Sankey E2; Sankey E3; Sankey E4
+SankeyScalar; A; B; C; D; E; "Exp-SankeyScalar"; F; G; H
+SAVEPER
+Start Rate Relative to Data
+"Starters Who Initiate %"; "%Visit1-n-Done"; A; "Actual Starters Who Initiate %"; B; D; E; F; G; H; "Starters who Quit %"
+"Starters who Quit %"
+"Starters Who Return Later %"; "%Visit1-n-Done"; "Actual Starters Who Return Later %"; B; C; "Starters who Quit %"
+"Starting HighD %"; Bars E4; "Bars E6 >3mo"; Bars E9; From Completers into High D; From Initiators into High D; From Starters into High D
+"Starting LowD %"; Bars E4; "Bars E6 >3mo"; Bars E9; From Completers into Low D; From Initiators into Low D; From Starters into Low D
+"Starting MidD %"; Bars E4; "Bars E6 >3mo"; Bars E9; From Completers into Mid D; From Initiators into Mid D; From Starters into Mid D
+Starting Psychotherapy; Start Rate Relative to Data; Starting Rate
+Starting Psychotherapy who can start 2; Starting Rate who can Initiate
+Starting Rate; Patients in First Visit; Sankey One and Dones
+Starting Rate who can Initiate; "<3mo Visit 1 who can start 2"; Patient Starts at Final Time; Patient Starts at Initial Time
+Supply Available for New Pts who can start 2nd visit; Percieved New pts appt Supply who can start 2; Starting Psychotherapy who can start 2
+Supply Used by Completers; "Supply Used by Pts <3mo"
+Supply Used by Completers who Continue; "Supply Used by Pts >3mo"
+Supply Used by Initiators; "Supply Used by Pts <3mo"
+Supply Used by Initiators who Return; "Supply Used by Pts >3mo"
+Supply Used by New Patients; "Supply Used by Pts <3mo"
+Supply Used by New Patients who Return; "Supply Used by Pts >3mo"
+"Supply Used by Pts <3mo"; Appointments for Existing Patients
+"Supply Used by Pts >3mo"; Appointments for Existing Patients
+Team Data on New Patients Starts; Start Rate Relative to Data
+Time for IOP to affect Duration; "Effect of Implement IOP on Completer %"; Effect of Implement IOP on Durations
+Time for IOP to affect Frequency; Effect of Implement IOP on Frequency
+TIME STEP; SAVEPER
+Time to Percieve Supply for New Pts; Percieved New pts appt Supply; Percieved New pts appt Supply who can start 2
+Total Initiators; "HS Silver Standard - All"; HS Silver Standard for AUD; HS Silver Standard for Depression; HS Silver Standard for OUD; HS Silver Standard for PTSD
+"Total Pts <3months"; "# Pts <3mo in Team w/AUD"; "# Pts <3mo in Team w/OUD"; "# Pts <3mo in Team w/PTSD"; "# Pts <3mo in Team with Depression"; "HS Bronze Standard - All"; Total Pts in Psych
+Total Pts in Psych; Octane Ratio; "Octane Ratio - Completers"; "Octane Ratio - Initiators"
+TwoSevenAfter; Patients in Care More Than 3 Months
+User defined Appointment Supply; Appointment Supply
+"User-defined Completers who Graduate %"; "Actual Completers Who Graduate %"
+"User-defined Implement IOP"; "Effect of Implement IOP on Completer %"; Effect of Implement IOP on Durations; Effect of Implement IOP on Frequency; "Effect of Implement IOP on Initiator %s"
+"User-defined Initiators Who Complete %"; "Actual Initiators Who Complete %"
+"User-defined Initiators Who Quit Early %"; "Actual Initiators Who Quit Early %"
+"User-defined Starters Who Initiate %"; "Actual Starters Who Initiate %"
+"User-defined Starters Who Return Later %"; "Actual Starters Who Return Later %"
