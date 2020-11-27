@@ -50,56 +50,7 @@ jobs:
     runs-on: windows-latest
     needs: getFileJ
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
-      with:
-        fetch-depth: "0"
- 
-    - name: '' #get changed Dir Name
-      id: getDirName
-      run: |
-        echo "::set-output name=dirs::$(dirname ${{ needs.getFileJ.outputs.outputFile }})"
-    
-    #- name: echo output
-      #run: |
-        #echo ${{ steps.getfile.outputs.files }}
-        #echo ${{ steps.getDirName.outputs.dirs }}
-    
-    - name: SDM Doc
-      run: '.github\workflows\DevUtility\SDMDocUtility\ConSDM "${{ needs.getFileJ.outputs.outputFile }}" "${{ github.workspace }}\"'
-    
    
-    - name: Run a one-line script
-      run: |
-        git config user.name github-actions
-        git config user.email github-actions@github.com
-        git add -- ${{ steps.getDirName.outputs.dirs }}
-        git commit -m'SMD Doc Commit' -- ${{ steps.getDirName.outputs.dirs }}
-        git push
-       
-    - name: Generating Vensim input file
-      if: always()  
-      run: |
-        echo "SPECIAL>NOINTERACTION" > .github/workflows/DevUtility/vensimInput.cmd 
-        .github/workflows/DevUtility/makeVensimInputFile.bat "${{ ${{ needs.getFileJ.outputs.outputFile }}  }}" ".github/workflows/DevUtility/vensimInput.cmd" "${{ github.workspace }}\"
-        echo "MENU>EXIT" >> .github/workflows/DevUtility/vensimInput.cmd
-   
-     
-    - name: Convert .mdl to .VFM
-      if: always()  
-      run: .github\workflows\DevUtility\VensimUtility\vensim ".github\workflows\DevUtility\vensimInput.cmd"
-   
-    - name: Run a Deploy script # echo ${GITHUB_REF##*/} this is code for getting dynamic branch name
-      if: always()   
-      run: '.github\workflows\DevUtility\DeployFilesUtility\deploy "${{ secrets.TEMPDATA }}" "${{ needs.getFileJ.outputs.outputFile }}" "Dev"'
-    
-    
-    #- name: Run a one-line script
-     # run: | 
-      #  git status
-      #  type  .github/workflows/DevUtility/vensimInput.cmd     
     
   
   
