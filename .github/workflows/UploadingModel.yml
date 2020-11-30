@@ -42,7 +42,7 @@ jobs:
 
       - name: echo output
         run: |
-         echo ${{ steps.getfile.outputs.files }
+         echo ${{ steps.getfile.outputs.files }}
          
   job2:
       # The type of runner that the job will run on
