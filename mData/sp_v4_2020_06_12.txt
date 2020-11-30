@@ -1,0 +1,747 @@
+* Input file for SDM-Struc Tool (list of "used-by" variables).
+* Source: D:\a\UploadModel\UploadModel\mData/sp_v4_2020_06_12.mdl (11/30/20 - 4:08 AM)
+* This file created on 11/30/20 - 4:08 AM
+* This file created by SDM-Doc Tool 1.0
+* Decision and Information Sciences Division
+* Argonne National Laboratory
+"Adjusted Data GMH New Patient Wait Time (median)"; Data GMH Desired Wait Time; "Data PC/PCMHI to GMH Desired Wait Time to Step up"; Data SMH to GMH Desired Wait Time to Step down; Initial Patients Waiting for GMH
+"Adjusted Data GMH to PC/PCMHI Wait Time (median)"; "Data GMH to PC/PCMHI Desired Wait Time to Step down"; "Data PC/PCMHI Desired Wait Time"; "GMH to PC/PCMHI GAP Wait Time"; "Initial Patients Waiting for PC/PCMHI from GMH"
+"Adjusted Data GMH to SMH Wait Time (median)"; Data GMH to SMH Desired Wait Time to Step up; Data SMH Desired Wait Time; GMH to SMH GAP Wait Time; Initial Patients Waiting for SMH from GMH
+"Adjusted Data PC/PCMHI New Patient Wait Time (median)"; "Data GMH to PC/PCMHI Desired Wait Time to Step down"; "Data PC/PCMHI Desired Wait Time"; "Data SMH to PC/PCMHI Desired Wait Time to Step down"; "PC/PCMHI Initial Patients Waiting"
+"Adjusted Data PC/PCMHI to GMH Wait Time (median)"; Data GMH Desired Wait Time; "Data PC/PCMHI to GMH Desired Wait Time to Step up"; Initial Patients Waiting for Return to GMH from PC; "PC/PCMHI to GMH GAP Wait Time"
+"Adjusted Data PC/PCMHI to SMH Wait Time (median)"; "Data PC/PCMHI to SMH Desired Wait Time to Step up"; Data SMH Desired Wait Time; Initial Patients Waiting for SMH from PCMHI; "PC/PCMHI to SMH GAP Wait Time"
+"Adjusted Data SMH New Patient Wait Time (median)"; Data GMH to SMH Desired Wait Time to Step up; "Data PC/PCMHI to SMH Desired Wait Time to Step up"; Data SMH Desired Wait Time; Initial Patients Waiting for SMH
+"Adjusted Data SMH to GMH Wait Time (median)"; Data GMH Desired Wait Time; Data SMH to GMH Desired Wait Time to Step down; Initial Patients Waiting for Return to GMH from SMH; SMH to GMH GAP Wait Time
+"Adjusted Data SMH to PC/PCMHI Wait Time (median)"; "Data PC/PCMHI Desired Wait Time"; "Data SMH to PC/PCMHI Desired Wait Time to Step down"; "Initial Patients Waiting for PC/PCMHI from SMH"; "SMH to PC/PCMHI GAP Wait Time"
+"Adjusted GMH Engagement Time Before Ending (median)"; EQ Leave GMH Rate; GMH Time to Ending
+"Adjusted GMH to PC/PCMHI Engagement Time Before Step down (median)"; "Adjusted Data GMH to PC/PCMHI Wait Time (median)"; EQ Refer to PCMHI from GMH Rate; "GMH to PC/PCMHI Engagement Time Before Step down"; "PC/PCMHI Inflow Check"
+"Adjusted GMH to Residential Engagement Time before Step up (median)"; EQ GMH Pts to Res Rate; GMH Time to Residential
+"Adjusted GMH to SMH Engagement Time Before Step up (median)"; "Adjusted Data GMH to SMH Wait Time (median)"; EQ Refer to SMH from GMH Rate; GMH to SMH Engagement Time Before Step up; SMH Inflow Check
+"Adjusted PC/PCMHI Engagement Time Before Ending (median)"; EQ Leave PCMHI Rate; "PC/PCMHI Time to Ending"
+"Adjusted PC/PCMHI to GMH Engagement Time Before Step up (median)"; "Adjusted Data PC/PCMHI to GMH Wait Time (median)"; EQ Refer to GMH from PCMHI Rate; GMH Inflow Check; "PC/PCMHI to GMH Engagement Time Before Step up"
+"Adjusted PC/PCMHI to Residential Engagement Time before Step up (median)"; EQ PCMHI Pts to Res Rate; "PC/PCMHI Time to Residential"
+"Adjusted PC/PCMHI to SMH Engagement Time Before Step up (median)"; "Adjusted Data PC/PCMHI to SMH Wait Time (median)"; EQ Refer to SMH from PCMHI Rate; "PC/PCMHI to SMH Engagement Time Before Step up"; SMH Inflow Check
+"Adjusted SMH Engagement Time Before Ending (median)"; EQ Leave SMH Rate; SMH Time to Ending
+"Adjusted SMH to GMH Engagement Time Before Step down (median)"; "Adjusted Data SMH to GMH Wait Time (median)"; EQ Refer to GMH from SMH Rate; GMH Inflow Check; SMH to GMH Engagement Time Before Step down
+"Adjusted SMH to PC/PCMHI Engagement Time Before Step down (median)"; "Adjusted Data SMH to PC/PCMHI Wait Time (median)"; EQ Refer to PCMHI from SMH Rate; "PC/PCMHI Inflow Check"; "SMH to PC/PCMHI Engagement Time Before Step down"
+"Adjusted SMH to Residential Engagement Time before Step up (median)"; EQ SMH Pts to Res Rate; SMH Time to Residential
+Adjusted User GMH Step down from Inpatient Rate; GMH Transfer from InPt Rate
+"Adjusted User PC/PCMHI Step down from Inpatient Rate"; "PC/PCMHI Transfer from InPt Rate"
+Adjusted User SMH Step down from Inpatient Rate; SMH Transfer from InPt Rate
+Change in Pink Noise; Pink Noise
+Community Care Patients Reduce Effort; GMH Community Care Patients Reduce Effort; GMH Total Patients; "PC/PCMHI Community Care Patients Reduce Effort"; "PC/PCMHI Total Patients"; SMH Community Care Patients Reduce Effort; SMH Total Patients
+D Wt; "GMH to PC/PCMHI D-Control"; "GMH to SMH D-Control"; "PC/PCMHI to GMH D-Control"; "PC/PCMHI to SMH D-Control"; "SMH to GMH D-Control"; "SMH to PC/PCMHI D-Control"
+"Data Final GMH High Symptom %"; "Initial GMH High Symptom Patient %"; "Initial Low Symptom % in GMH"
+"Data Final PC/PCMHI High Symptom %"; "Initial PC/PCMHI High Symptom Patient %"; "Initial PC/PCMHI Low Symptom %"
+"Data Final SMH High Symptom %"; "Initial Low Symptom % in SMH"; "Initial SMH High Symptom Patient %"
+Data GMH Desired Wait Time; GMH Desired Wait Time; GMH Wait Times
+"Data GMH Engagement Time Before Ending - filtered"; "Adjusted GMH Engagement Time Before Ending (median)"
+"Data GMH Engagement Time Before Ending (median)"; "Data GMH Engagement Time Before Ending - filtered"
+Data GMH Engagement Time before Ending EpC; Flag GMH Engagement Time before Ending EpC; Sum EpC no HRF
+Data GMH High Risk Flag Rate EpC; Flag GMH High Risk Flag Rate EpC; Sum EpC w High Risk Flag
+Data GMH New Episode of Care Start Rate EpC; Flag GMH New Episode of Care Start Rate EpC; Sum EpC no HRF
+"Data GMH New Patient Wait Time (median)"; "Adjusted Data GMH New Patient Wait Time (median)"
+"Data GMH Start Rate (mean)"; "Data GMH Start Rate (mean) - filtered"
+"Data GMH Start Rate (mean) - filtered"; "Adjusted Data GMH New Patient Wait Time (median)"; EQ Transfer to GMH Rate; GMH Inflow Check; GMH New Patient Recommend Rate
+Data GMH Time to Improve; Initial GMH Time to Improve w Floor
+"Data GMH Time to UnFlag - filtered"; EQ HR Unflag Rate in GMH; GMH Time to UnFlag
+"Data GMH Time to UnFlag (median)"; "Data GMH Time to UnFlag - filtered"
+Data GMH Time to Unflag High Risk Patients EpC; Flag GMH Time to Unflag High Risk Patients EpC; Sum EpC w High Risk Flag
+"Data GMH to PC/PCMHI Desired Wait Time to Step down"; "GMH to PC/PCMHI Desired Wait Time to Step down"; "GMH to PC/PCMHI Wait Time"
+"Data GMH to PC/PCMHI Engagement Time Before Step down - filtered"; "Adjusted GMH to PC/PCMHI Engagement Time Before Step down (median)"
+"Data GMH to PC/PCMHI Engagement Time Before Step down (median)"; "Data GMH to PC/PCMHI Engagement Time Before Step down - filtered"
+"Data GMH to PC/PCMHI Engagement Time before Step down EpC"; "Flag GMH to PC/PCMHI Engagement Time before Step down EpC"; Sum EpC no HRF
+"Data GMH to PC/PCMHI Wait Time (median)"; "Adjusted Data GMH to PC/PCMHI Wait Time (median)"
+"Data GMH to Res Time from Flag to Step up/down Epc"; "Flag GMH to ResTime from Flag to Step up/down Epc"; Sum EpC w High Risk Flag
+"Data GMH to Residential Engagement Time before Step up - filtered"; "Adjusted GMH to Residential Engagement Time before Step up (median)"
+"Data GMH to Residential Engagement Time before Step up (median)"; "Data GMH to Residential Engagement Time before Step up - filtered"
+Data GMH to Residential Engagment Time before Step up EpC; Flag GMH to Residential Engagment Time before Step up EpC; Sum EpC no HRF
+"Data GMH to Residential Time From Flag to Step up - filtered"; EQ GMH HRF Pts to Res Rate; GMH High Risk Flag Patient Time to Residential
+"Data GMH to Residential Time From Flag to Step up (median)"; "Data GMH to Residential Time From Flag to Step up - filtered"
+Data GMH to SMH Desired Wait Time to Step up; GMH to SMH Desired Wait Time to Step up; GMH to SMH Wait Time
+"Data GMH to SMH Engagement Time Before Step up - filtered"; "Adjusted GMH to SMH Engagement Time Before Step up (median)"
+"Data GMH to SMH Engagement Time Before Step up (median)"; "Data GMH to SMH Engagement Time Before Step up - filtered"
+Data GMH to SMH Engagement Time before Step up EpC; Flag GMH to SMH Engagement Time before Step up EpC; Sum EpC no HRF
+"Data GMH to SMH Wait Time (median)"; "Adjusted Data GMH to SMH Wait Time (median)"
+Data GMH User Supplied Threshold
+"Data High Risk Flag Rate in GMH - filtered"; "EQ Initial GMH High Risk Patient Flag Rate %"; GMH HRF Inflow Check
+"Data High Risk Flag Rate in GMH (mean)"; "Data High Risk Flag Rate in GMH - filtered"
+"Data PC/PCMHI Desired Wait Time"; "PC/PCMHI Desired Wait Time"; "PC/PCMHI Wait Times"
+"Data PC/PCMHI Engagement Time Before Ending - filtered"; "Adjusted PC/PCMHI Engagement Time Before Ending (median)"
+"Data PC/PCMHI Engagement Time Before Ending (median)"; "Data PC/PCMHI Engagement Time Before Ending - filtered"
+"Data PC/PCMHI Engagement Time before Ending EpC"; "Flag PC/PCMHI Engagement Time before Ending EpC"; Sum EpC no HRF
+"Data PC/PCMHI High Risk Flag Rate - filtered"; "EQ Initial PC/PCMHI High Risk Patient Flag Rate %"; "Initial PC/PCMHI High Risk Flag Patients"
+"Data PC/PCMHI High Risk Flag Rate (mean)"; "Data PC/PCMHI High Risk Flag Rate - filtered"
+"Data PC/PCMHI High Risk Flag Rate Epc"; "Flag PC/PCMHI High Risk Flag Rate Epc"; Sum EpC w High Risk Flag
+"Data PC/PCMHI New Episode of Care Start Rate EpC"; "Flag PC/PCMHI New Episode of Care Start Rate EpC"; Sum EpC no HRF
+"Data PC/PCMHI New Patient Wait Time (median)"; "Adjusted Data PC/PCMHI New Patient Wait Time (median)"
+"Data PC/PCMHI Start Rate - filtered"; "Adjusted Data PC/PCMHI New Patient Wait Time (median)"; EQ Transfer into PCMHI Rate; "PC/PCMHI Inflow Check"; "PC/PCMHI New Patient Recommend Rate"
+"Data PC/PCMHI Start Rate (mean)"; "Data PC/PCMHI Start Rate - filtered"
+"Data PC/PCMHI Time to Improve"; "Initial PC/PCMHI Time to Improve w Floor"
+"Data PC/PCMHI Time to UnFlag - filtered"; EQ HR Unflag Rate in PCMHI; "PC/PCMHI Time to UnFlag"
+"Data PC/PCMHI Time to UnFlag (median)"; "Data PC/PCMHI Time to UnFlag - filtered"
+"Data PC/PCMHI Time to Unflag High Risk Patients EpC"; "Flag PC/PCMHI Time to Unflag High Risk Patients EpC"; Sum EpC w High Risk Flag
+"Data PC/PCMHI to GMH Desired Wait Time to Step up"; "PC/PCMHI to GMH Desired Wait Time to Step up"; "PC/PCMHI to GMH Wait Time"
+"Data PC/PCMHI to GMH Engagement Time Before Step up - filtered"; "Adjusted PC/PCMHI to GMH Engagement Time Before Step up (median)"
+"Data PC/PCMHI to GMH Engagement Time Before Step up (median)"; "Data PC/PCMHI to GMH Engagement Time Before Step up - filtered"
+"Data PC/PCMHI to GMH Engagement Time to Step up EpC"; "Flag PC/PCMHI to GMH Engagement Time to Step up EpC"; Sum EpC no HRF
+"Data PC/PCMHI to GMH Time from Flag to Step up - filtered"; EQ HR Flag Transfer from PCMHI to GMH; GMH HRF Inflow Check; Time from Flag PCMHI to GMH
+"Data PC/PCMHI to GMH Time from Flag to Step up (median)"; "Data PC/PCMHI to GMH Time from Flag to Step up - filtered"
+"Data PC/PCMHI to GMH Time from Flag to Step up/down Epc"; "Flag PC/PCMHI to GMH Time from Flag to Step up/down Epc"; Sum EpC w High Risk Flag
+"Data PC/PCMHI to GMH Wait Time (median)"; "Adjusted Data PC/PCMHI to GMH Wait Time (median)"
+"Data PC/PCMHI to Res Time from Flag to Step up/down Epc"; "Flag PC/PCMHI to Res Time from Flag to Step up/down Epc"; Sum EpC w High Risk Flag
+"Data PC/PCMHI to Residential Engagement Time before Step up - filtered"; "Adjusted PC/PCMHI to Residential Engagement Time before Step up (median)"
+"Data PC/PCMHI to Residential Engagement Time before Step up (median)"; "Data PC/PCMHI to Residential Engagement Time before Step up - filtered"
+"Data PC/PCMHI to Residential Engagement Time before Step up EpC"; "Flag PC/PCMHI to Residential Engagement Time before Step up EpC"; Sum EpC no HRF
+"Data PC/PCMHI to Residential Time From Flag to Step up - filtered"; EQ PCMHI HRF Pts to Res Rate; "PC/PCMHI High Risk Flag Patient Time to Residential"
+"Data PC/PCMHI to Residential Time From Flag to Step up (median)"; "Data PC/PCMHI to Residential Time From Flag to Step up - filtered"
+"Data PC/PCMHI to SMH Desired Wait Time to Step up"; "PC/PCMHI to SMH Desired Wait Time to Step up"; "PC/PCMHI to SMH Wait Time"
+"Data PC/PCMHI to SMH Engagement Time Before Step up - filtered"; "Adjusted PC/PCMHI to SMH Engagement Time Before Step up (median)"
+"Data PC/PCMHI to SMH Engagement Time Before Step up (median)"; "Data PC/PCMHI to SMH Engagement Time Before Step up - filtered"
+"Data PC/PCMHI to SMH Engagement Time to Step up EpC"; "Flag PC/PCMHI to SMH Engagement Time to Step up EpC"; Sum EpC no HRF
+"Data PC/PCMHI to SMH Wait Time (median)"; "Adjusted Data PC/PCMHI to SMH Wait Time (median)"
+"Data PC/PCMHI User Supplied Threshold"
+Data SMH Desired Wait Time; SMH Desired Wait Time; SMH Wait Times
+"Data SMH Engagement Time Before Ending - filtered"; "Adjusted SMH Engagement Time Before Ending (median)"
+"Data SMH Engagement Time Before Ending (median)"; "Data SMH Engagement Time Before Ending - filtered"
+Data SMH Engagement Time before Ending EpC; SMH Engagement Time before Ending EpC; Sum EpC no HRF
+"Data SMH High Risk Flag Rate - filtered"; "EQ Initial SMH High Risk Patient Flag Rate %"; Initial SMH High Risk Flag Patients
+"Data SMH High Risk Flag Rate (mean)"; "Data SMH High Risk Flag Rate - filtered"
+Data SMH High Risk Flag Rate EpC; Flag SMH High Risk Flag Rate EpC; Sum EpC w High Risk Flag
+Data SMH New Episode of Care Start Rate EpC; Flag SMH New Episode of Care Start Rate EpC; Sum EpC no HRF
+"Data SMH New Patient Wait Time (median)"; "Adjusted Data SMH New Patient Wait Time (median)"
+"Data SMH Start Rate (mean)"; "Data SMH Start Rate (mean) - filtered"
+"Data SMH Start Rate (mean) - filtered"; "Adjusted Data SMH New Patient Wait Time (median)"; EQ Transfer into SMH Rate; SMH Inflow Check; SMH New Patient Recommend Rate
+Data SMH Time to Improve; Initial SMH Time to Improve w Floor
+"Data SMH Time to UnFlag - filtered"; EQ HR Unflag Rate in SMH; SMH Time to Unflag
+"Data SMH Time to UnFlag (median)"; "Data SMH Time to UnFlag - filtered"
+Data SMH Time to Unflag High Risk Patients EpC; Flag SMH Time to Unflag High Risk Patients EpC; Sum EpC w High Risk Flag
+Data SMH to GMH Desired Wait Time to Step down; SMH to GMH Desired Wait Time to Step down; SMH to GMH Wait Time
+"Data SMH to GMH Engagement Time Before Step down - filtered"; "Adjusted SMH to GMH Engagement Time Before Step down (median)"
+"Data SMH to GMH Engagement Time Before Step down (median)"; "Data SMH to GMH Engagement Time Before Step down - filtered"
+Data SMH to GMH Engagement Time before Step down EpC; Flag SMH to GMH Engagement Time before Step down EpC; Sum EpC no HRF
+"Data SMH to GMH Time from Flag to Step down - filtered"; EQ HR Flag Transfer from SMH to GMH; GMH HRF Inflow Check; Time from Flag SMH to GMH
+"Data SMH to GMH Time from Flag to Step down (median)"; "Data SMH to GMH Time from Flag to Step down - filtered"
+"Data SMH to GMH Time from Flag to Step up/down Epc"; "Flag SMH to GMH Time from Flag to Step up/down Epc"; Sum EpC w High Risk Flag
+"Data SMH to GMH Wait Time (median)"; "Adjusted Data SMH to GMH Wait Time (median)"
+"Data SMH to PC/PCMHI Desired Wait Time to Step down"; "SMH to PC/PCMHI Desired Wait Time to Step down"; "SMH to PC/PCMHI Wait Time"
+"Data SMH to PC/PCMHI Engagement Time Before Step down - filtered"; "Adjusted SMH to PC/PCMHI Engagement Time Before Step down (median)"
+"Data SMH to PC/PCMHI Engagement Time Before Step down (median)"; "Data SMH to PC/PCMHI Engagement Time Before Step down - filtered"
+"Data SMH to PC/PCMHI Engagement Time before Step Down EpC"; "Flag SMH to PC/PCMHI Engagement Time before Step Down EpC"; Sum EpC no HRF
+"Data SMH to PC/PCMHI Wait Time (median)"; "Adjusted Data SMH to PC/PCMHI Wait Time (median)"
+"Data SMH to Res Time from Flag to Step up/down Epc"; "Flag SMH to ResTime from Flag to Step up/down Epc"; Sum EpC w High Risk Flag
+"Data SMH to Residential Engagement Time before Step up - filtered"; "Adjusted SMH to Residential Engagement Time before Step up (median)"
+"Data SMH to Residential Engagement Time before Step up (median)"; "Data SMH to Residential Engagement Time before Step up - filtered"
+Data SMH to Residential Engagement Time before Step up EpC; Flag SMH to Residential Engagement Time before Step up EpC; Sum EpC no HRF
+"Data SMH to Residential Time From Flag to Step up - filtered"; EQ SMH HFR Pts to Res Rate; SMH High Risk Flag Patient Time to Residential
+"Data SMH to Residential Time From Flag to Step up (median)"; "Data SMH to Residential Time From Flag to Step up - filtered"
+Data SMH User Supplied Threshold
+Effect of Implementing Stepped Care between GMH and SMH in Week Zero; GMH to SMH Engagement Time Before Step up; SMH to GMH Engagement Time Before Step down
+Effect of Implementing Stepped Care between PCMHI and GMH in Week Zero; "GMH to PC/PCMHI Engagement Time Before Step down"; "PC/PCMHI to GMH Engagement Time Before Step up"
+Effect of Implementing Stepped Care between SMH and PCMHI in Week Zero; "PC/PCMHI to SMH Engagement Time Before Step up"; "SMH to PC/PCMHI Engagement Time Before Step down"
+EQ Detect High Sympt Pts in GMH Rate; EQ GMH Early in Care Patients; EQ GMH High Symptom Patients
+EQ Detect High Sympt Pts in PCMHI Rate; "EQ PC/PCMHI Early in Care Patients"; "EQ PC/PCMHI High Symptom Patients"
+EQ Detect High Sympt Pts in SMH Rate; EQ SMH Early in Care Patients; EQ SMH High Symptpm Patients
+EQ Detect Low Sympt Pt in GMH Rate; EQ GMH Early in Care Patients; EQ GMH Low Symptom Patients
+EQ Detect Low Sympt Pt in PCMHI Rate; "EQ PC/PCMHI Early in Care Patients"; "EQ PC/PCMHI Low Symptom Patients"
+EQ Detect Low Sympt Pt in SMH Rate; EQ SMH Early in Care Patients; EQ SMH Low Symptom Patients
+EQ GMH Early in Care Patients; EQ Detect High Sympt Pts in GMH Rate; EQ Detect Low Sympt Pt in GMH Rate; EQ Initial GMH Manageable Total Patients
+EQ GMH High Risk Flag Patients; EQ GMH HRF Pts to Res Rate; EQ HR Unflag Rate in GMH; EQ Initial GMH Manageable Total Patients
+EQ GMH High Symptom Patients; EQ GMH Pts to Res Rate; EQ HR Flag Rate in GMH; EQ Improvement in GMH Rate; "EQ Initial GMH High Risk Patient Flag Rate %"; EQ Initial GMH Manageable Total Patients; EQ Refer to SMH from GMH Rate
+EQ GMH HRF Pts to Res Rate; EQ GMH High Risk Flag Patients; EQ Total Outflow GMH
+EQ GMH Low Symptom Patients; EQ Initial GMH Manageable Total Patients; EQ Leave GMH Rate; EQ Refer to PCMHI from GMH Rate
+EQ GMH Pts to Res Rate; EQ GMH High Symptom Patients; EQ Total Outflow GMH
+EQ HR Flag Rate in GMH; EQ GMH High Risk Flag Patients; EQ GMH High Symptom Patients
+EQ HR Flag Rate in PCMHI; "EQ PC/PCMHI High Risk Flag Patients"; "EQ PC/PCMHI High Symptom Patients"
+EQ HR Flag Rate in SMH; EQ SMH High Risk Flag Patients; EQ SMH High Symptpm Patients
+EQ HR Flag Transfer from PCMHI to GMH; EQ GMH High Risk Flag Patients; "EQ PC/PCMHI High Risk Flag Patients"; EQ Total Inflow GMH; EQ Total Outflow PC
+EQ HR Flag Transfer from SMH to GMH; EQ GMH High Risk Flag Patients; EQ SMH High Risk Flag Patients; EQ Total Inflow GMH; EQ Total Outflow SMH
+EQ HR Unflag Rate in GMH; EQ GMH High Risk Flag Patients; EQ GMH High Symptom Patients
+EQ HR Unflag Rate in PCMHI; "EQ PC/PCMHI High Risk Flag Patients"; "EQ PC/PCMHI High Symptom Patients"
+EQ HR Unflag Rate in SMH; EQ SMH High Risk Flag Patients; EQ SMH High Symptpm Patients
+EQ Improvement in GMH Rate; EQ GMH High Symptom Patients; EQ GMH Low Symptom Patients
+EQ Improvement in PCMHI Rate; "EQ PC/PCMHI High Symptom Patients"; "EQ PC/PCMHI Low Symptom Patients"
+EQ Improvement in SMH Rate; EQ SMH High Symptpm Patients; EQ SMH Low Symptom Patients
+"EQ Initial GMH High Risk Patient Flag Rate %"; EQ HR Flag Rate in GMH; "GMH High Risk Patient Flag Rate %"
+EQ Initial GMH Manageable Total Patients; GMH Manageable Total Patients
+"EQ Initial GMH Openings for New Patients %"; "GMH Openings for New Patients %"
+"EQ Initial GMH Openings for PC/PCMHI %"; "GMH Openings for PC/PCMHI %"
+"EQ Initial GMH Openings for SMH %"; "GMH Openings for SMH %"
+"EQ Initial PC/PCMHI High Risk Patient Flag Rate %"; EQ HR Flag Rate in PCMHI; "PC/PCMHI High Risk Patient Flag Rate %"
+"EQ Initial PC/PCMHI Manageable Total Patients"; "PC/PCMHI Manageable Total Patients"
+"EQ Initial PC/PCMHI Openings for GMH %"; "PC/PCMHI Openings for GMH %"
+"EQ Initial PC/PCMHI Openings for New Patients %"; "PC/PCMHI Openings for New Patients %"
+"EQ Initial PC/PCMHI Openings for SMH %"; "PC/PCMHI Openings for SMH %"
+"EQ Initial SMH High Risk Patient Flag Rate %"; EQ HR Flag Rate in SMH; "SMH High Risk Patient Flag Rate %"
+EQ Initial SMH Manageable Total Patients; SMH Manageable Total Patients
+"EQ Initial SMH Openings for GMH %"; "SMH Openings for GMH %"
+"EQ Initial SMH Openings for New Patients %"; "SMH Openings for New Patients %"
+"EQ Initial SMH Openings for PC/PCMHI %"; "SMH Openings for PC/PCMHI %"
+EQ Leave GMH Rate; EQ GMH Low Symptom Patients; EQ Total Outflow GMH
+EQ Leave PCMHI Rate; "EQ PC/PCMHI Low Symptom Patients"; EQ Total Outflow PC
+EQ Leave SMH Rate; EQ SMH Low Symptom Patients; EQ Total Outflow SMH
+"EQ PC/PCMHI Early in Care Patients"; EQ Detect High Sympt Pts in PCMHI Rate; EQ Detect Low Sympt Pt in PCMHI Rate; "EQ Initial PC/PCMHI Manageable Total Patients"
+"EQ PC/PCMHI High Risk Flag Patients"; EQ HR Flag Transfer from PCMHI to GMH; EQ HR Unflag Rate in PCMHI; "EQ Initial PC/PCMHI Manageable Total Patients"; EQ PCMHI HRF Pts to Res Rate
+"EQ PC/PCMHI High Symptom Patients"; EQ HR Flag Rate in PCMHI; EQ Improvement in PCMHI Rate; "EQ Initial PC/PCMHI High Risk Patient Flag Rate %"; "EQ Initial PC/PCMHI Manageable Total Patients"; EQ PCMHI Pts to Res Rate; EQ Refer to GMH from PCMHI Rate; EQ Refer to SMH from PCMHI Rate
+"EQ PC/PCMHI Low Symptom Patients"; "EQ Initial PC/PCMHI Manageable Total Patients"; EQ Leave PCMHI Rate
+EQ PCMHI HRF Pts to Res Rate; "EQ PC/PCMHI High Risk Flag Patients"; EQ Total Outflow PC
+EQ PCMHI Pts to Res Rate; "EQ PC/PCMHI High Symptom Patients"; EQ Total Outflow PC
+EQ Refer to GMH from PCMHI Rate; "EQ Initial GMH Openings for PC/PCMHI %"; "EQ PC/PCMHI High Symptom Patients"; EQ Total Inflow GMH; EQ Total Outflow PC; EQ Transfer into GMH from PC Rate; Total Delayable Inflow GMH
+EQ Refer to GMH from SMH Rate; "EQ Initial GMH Openings for SMH %"; EQ SMH Low Symptom Patients; EQ Total Inflow GMH; EQ Total Outflow SMH; EQ Transfer into GMH from SMH Rate; Total Delayable Inflow GMH
+EQ Refer to PCMHI from GMH Rate; EQ GMH Low Symptom Patients; "EQ Initial PC/PCMHI Openings for GMH %"; "EQ PC/PCMHI Early in Care Patients"; EQ Total Delayable Inflow PC; EQ Total Inflow PC; EQ Total Outflow GMH
+EQ Refer to PCMHI from SMH Rate; EQ SMH Low Symptom Patients; EQ Total Outflow SMH; EQ Transfer into PCMHI from SMH Rate
+EQ Refer to SMH from GMH Rate; EQ GMH High Symptom Patients; "EQ Initial SMH Openings for GMH %"; EQ SMH Early in Care Patients; EQ Total Delayable Inflow SMH; EQ Total Inflow SMH; EQ Total Outflow GMH
+EQ Refer to SMH from PCMHI Rate; "EQ Initial SMH Openings for PC/PCMHI %"; "EQ PC/PCMHI High Symptom Patients"; EQ Total Delayable Inflow SMH; EQ Total Outflow PC; EQ Transfer into SMH from PCMHI Rate
+EQ SMH Early in Care Patients; EQ Detect High Sympt Pts in SMH Rate; EQ Detect Low Sympt Pt in SMH Rate; EQ Initial SMH Manageable Total Patients
+EQ SMH HFR Pts to Res Rate; EQ SMH High Risk Flag Patients; EQ Total Outflow SMH
+EQ SMH High Risk Flag Patients; EQ HR Flag Transfer from SMH to GMH; EQ HR Unflag Rate in SMH; EQ Initial SMH Manageable Total Patients; EQ SMH HFR Pts to Res Rate
+EQ SMH High Symptpm Patients; EQ HR Flag Rate in SMH; EQ Improvement in SMH Rate; "EQ Initial SMH High Risk Patient Flag Rate %"; EQ Initial SMH Manageable Total Patients; EQ SMH Pts to Res Rate
+EQ SMH Low Symptom Patients; EQ Initial SMH Manageable Total Patients; EQ Leave SMH Rate; EQ Refer to GMH from SMH Rate; EQ Refer to PCMHI from SMH Rate
+EQ SMH Pts to Res Rate; EQ SMH High Symptpm Patients; EQ Total Outflow SMH
+EQ Total Delayable Inflow PC; "EQ Initial PC/PCMHI Openings for GMH %"; "EQ Initial PC/PCMHI Openings for New Patients %"; "EQ Initial PC/PCMHI Openings for SMH %"
+EQ Total Delayable Inflow SMH; "EQ Initial SMH Openings for GMH %"; "EQ Initial SMH Openings for New Patients %"; "EQ Initial SMH Openings for PC/PCMHI %"
+EQ Total Inflow GMH; WhiteRabbitObjectGMH
+EQ Total Inflow PC; WhiteRabbitObjectPCMHI
+EQ Total Inflow SMH; WhiteRabbitObjectSMH
+EQ Total Outflow GMH; WhiteRabbitObjectGMH
+EQ Total Outflow PC; WhiteRabbitObjectPCMHI
+EQ Total Outflow SMH; WhiteRabbitObjectSMH
+EQ Transfer into GMH from PC Rate; EQ GMH Early in Care Patients
+EQ Transfer into GMH from SMH Rate; EQ GMH Early in Care Patients
+EQ Transfer into PCMHI from SMH Rate; "EQ Initial PC/PCMHI Openings for SMH %"; "EQ PC/PCMHI Early in Care Patients"; EQ Total Delayable Inflow PC; EQ Total Inflow PC
+EQ Transfer into PCMHI Rate; "EQ Initial PC/PCMHI Openings for New Patients %"; "EQ PC/PCMHI Early in Care Patients"; EQ Total Delayable Inflow PC; EQ Total Inflow PC
+EQ Transfer into SMH from PCMHI Rate; EQ SMH Early in Care Patients; EQ Total Inflow SMH
+EQ Transfer into SMH Rate; "EQ Initial SMH Openings for New Patients %"; EQ SMH Early in Care Patients; EQ Total Delayable Inflow SMH; EQ Total Inflow SMH
+EQ Transfer to GMH Rate; EQ GMH Early in Care Patients; "EQ Initial GMH Openings for New Patients %"; EQ Total Inflow GMH; Total Delayable Inflow GMH
+Error Correction Time; "GMH to PC/PCMHI Accumulating Error"; "GMH to PC/PCMHI Change in Error"; GMH to SMH Accumulating Error; GMH to SMH Change in Error; "PC/PCMHI to GMH Accumulating Error"; "PC/PCMHI to GMH Change in Error"; "PC/PCMHI to SMH Accumulating Error"; "PC/PCMHI to SMH Change in Error"; SMH to GMH Accumulating Error; SMH to GMH Change in Error; "SMH to PC/PCMHI Accumulating Error"; "SMH to PC/PCMHI Change in Error"
+FINAL TIME
+Flag GMH Engagement Time before Ending EpC; "Data GMH Engagement Time Before Ending - filtered"
+Flag GMH High Risk Flag Rate EpC; "Data High Risk Flag Rate in GMH - filtered"
+Flag GMH New Episode of Care Start Rate EpC; "Data GMH Start Rate (mean) - filtered"
+Flag GMH Time to Unflag High Risk Patients EpC; "Data GMH Time to UnFlag - filtered"
+"Flag GMH to PC/PCMHI Engagement Time before Step down EpC"; "Data GMH to PC/PCMHI Engagement Time Before Step down - filtered"
+Flag GMH to Residential Engagment Time before Step up EpC; "Data GMH to Residential Engagement Time before Step up - filtered"
+"Flag GMH to ResTime from Flag to Step up/down Epc"; "Data GMH to Residential Time From Flag to Step up - filtered"
+Flag GMH to SMH Engagement Time before Step up EpC; "Data GMH to SMH Engagement Time Before Step up - filtered"
+"Flag PC/PCMHI Engagement Time before Ending EpC"; "Data PC/PCMHI Engagement Time Before Ending - filtered"
+"Flag PC/PCMHI High Risk Flag Rate Epc"; "Data PC/PCMHI High Risk Flag Rate - filtered"
+"Flag PC/PCMHI New Episode of Care Start Rate EpC"; "Data SMH Start Rate (mean) - filtered"
+"Flag PC/PCMHI Time to Unflag High Risk Patients EpC"; "Data PC/PCMHI Time to UnFlag - filtered"
+"Flag PC/PCMHI to GMH Engagement Time to Step up EpC"; "Data PC/PCMHI to GMH Engagement Time Before Step up - filtered"
+"Flag PC/PCMHI to GMH Time from Flag to Step up/down Epc"; "Data PC/PCMHI to GMH Time from Flag to Step up - filtered"
+"Flag PC/PCMHI to Res Time from Flag to Step up/down Epc"; "Data PC/PCMHI to Residential Time From Flag to Step up - filtered"
+"Flag PC/PCMHI to Residential Engagement Time before Step up EpC"; "Data PC/PCMHI to Residential Engagement Time before Step up - filtered"
+"Flag PC/PCMHI to SMH Engagement Time to Step up EpC"; "Data PC/PCMHI to SMH Engagement Time Before Step up - filtered"
+Flag SMH High Risk Flag Rate EpC; "Data SMH High Risk Flag Rate - filtered"
+Flag SMH New Episode of Care Start Rate EpC; "Data PC/PCMHI Start Rate - filtered"
+Flag SMH Time to Unflag High Risk Patients EpC; "Data SMH Time to UnFlag - filtered"
+Flag SMH to GMH Engagement Time before Step down EpC; "Data SMH to GMH Engagement Time Before Step down - filtered"
+"Flag SMH to GMH Time from Flag to Step up/down Epc"; "Data SMH to GMH Time from Flag to Step down - filtered"
+"Flag SMH to PC/PCMHI Engagement Time before Step Down EpC"; "Data SMH to PC/PCMHI Engagement Time Before Step down - filtered"
+Flag SMH to Residential Engagement Time before Step up EpC; "Data SMH to Residential Engagement Time before Step up - filtered"
+"Flag SMH to ResTime from Flag to Step up/down Epc"; "Data SMH to Residential Time From Flag to Step up - filtered"
+"G SMH to PC/PCMHI Trend in Error Correction"; "GMH to PC/PCMHI D-Control"
+GMH Care Quality
+GMH Community Care Patients Reduce Effort
+GMH Community Care Rate
+GMH Delayed User High Comm Rate; GMH High Symptom Patients Community Care Rate
+GMH Delayed User Low Comm Rate; GMH Low Symptom Patients Community Care Rate
+GMH Desired Wait Time; GMH Wait Time Affects New Care Episode Start Rate
+GMH Detection Rate
+GMH Effect of Implementing MBC in Week Zero; GMH Time to Detect; GMH Time to Ending; GMH Time to Improve; GMH Time to UnFlag
+GMH Effect of Patient Load on Ability to Detect Symptom Changes; GMH Effect of Patient Load on Ability to Detect Symptom Changes 0
+GMH Effect of Patient Load on Ability to Detect Symptom Changes 0; GMH Time to Detect
+GMH Effect of Patient Load on Care Quality; GMH Effect of Patient Load on Care Quality 0
+GMH Effect of Patient Load on Care Quality 0; GMH Time to Improve; GMH Time to UnFlag
+GMH Effect of Patient Load on Manageable Total Patients; GMH Effect of Patient Load on Manageable Total Patients 0
+GMH Effect of Patient Load on Manageable Total Patients 0; GMH Manageable Total Patients
+GMH Effect of Patient Load on Start Rate 0; Total Openings in GMH
+"GMH Effect of PC/PCMHI Wait Time on Recommend Step down Rate"; "GMH Effect of PC/PCMHI Wait Time on Recommend Step down Rate 0"
+"GMH Effect of PC/PCMHI Wait Time on Recommend Step down Rate 0"; "GMH to PC/PCMHI Engagement Time Before Step down"
+GMH Effect of SMH Wait Time on Recommend Step up Rate; GMH Effect of SMH Wait Time on Recommend Step up Rate 0
+GMH Effect of SMH Wait Time on Recommend Step up Rate 0; GMH to SMH Engagement Time Before Step up
+GMH Effect of Wait Time on Start Rate 0; Total Openings in GMH
+GMH Ending Rate; GMH Low Symptom Patients; Openings from Transfers in GMH
+GMH High Risk Flag Patient Time to Residential; GMH High Risk Flag Patient to Residential Rate
+GMH High Risk Flag Patient to Residential Rate; GMH High Risk Flag Patients; GMH to Residential Rate; Openings from Transfers in GMH
+GMH High Risk Flag Patients; GMH High Risk Flag Patient to Residential Rate; GMH High Risk Unflag Rate; GMH Total Patients
+GMH High Risk Flag Patients Extra Effort
+GMH High Risk Flag Stepped Care Rate
+GMH High Risk Patient Flag Rate; GMH High Risk Flag Patients; GMH High Symptom Patients
+"GMH High Risk Patient Flag Rate %"; GMH High Risk Patient Flag Rate
+GMH High Risk Unflag Rate; GMH High Risk Flag Patients; GMH High Symptom Patients
+GMH High Symptom Max Transfers to Community; GMH High Symptom Patients Community Care Rate
+"GMH High Symptom Patient %"; GMH High Symptom Patient Detection Rate; GMH Low Symptom Patient Detection Rate
+GMH High Symptom Patient Detection Rate; GMH Detection Rate; GMH High Symptom Patients; GMH Patients Early in Care
+GMH High Symptom Patients; GMH High Risk Patient Flag Rate; GMH High Symptom Max Transfers to Community; GMH High Symptom to Residential Rate; GMH Improvement Rate; GMH Ratio of High to Low Symptom Patients; GMH to SMH Recommend Step up Rate; GMH Total Patients
+GMH High Symptom Patients Community Care Rate; GMH Community Care Rate; GMH High Symptom Patients; GMH Patients in Community Care; Openings from Transfers in GMH
+GMH High Symptom to Residential Rate; GMH High Symptom Patients; GMH to Residential Rate; Openings from Transfers in GMH
+GMH HRF Inflow Check; Initial GMH High Risk Flag Patients
+GMH Improvement Rate; GMH High Symptom Patients; GMH Low Symptom Patients
+GMH Inflow Check; Initial GMH Early in Care Patients
+GMH Low Symptom Max Transfers to Community; GMH Low Symptom Patients Community Care Rate
+GMH Low Symptom Patient Detection Rate; GMH Detection Rate; GMH Low Symptom Patients; GMH Patients Early in Care
+GMH Low Symptom Patients; GMH Ending Rate; GMH Low Symptom Max Transfers to Community; GMH Ratio of High to Low Symptom Patients; "GMH to PC/PCMHI Recommend Step down Rate"; GMH Total Patients
+GMH Low Symptom Patients Community Care Rate; GMH Community Care Rate; GMH Low Symptom Patients; GMH Patients in Community Care; Openings from Transfers in GMH
+GMH Manageable Total Patients; GMH Patient Load; Openings from Capacity in GMH
+GMH New Patient Recommend Rate; GMH New Patient Start Rate; GMH New Patients Waiting to Start; Initial Patients Waiting for GMH
+GMH New Patient Start Rate; GMH New Patient Wait Time to Start; GMH New Patients Waiting to Start; GMH Patient Start Rate; GMH Patients Early in Care
+GMH New Patient Wait Time to Start; GMH Wait Times; "PC/PCMHI to GMH Wait Time"; SMH to GMH Wait Time
+GMH New Patients Waiting to Start; GMH New Patient Wait Time to Start; GMH Patients Waiting to Start; Max Transfers to GMH
+"GMH Openings for New Patients %"; GMH New Patient Start Rate
+"GMH Openings for PC/PCMHI %"; "PC/PCMHI to GMH Step Up Rate"
+"GMH Openings for SMH %"; SMH to GMH Step Down Rate
+GMH Patient Load; GMH Effect of Patient Load on Ability to Detect Symptom Changes; GMH Effect of Patient Load on Care Quality; GMH Effect of Patient Load on Manageable Total Patients; GMH Patient Load Affects New Care Episode Start Rate
+GMH Patient Load Affects New Care Episode Start Rate; GMH Effect of Patient Load on Start Rate 0
+GMH Patient Start Rate
+GMH Patients Early in Care; GMH High Symptom Patient Detection Rate; GMH Low Symptom Patient Detection Rate; GMH Total Patients
+GMH Patients in Community Care; GMH Total Patients
+GMH Patients Waiting to Start; Total Patients Waiting
+GMH Pts from Inpt
+GMH Ratio of High to Low Symptom Patients
+GMH Step down from Inpatient Rate; GMH Patients Early in Care
+GMH Time to Detect; GMH High Symptom Patient Detection Rate; GMH Low Symptom Patient Detection Rate
+GMH Time to Ending; GMH Ending Rate
+GMH Time to Improve; GMH Improvement Rate
+GMH Time to Residential; GMH High Symptom to Residential Rate
+GMH Time to UnFlag; GMH High Risk Unflag Rate
+"GMH to PC/PCMHI Accumulating Error"; "GMH to PC/PCMHI to GMH Cumulative Error"
+"GMH to PC/PCMHI Additional Patients Waiting for Step down to Maintain Wait Time"; "GMH to PC/PCMHI Patients Waiting for Step down"
+"GMH to PC/PCMHI Change in Error"; "GMH to PC/PCMHI Exp Avg of Error"
+"GMH to PC/PCMHI D-Control"; "GMH to PC/PCMHI PID -- Additional Patients to Maintain Wait Time"
+"GMH to PC/PCMHI Desired Wait Time to Step down"; "GMH Effect of PC/PCMHI Wait Time on Recommend Step down Rate"
+"GMH to PC/PCMHI Engagement Time Before Step down"; "GMH to PC/PCMHI Recommend Step down Rate"
+"GMH to PC/PCMHI Exp Avg of Error"; "G SMH to PC/PCMHI Trend in Error Correction"; "GMH to PC/PCMHI Change in Error"
+"GMH to PC/PCMHI GAP Wait Time"; "G SMH to PC/PCMHI Trend in Error Correction"; "GMH to PC/PCMHI Accumulating Error"; "GMH to PC/PCMHI Change in Error"; "GMH to PC/PCMHI P-Control"
+"GMH to PC/PCMHI I-Control"; "GMH to PC/PCMHI PID -- Additional Patients to Maintain Wait Time"
+"GMH to PC/PCMHI Patients Waiting for Step down"; "GMH to PC/PCMHI Wait Time to Step down"; "Max Transfers to PC/PCMHI from GMH"; "PC/PCMHI Patients Waiting to Start"
+"GMH to PC/PCMHI P-Control"; "GMH to PC/PCMHI PID -- Additional Patients to Maintain Wait Time"
+"GMH to PC/PCMHI PID -- Additional Patients to Maintain Wait Time"; "GMH to PC/PCMHI Additional Patients Waiting for Step down to Maintain Wait Time"
+"GMH to PC/PCMHI Recommend Step down Rate"; GMH Low Symptom Patients; "GMH to PC/PCMHI Patients Waiting for Step down"; "GMH to PC/PCMHI Step Down Rate"; "Initial Patients Waiting for PC/PCMHI from GMH"; Openings from Transfers in GMH
+"GMH to PC/PCMHI Step Down Rate"; "GMH to PC/PCMHI Patients Waiting for Step down"; "GMH to PC/PCMHI Wait Time to Step down"; "PC/PCMHI Patient Start Rate"; "PC/PCMHI Patients Early in Care"
+"GMH to PC/PCMHI to GMH Cumulative Error"; "GMH to PC/PCMHI I-Control"
+"GMH to PC/PCMHI Wait Time"; "GMH Effect of PC/PCMHI Wait Time on Recommend Step down Rate"
+"GMH to PC/PCMHI Wait Time to Step down"; "GMH to PC/PCMHI GAP Wait Time"; "GMH to PC/PCMHI Wait Time"; "PC/PCMHI Wait Times"
+GMH to Residential Rate
+GMH to SMH Accumulating Error; GMH to SMH to GMH Cumulative Error
+GMH to SMH Additional Patients Waiting for Step up to Maintain Wait Time; GMH to SMH Patients Waiting for Step up
+GMH to SMH Change in Error; GMH to SMH Exp Avg of Error
+"GMH to SMH D-Control"; "GMH to SMH PID -- Additional Patients to Maintain Wait Time"
+GMH to SMH Desired Wait Time to Step up; GMH Effect of SMH Wait Time on Recommend Step up Rate
+GMH to SMH Engagement Time Before Step up; GMH to SMH Recommend Step up Rate
+GMH to SMH Exp Avg of Error; GMH to SMH Change in Error; GMH to SMH Trend in Error Correction
+GMH to SMH GAP Wait Time; GMH to SMH Accumulating Error; GMH to SMH Change in Error; "GMH to SMH P-Control"; GMH to SMH Trend in Error Correction
+"GMH to SMH I-Control"; "GMH to SMH PID -- Additional Patients to Maintain Wait Time"
+GMH to SMH Patients Waiting for Step up; GMH to SMH Wait Time for Step up; Max Transfers to SMH from GMH; SMH Patients Waiting to Start
+"GMH to SMH P-Control"; "GMH to SMH PID -- Additional Patients to Maintain Wait Time"
+"GMH to SMH PID -- Additional Patients to Maintain Wait Time"; GMH to SMH Additional Patients Waiting for Step up to Maintain Wait Time
+GMH to SMH Recommend Step up Rate; GMH High Symptom Patients; GMH to SMH Patients Waiting for Step up; GMH to SMH Step up Rate; Initial Patients Waiting for SMH from GMH; Openings from Transfers in GMH
+GMH to SMH Step up Rate; GMH to SMH Patients Waiting for Step up; GMH to SMH Wait Time for Step up; SMH Patient Start Rate; SMH Patients Early in Care
+GMH to SMH to GMH Cumulative Error; "GMH to SMH I-Control"
+GMH to SMH Trend in Error Correction; "GMH to SMH D-Control"
+GMH to SMH Wait Time; GMH Effect of SMH Wait Time on Recommend Step up Rate
+GMH to SMH Wait Time for Step up; GMH to SMH GAP Wait Time; GMH to SMH Wait Time; SMH Wait Times
+GMH Total Patients; GMH Patient Load; Openings from Capacity in GMH
+GMH Transfer from InPt Rate; GMH Pts from Inpt; GMH Step down from Inpatient Rate
+GMH Wait Time Affects New Care Episode Start Rate; GMH Effect of Wait Time on Start Rate 0
+GMH Wait Times; GMH Wait Time Affects New Care Episode Start Rate
+High Risk Flag Patients Extra Effort; EQ Initial GMH Manageable Total Patients; "EQ Initial PC/PCMHI Manageable Total Patients"; EQ Initial SMH Manageable Total Patients; GMH High Risk Flag Patients Extra Effort; GMH Total Patients; "PC/PCMHI High Risk Flag Patients Extra Effort"; "PC/PCMHI Total Patients"; SMH High Risk Flag Patients Extra Effort; SMH Total Patients
+I Wt; "GMH to PC/PCMHI I-Control"; "GMH to SMH I-Control"; "PC/PCMHI to GMH I-Control"; "PC/PCMHI to SMH I-Control"; "SMH to GMH I-Control"; "SMH to PC/PCMHI I-Control"
+Initial GMH Early in Care Patients; EQ GMH Early in Care Patients; GMH Patients Early in Care; Initial GMH High Symptom Patients; Initial GMH Low Symptom Patients
+Initial GMH High Risk Flag Patients; EQ GMH High Risk Flag Patients; GMH High Risk Flag Patients; Initial GMH High Symptom Patients; Initial GMH Low Symptom Patients
+"Initial GMH High Symptom Patient %"; "GMH High Symptom Patient %"
+Initial GMH High Symptom Patients; EQ GMH High Symptom Patients; GMH High Symptom Patients
+Initial GMH Low Symptom Patients; EQ GMH Low Symptom Patients; GMH Low Symptom Patients
+Initial GMH Time to Detect; "Adjusted GMH Engagement Time Before Ending (median)"; "Adjusted GMH to PC/PCMHI Engagement Time Before Step down (median)"; "Adjusted GMH to Residential Engagement Time before Step up (median)"; "Adjusted GMH to SMH Engagement Time Before Step up (median)"; EQ Detect High Sympt Pts in GMH Rate; EQ Detect Low Sympt Pt in GMH Rate; GMH Time to Detect
+Initial GMH Time to Improve w Floor; EQ Improvement in GMH Rate; GMH Time to Improve
+"Initial Low Symptom % in GMH"; EQ Detect High Sympt Pts in GMH Rate; EQ Detect Low Sympt Pt in GMH Rate
+"Initial Low Symptom % in SMH"; EQ Detect High Sympt Pts in SMH Rate; EQ Detect Low Sympt Pt in SMH Rate
+Initial Patients Waiting for GMH; GMH New Patients Waiting to Start
+"Initial Patients Waiting for PC/PCMHI from GMH"; "GMH to PC/PCMHI Patients Waiting for Step down"
+"Initial Patients Waiting for PC/PCMHI from SMH"; "SMH to PC/PCMHI Patients Waiting for Step down"
+Initial Patients Waiting for Return to GMH from PC; "PC/PCMHI to GMH Patients Waiting for Step Up"
+Initial Patients Waiting for Return to GMH from SMH; SMH to GMH Patients Waiting for Step down
+Initial Patients Waiting for SMH; SMH New Patients Waiting to Start
+Initial Patients Waiting for SMH from GMH; GMH to SMH Patients Waiting for Step up
+Initial Patients Waiting for SMH from PCMHI; "PC/PCMHI to SMH Patients Waiting for Step up"
+"Initial PC/PCMHI Early in Care Patients"; "EQ PC/PCMHI Early in Care Patients"; "Initial PC/PCMHI High Symptom Patients"; "Initial PC/PCMHI Low Symptom Patients"; "PC/PCMHI Patients Early in Care"
+"Initial PC/PCMHI High Risk Flag Patients"; "EQ PC/PCMHI High Risk Flag Patients"; "PC/PCMHI High Risk Flag Patients"
+"Initial PC/PCMHI High Symptom Patient %"; "PC/PCMHI High Symptom Patient %"
+"Initial PC/PCMHI High Symptom Patients"; "EQ PC/PCMHI High Symptom Patients"; "PC/PCMHI High Symptom Patients"
+"Initial PC/PCMHI Low Symptom %"; EQ Detect High Sympt Pts in PCMHI Rate; EQ Detect Low Sympt Pt in PCMHI Rate
+"Initial PC/PCMHI Low Symptom Patients"; "EQ PC/PCMHI Low Symptom Patients"; "PC/PCMHI Low Symptom Patients"
+"Initial PC/PCMHI Time to Detect"; "Adjusted PC/PCMHI Engagement Time Before Ending (median)"; "Adjusted PC/PCMHI to GMH Engagement Time Before Step up (median)"; "Adjusted PC/PCMHI to Residential Engagement Time before Step up (median)"; "Adjusted PC/PCMHI to SMH Engagement Time Before Step up (median)"; EQ Detect High Sympt Pts in PCMHI Rate; EQ Detect Low Sympt Pt in PCMHI Rate; "PC/PCMHI Time to Detect"
+"Initial PC/PCMHI Time to Improve w Floor"; EQ Improvement in PCMHI Rate; "PC/PCMHI Time to Improve"
+Initial SMH Early in Care Patients; EQ SMH Early in Care Patients; Initial SMH High Symptom Patients; Initial SMH Low Symptom Patients; SMH Patients Early in Care
+Initial SMH High Risk Flag Patients; EQ SMH High Risk Flag Patients; SMH High Risk Flag Patients
+"Initial SMH High Symptom Patient %"; "SMH High Symptom Patient %"
+Initial SMH High Symptom Patients; EQ SMH High Symptpm Patients; SMH High Symptom Patients
+Initial SMH Low Symptom Patients; EQ SMH Low Symptom Patients; SMH Low Symptom Patients
+Initial SMH Time to Detect; "Adjusted SMH Engagement Time Before Ending (median)"; "Adjusted SMH to GMH Engagement Time Before Step down (median)"; "Adjusted SMH to PC/PCMHI Engagement Time Before Step down (median)"; "Adjusted SMH to Residential Engagement Time before Step up (median)"; EQ Detect High Sympt Pts in SMH Rate; EQ Detect Low Sympt Pt in SMH Rate; SMH Time to Detect
+Initial SMH Time to Improve w Floor; EQ Improvement in SMH Rate; SMH Time to Improve
+INITIAL TIME; Time
+Max Reduction in Time due to MBC; GMH Effect of Implementing MBC in Week Zero; "PC/PCMHI Effect of Implementing MBC in Week Zero"; SMH Effect of Implementing MBC in Week Zero
+Max Reduction in Time to Refer due to Stepped Care; Effect of Implementing Stepped Care between GMH and SMH in Week Zero; Effect of Implementing Stepped Care between PCMHI and GMH in Week Zero; Effect of Implementing Stepped Care between SMH and PCMHI in Week Zero
+Max Transfers to GMH; GMH New Patient Start Rate
+"Max Transfers to GMH from PC/PCMHI"; "PC/PCMHI to GMH Step Up Rate"
+Max Transfers to GMH from SMH; SMH to GMH Step Down Rate
+"Max Transfers to PC/PCMHI"; "PC/PCMHI New Patient Start Rate"
+"Max Transfers to PC/PCMHI from GMH"; "GMH to PC/PCMHI Step Down Rate"
+Max Transfers to PCMHI from SMH; "SMH to PC/PCMHI Step Down Rate"
+Max Transfers to SMH; SMH New Patient Start Rate
+Max Transfers to SMH from GMH; GMH to SMH Step up Rate
+Max Transfers to SMH from PCMHI; "PC/PCMHI to SMH Step up Rate"
+MBC has half the effect on Ending Times; GMH Time to Ending; "PC/PCMHI Time to Ending"; SMH Time to Ending
+Min Transfer Time; GMH High Symptom Max Transfers to Community; GMH Low Symptom Max Transfers to Community; "PC/PCMHI High Symptom Max Transfers to Community"; "PC/PCMHI Low Symptom Max Transfers to Community"; SMH High Symptom Max Transfers to Community; SMH Low Symptom Max Transfers to Community
+Min Transfer Time to GMH; "Adjusted Data GMH New Patient Wait Time (median)"; "Adjusted Data PC/PCMHI to GMH Wait Time (median)"; "Adjusted Data SMH to GMH Wait Time (median)"; Max Transfers to GMH; "Max Transfers to GMH from PC/PCMHI"; Max Transfers to GMH from SMH
+"Min Transfer Time to PC/PCMHI"; "Adjusted Data GMH to PC/PCMHI Wait Time (median)"; "Adjusted Data PC/PCMHI New Patient Wait Time (median)"; "Adjusted Data SMH to PC/PCMHI Wait Time (median)"; "Max Transfers to PC/PCMHI"; "Max Transfers to PC/PCMHI from GMH"; Max Transfers to PCMHI from SMH
+Min Transfer Time to SMH; "Adjusted Data GMH to SMH Wait Time (median)"; "Adjusted Data PC/PCMHI to SMH Wait Time (median)"; "Adjusted Data SMH New Patient Wait Time (median)"; Max Transfers to SMH; Max Transfers to SMH from GMH; Max Transfers to SMH from PCMHI
+"Noise Correlation Time; Change in Pink Noise; White Noise
+Noise Seed
+"Noise Standard Deviation; White Noise
+Openings from Capacity in GMH; Total Openings in GMH
+Openings from Capacity in PC; Total Openings in PCMHI
+Openings from Capacity in SMH; Total Openings in SMH
+Openings from Transfers in GMH; Total Openings in GMH
+Openings from Transfers in PC; Total Openings in PCMHI
+Openings from Transfers in SMH; Total Openings in SMH
+P Wt; "GMH to PC/PCMHI P-Control"; "GMH to SMH P-Control"; "PC/PCMHI to GMH P-Control"; "PC/PCMHI to SMH P-Control"; "SMH to GMH P-Control"; "SMH to PC/PCMHI P-Control"
+"PC/PCMHI Care Quality"
+"PC/PCMHI Community Care Patients Reduce Effort"
+"PC/PCMHI Community Care Rate"
+"PC/PCMHI Delayed User High Comm Rate"; "PC/PCMHI High Symptom Patients Community Care Rate"
+"PC/PCMHI Delayed User Low Comm Rate"; "PC/PCMHI Low Symptom Patients Community Care Rate"
+"PC/PCMHI Desired Wait Time"; "PC/PCMHI Wait Time Affects New Care Episode Start Rate"
+"PC/PCMHI Detection Rate"
+"PC/PCMHI Effect of GMH Wait Time on Recommend Step up Rate"; "PC/PCMHI Effect of GMH Wait Time on Recommend Step up Rate 0"
+"PC/PCMHI Effect of GMH Wait Time on Recommend Step up Rate 0"; "PC/PCMHI to GMH Engagement Time Before Step up"
+"PC/PCMHI Effect of Implementing MBC in Week Zero"; "PC/PCMHI Time to Detect"; "PC/PCMHI Time to Ending"; "PC/PCMHI Time to Improve"; "PC/PCMHI Time to UnFlag"
+"PC/PCMHI Effect of Patient Load on Ability to Detect Symptom Changes"; "PC/PCMHI Effect of Patient Load on Ability to Detect Symptom Changes 0"
+"PC/PCMHI Effect of Patient Load on Ability to Detect Symptom Changes 0"; "PC/PCMHI Time to Detect"
+"PC/PCMHI Effect of Patient Load on Care Quality"; "PC/PCMHI Effect of Patient Load on Care Quality 0"
+"PC/PCMHI Effect of Patient Load on Care Quality 0"; "PC/PCMHI Time to Improve"; "PC/PCMHI Time to UnFlag"
+"PC/PCMHI Effect of Patient Load on Manageable Total Patients"; "PC/PCMHI Effect of Patient Load on Manageable Total Patients 0"
+"PC/PCMHI Effect of Patient Load on Manageable Total Patients 0"; "PC/PCMHI Manageable Total Patients"
+"PC/PCMHI Effect of Patient Load on Start Rate 0"; Total Openings in PCMHI
+"PC/PCMHI Effect of SMH Wait Time on Recommend Step up Rate"; "PC/PCMHI Effect of SMH Wait Time on Recommend Step up Rate 0"
+"PC/PCMHI Effect of SMH Wait Time on Recommend Step up Rate 0"; "PC/PCMHI to SMH Engagement Time Before Step up"
+"PC/PCMHI Effect of Wait Time on Start Rate 0"; Total Openings in PCMHI
+"PC/PCMHI Ending Rate"; Openings from Transfers in PC; "PC/PCMHI Low Symptom Patients"
+"PC/PCMHI High Risk Flag Patient Time to Residential"; "PC/PCMHI High Risk Flag Patient to Residential Rate"
+"PC/PCMHI High Risk Flag Patient to Residential Rate"; Openings from Transfers in PC; "PC/PCMHI High Risk Flag Patients"; "PC/PCMHI to Residential Rate"
+"PC/PCMHI High Risk Flag Patients"; "PC/PCMHI High Risk Flag Patient to Residential Rate"; "PC/PCMHI High Risk Unflag Rate"; "PC/PCMHI to GMH High Risk Flag Step Up Rate"; "PC/PCMHI Total Patients"
+"PC/PCMHI High Risk Flag Patients Extra Effort"
+"PC/PCMHI High Risk Patient Flag Rate"; "PC/PCMHI High Risk Flag Patients"; "PC/PCMHI High Symptom Patients"
+"PC/PCMHI High Risk Patient Flag Rate %"; "PC/PCMHI High Risk Patient Flag Rate"
+"PC/PCMHI High Risk Unflag Rate"; "PC/PCMHI High Risk Flag Patients"; "PC/PCMHI High Symptom Patients"
+"PC/PCMHI High Symptom Max Transfers to Community"; "PC/PCMHI High Symptom Patients Community Care Rate"
+"PC/PCMHI High Symptom Patient %"; "PC/PCMHI High Symptom Patient Detection Rate"; "PC/PCMHI Low Symptom Patient Detection Rate"
+"PC/PCMHI High Symptom Patient Detection Rate"; "PC/PCMHI Detection Rate"; "PC/PCMHI High Symptom Patients"; "PC/PCMHI Patients Early in Care"
+"PC/PCMHI High Symptom Patients"; "PC/PCMHI High Risk Patient Flag Rate"; "PC/PCMHI High Symptom Max Transfers to Community"; "PC/PCMHI High Symptom to Residential Rate"; "PC/PCMHI Improvement Rate"; "PC/PCMHI Ratio of High to Low Symptom Patients"; "PC/PCMHI to GMH Recommend Step Up Rate"; "PC/PCMHI to SMH Recommend Step Up Rate"; "PC/PCMHI Total Patients"
+"PC/PCMHI High Symptom Patients Community Care Rate"; Openings from Transfers in PC; "PC/PCMHI Community Care Rate"; "PC/PCMHI High Symptom Patients"; "PC/PCMHI Patients in Community Care"
+"PC/PCMHI High Symptom to Residential Rate"; Openings from Transfers in PC; "PC/PCMHI High Symptom Patients"; "PC/PCMHI to Residential Rate"
+"PC/PCMHI Improvement Rate"; "PC/PCMHI High Symptom Patients"; "PC/PCMHI Low Symptom Patients"
+"PC/PCMHI Inflow Check"; "Initial PC/PCMHI Early in Care Patients"
+"PC/PCMHI Initial Patients Waiting"; "PC/PCMHI New Patients Waiting to Start"
+"PC/PCMHI Low Symptom Max Transfers to Community"; "PC/PCMHI Low Symptom Patients Community Care Rate"
+"PC/PCMHI Low Symptom Patient Detection Rate"; "PC/PCMHI Detection Rate"; "PC/PCMHI Low Symptom Patients"; "PC/PCMHI Patients Early in Care"
+"PC/PCMHI Low Symptom Patients"; "PC/PCMHI Ending Rate"; "PC/PCMHI Low Symptom Max Transfers to Community"; "PC/PCMHI Ratio of High to Low Symptom Patients"; "PC/PCMHI Total Patients"
+"PC/PCMHI Low Symptom Patients Community Care Rate"; Openings from Transfers in PC; "PC/PCMHI Community Care Rate"; "PC/PCMHI Low Symptom Patients"; "PC/PCMHI Patients in Community Care"
+"PC/PCMHI Manageable Total Patients"; Openings from Capacity in PC; "PC/PCMHI Patient Load"
+"PC/PCMHI New Patient Recommend Rate"; "PC/PCMHI Initial Patients Waiting"; "PC/PCMHI New Patient Start Rate"; "PC/PCMHI New Patients Waiting to Start"
+"PC/PCMHI New Patient Start Rate"; "PC/PCMHI New Patient Wait Time to Start"; "PC/PCMHI New Patients Waiting to Start"; "PC/PCMHI Patient Start Rate"; "PC/PCMHI Patients Early in Care"
+"PC/PCMHI New Patient Wait Time to Start"; "GMH to PC/PCMHI Wait Time"; "PC/PCMHI Wait Times"; "SMH to PC/PCMHI Wait Time"
+"PC/PCMHI New Patients Waiting to Start"; "Max Transfers to PC/PCMHI"; "PC/PCMHI New Patient Wait Time to Start"; "PC/PCMHI Patients Waiting to Start"
+"PC/PCMHI Openings for GMH %"; "GMH to PC/PCMHI Step Down Rate"
+"PC/PCMHI Openings for New Patients %"; "PC/PCMHI New Patient Start Rate"
+"PC/PCMHI Openings for SMH %"; "SMH to PC/PCMHI Step Down Rate"
+"PC/PCMHI Patient Load"; "PC/PCMHI Effect of Patient Load on Ability to Detect Symptom Changes"; "PC/PCMHI Effect of Patient Load on Care Quality"; "PC/PCMHI Effect of Patient Load on Manageable Total Patients"; "PC/PCMHI Patient Load Affects New Care Episode Start Rate"
+"PC/PCMHI Patient Load Affects New Care Episode Start Rate"; "PC/PCMHI Effect of Patient Load on Start Rate 0"
+"PC/PCMHI Patient Start Rate"
+"PC/PCMHI Patients Early in Care"; "PC/PCMHI High Symptom Patient Detection Rate"; "PC/PCMHI Low Symptom Patient Detection Rate"; "PC/PCMHI Total Patients"
+"PC/PCMHI Patients in Community Care"; "PC/PCMHI Total Patients"
+"PC/PCMHI Patients Waiting to Start"; Total Patients Waiting
+"PC/PCMHI Pts from Inpt"
+"PC/PCMHI Ratio of High to Low Symptom Patients"
+"PC/PCMHI Step down from Inpatient Rate"; "PC/PCMHI Patients Early in Care"
+"PC/PCMHI Time to Detect"; "PC/PCMHI High Symptom Patient Detection Rate"; "PC/PCMHI Low Symptom Patient Detection Rate"
+"PC/PCMHI Time to Ending"; "PC/PCMHI Ending Rate"
+"PC/PCMHI Time to Improve"; "PC/PCMHI Improvement Rate"
+"PC/PCMHI Time to Residential"; "PC/PCMHI High Symptom to Residential Rate"
+"PC/PCMHI Time to UnFlag"; "PC/PCMHI High Risk Unflag Rate"
+"PC/PCMHI to GMH Accumulating Error"; "PC/PCMHI to GMH Cumulative Error"
+"PC/PCMHI to GMH Additional Patients Waiting for Step Up to Maintain Wait Time"; "PC/PCMHI to GMH Patients Waiting for Step Up"
+"PC/PCMHI to GMH Change in Error"; "PC/PCMHI to GMH Exp Avg of Error"
+"PC/PCMHI to GMH Cumulative Error"; "PC/PCMHI to GMH I-Control"
+"PC/PCMHI to GMH D-Control"; "PC/PCMHI to GMH PID -- Additional Patients to Maintain Wait Time"
+"PC/PCMHI to GMH Desired Wait Time to Step up"; "PC/PCMHI Effect of GMH Wait Time on Recommend Step up Rate"
+"PC/PCMHI to GMH Engagement Time Before Step up"; "PC/PCMHI to GMH Recommend Step Up Rate"
+"PC/PCMHI to GMH Exp Avg of Error"; "PC/PCMHI to GMH Change in Error"; "PC/PCMHI to GMH Trend in Error Correction"
+"PC/PCMHI to GMH GAP Wait Time"; "PC/PCMHI to GMH Accumulating Error"; "PC/PCMHI to GMH Change in Error"; "PC/PCMHI to GMH P-Control"; "PC/PCMHI to GMH Trend in Error Correction"
+"PC/PCMHI to GMH High Risk Flag Step Up Rate"; GMH High Risk Flag Patients; GMH High Risk Flag Stepped Care Rate; Openings from Transfers in PC; "PC/PCMHI High Risk Flag Patients"; Total Openings Used by HRF Patients
+"PC/PCMHI to GMH I-Control"; "PC/PCMHI to GMH PID -- Additional Patients to Maintain Wait Time"
+"PC/PCMHI to GMH Patients Waiting for Step Up"; GMH Patients Waiting to Start; "Max Transfers to GMH from PC/PCMHI"; "PC/PCMHI to GMH Wait Time to Step up"
+"PC/PCMHI to GMH P-Control"; "PC/PCMHI to GMH PID -- Additional Patients to Maintain Wait Time"
+"PC/PCMHI to GMH PID -- Additional Patients to Maintain Wait Time"; "PC/PCMHI to GMH Additional Patients Waiting for Step Up to Maintain Wait Time"
+"PC/PCMHI to GMH Recommend Step Up Rate"; Openings from Transfers in PC; "PC/PCMHI High Symptom Patients"; "PC/PCMHI to GMH Recommend Step Up Rate2"
+"PC/PCMHI to GMH Recommend Step Up Rate2"; Initial Patients Waiting for Return to GMH from PC; "PC/PCMHI to GMH Patients Waiting for Step Up"; "PC/PCMHI to GMH Step Up Rate"
+"PC/PCMHI to GMH Step Up Rate"; GMH Patient Start Rate; "PC/PCMHI to GMH Patients Waiting for Step Up"; "PC/PCMHI to GMH Step Up Rate2"; "PC/PCMHI to GMH Wait Time to Step up"
+"PC/PCMHI to GMH Step Up Rate2"; GMH Patients Early in Care
+"PC/PCMHI to GMH Trend in Error Correction"; "PC/PCMHI to GMH D-Control"
+"PC/PCMHI to GMH Wait Time"; "PC/PCMHI Effect of GMH Wait Time on Recommend Step up Rate"
+"PC/PCMHI to GMH Wait Time to Step up"; GMH Wait Times; "PC/PCMHI to GMH GAP Wait Time"; "PC/PCMHI to GMH Wait Time"
+"PC/PCMHI to Residential Rate"
+"PC/PCMHI to SMH Accumulating Error"; "PC/PCMHI to SMH to GMH Cumulative Error"
+"PC/PCMHI to SMH Additional Patients Waiting for Step up to Maintain Wait Time"; "PC/PCMHI to SMH Patients Waiting for Step up"
+"PC/PCMHI to SMH Change in Error"; "PC/PCMHI to SMH Exp Avg of Error"
+"PC/PCMHI to SMH D-Control"; "PC/PCMHI to SMH PID -- Additional Patients to Maintain Wait Time"
+"PC/PCMHI to SMH Desired Wait Time to Step up"; "PC/PCMHI Effect of SMH Wait Time on Recommend Step up Rate"
+"PC/PCMHI to SMH Engagement Time Before Step up"; "PC/PCMHI to SMH Recommend Step Up Rate"
+"PC/PCMHI to SMH Exp Avg of Error"; "PC/PCMHI to SMH Change in Error"; "PC/PCMHI to SMH Trend in Error Correction"
+"PC/PCMHI to SMH GAP Wait Time"; "PC/PCMHI to SMH Accumulating Error"; "PC/PCMHI to SMH Change in Error"; "PC/PCMHI to SMH P-Control"; "PC/PCMHI to SMH Trend in Error Correction"
+"PC/PCMHI to SMH I-Control"; "PC/PCMHI to SMH PID -- Additional Patients to Maintain Wait Time"
+"PC/PCMHI to SMH Patients Waiting for Step up"; Max Transfers to SMH from PCMHI; "PC/PCMHI to SMH Wait Time to Step up"; SMH Patients Waiting to Start
+"PC/PCMHI to SMH P-Control"; "PC/PCMHI to SMH PID -- Additional Patients to Maintain Wait Time"
+"PC/PCMHI to SMH PID -- Additional Patients to Maintain Wait Time"; "PC/PCMHI to SMH Additional Patients Waiting for Step up to Maintain Wait Time"
+"PC/PCMHI to SMH Recommend Step Up Rate"; Openings from Transfers in PC; "PC/PCMHI High Symptom Patients"; "PC/PCMHI to SMH Recommend Step Up Rate2"
+"PC/PCMHI to SMH Recommend Step Up Rate2"; Initial Patients Waiting for SMH from PCMHI; "PC/PCMHI to SMH Patients Waiting for Step up"; "PC/PCMHI to SMH Step up Rate"
+"PC/PCMHI to SMH Step up Rate"; "PC/PCMHI to SMH Patients Waiting for Step up"; "PC/PCMHI to SMH Wait Time to Step up"; SMH Patient Start Rate; SMH Patients Early in Care
+"PC/PCMHI to SMH to GMH Cumulative Error"; "PC/PCMHI to SMH I-Control"
+"PC/PCMHI to SMH Trend in Error Correction"; "PC/PCMHI to SMH D-Control"
+"PC/PCMHI to SMH Wait Time"; "PC/PCMHI Effect of SMH Wait Time on Recommend Step up Rate"
+"PC/PCMHI to SMH Wait Time to Step up"; "PC/PCMHI to SMH GAP Wait Time"; "PC/PCMHI to SMH Wait Time"; SMH Wait Times
+"PC/PCMHI Total Patients"; Openings from Capacity in PC; "PC/PCMHI Patient Load"
+"PC/PCMHI Transfer from InPt Rate"; "PC/PCMHI Pts from Inpt"; "PC/PCMHI Step down from Inpatient Rate"
+"PC/PCMHI Wait Time Affects New Care Episode Start Rate"; "PC/PCMHI Effect of Wait Time on Start Rate 0"
+"PC/PCMHI Wait Times"; "PC/PCMHI Wait Time Affects New Care Episode Start Rate"
+Pink Noise; Change in Pink Noise; GMH Transfer from InPt Rate; "PC/PCMHI Transfer from InPt Rate"; SMH Transfer from InPt Rate
+Pink Noise units converstion; GMH Transfer from InPt Rate; "PC/PCMHI Transfer from InPt Rate"; SMH Transfer from InPt Rate
+SAVEPER
+SMH Care Quality
+SMH Community Care Patients Reduce Effort
+SMH Community Care Rate
+SMH Delayed User High Comm Rate; SMH High Symptom Patients Community Care Rate
+SMH Delayed User Low Comm Rate; SMH Low Symptom Patients Community Care Rate
+SMH Desired Wait Time; SMH Wait Time Affects New Care Episode Start Rate
+SMH Detection Rate
+SMH Effect of GMH Wait Time on Recommend Step down Rate; SMH Effect of GMH Wait Time on Recommend Step down Rate 0
+SMH Effect of GMH Wait Time on Recommend Step down Rate 0; SMH to GMH Engagement Time Before Step down
+SMH Effect of Implementing MBC in Week Zero; SMH Time to Detect; SMH Time to Ending; SMH Time to Improve; SMH Time to Unflag
+SMH Effect of Patient Load on Ability to Detect Symptom Changes; SMH Effect of Patient Load on Ability to Detect Symptom Changes 0
+SMH Effect of Patient Load on Ability to Detect Symptom Changes 0; SMH Time to Detect
+SMH Effect of Patient Load on Care Quality; SMH Effect of Patient Load on Care Quality 0
+SMH Effect of Patient Load on Care Quality 0; SMH Time to Improve; SMH Time to Unflag
+SMH Effect of Patient Load on Manageable Total Patients; SMH Effect of Patient Load on Manageable Total Patients 0
+SMH Effect of Patient Load on Manageable Total Patients 0; SMH Manageable Total Patients
+SMH Effect of Patient Load on Start Rate 0; Total Openings in SMH
+"SMH Effect of PC/PCMHI Wait Time on Recommend Step down Rate"; "SMH Effect of PC/PCMHI Wait Time on Recommend Step down Rate 0"
+"SMH Effect of PC/PCMHI Wait Time on Recommend Step down Rate 0"; "SMH to PC/PCMHI Engagement Time Before Step down"
+SMH Effect of Wait Time on Start Rate 0; Total Openings in SMH
+SMH Ending Rate; Openings from Transfers in SMH; SMH Low Symptom Patients
+SMH Engagement Time before Ending EpC; "Data SMH Engagement Time Before Ending - filtered"
+SMH High Risk Flag Patient Time to Residential; SMH High Risk Flag Patient to Residential Rate
+SMH High Risk Flag Patient to Residential Rate; Openings from Transfers in SMH; SMH High Risk Flag Patients; SMH to Residential Rate
+SMH High Risk Flag Patients; SMH High Risk Flag Patient to Residential Rate; SMH High Risk Unflag Rate; SMH to GMH High Risk Flag Step Down Rate; SMH Total Patients
+SMH High Risk Flag Patients Extra Effort
+SMH High Risk Patient Flag Rate; SMH High Risk Flag Patients; SMH High Symptom Patients
+"SMH High Risk Patient Flag Rate %"; SMH High Risk Patient Flag Rate
+SMH High Risk Unflag Rate; SMH High Risk Flag Patients; SMH High Symptom Patients
+SMH High Symptom Max Transfers to Community; SMH High Symptom Patients Community Care Rate
+"SMH High Symptom Patient %"; SMH High Symptom Patient Detection Rate; SMH Low Symptom Patient Detection Rate
+SMH High Symptom Patient Detection Rate; SMH Detection Rate; SMH High Symptom Patients; SMH Patients Early in Care
+SMH High Symptom Patients; SMH High Risk Patient Flag Rate; SMH High Symptom Max Transfers to Community; SMH High Symptom to Residential Rate; SMH Improvement Rate; SMH Ratio of High to Low Symptom Patients; SMH Total Patients
+SMH High Symptom Patients Community Care Rate; Openings from Transfers in SMH; SMH Community Care Rate; SMH High Symptom Patients; SMH Patients in Community Care
+SMH High Symptom to Residential Rate; Openings from Transfers in SMH; SMH High Symptom Patients; SMH to Residential Rate
+SMH Improvement Rate; SMH High Symptom Patients; SMH Low Symptom Patients
+SMH Inflow Check; Initial SMH Early in Care Patients
+SMH Low Symptom Max Transfers to Community; SMH Low Symptom Patients Community Care Rate
+SMH Low Symptom Patient Detection Rate; SMH Detection Rate; SMH Low Symptom Patients; SMH Patients Early in Care
+SMH Low Symptom Patients; SMH Ending Rate; SMH Low Symptom Max Transfers to Community; SMH Ratio of High to Low Symptom Patients; SMH to GMH Recommend Step Down Rate; "SMH to PC/PCMHI Recommend Step Down Rate"; SMH Total Patients
+SMH Low Symptom Patients Community Care Rate; Openings from Transfers in SMH; SMH Community Care Rate; SMH Low Symptom Patients; SMH Patients in Community Care
+SMH Manageable Total Patients; Openings from Capacity in SMH; SMH Patient Load
+SMH New Patient Recommend Rate; Initial Patients Waiting for SMH; SMH New Patient Start Rate; SMH New Patients Waiting to Start
+SMH New Patient Start Rate; SMH New Patient Wait Time to Start; SMH New Patients Waiting to Start; SMH Patient Start Rate; SMH Patients Early in Care
+SMH New Patient Wait Time to Start; GMH to SMH Wait Time; "PC/PCMHI to SMH Wait Time"; SMH Wait Times
+SMH New Patients Waiting to Start; Max Transfers to SMH; SMH New Patient Wait Time to Start; SMH Patients Waiting to Start
+"SMH Openings for GMH %"; GMH to SMH Step up Rate
+"SMH Openings for New Patients %"; SMH New Patient Start Rate
+"SMH Openings for PC/PCMHI %"; "PC/PCMHI to SMH Step up Rate"
+SMH Patient Load; SMH Effect of Patient Load on Ability to Detect Symptom Changes; SMH Effect of Patient Load on Care Quality; SMH Effect of Patient Load on Manageable Total Patients; SMH Patient Load Affects New Care Episode Start Rate
+SMH Patient Load Affects New Care Episode Start Rate; SMH Effect of Patient Load on Start Rate 0
+SMH Patient Start Rate
+SMH Patients Early in Care; SMH High Symptom Patient Detection Rate; SMH Low Symptom Patient Detection Rate; SMH Total Patients
+SMH Patients in Community Care; SMH Total Patients
+SMH Patients Waiting to Start; Total Patients Waiting
+SMH Pts from Inpt
+SMH Ratio of High to Low Symptom Patients
+SMH Step down from Inpatient Rate; SMH Patients Early in Care
+SMH Time to Detect; SMH High Symptom Patient Detection Rate; SMH Low Symptom Patient Detection Rate
+SMH Time to Ending; SMH Ending Rate
+SMH Time to Improve; SMH Improvement Rate
+SMH Time to Residential; SMH High Symptom to Residential Rate
+SMH Time to Unflag; SMH High Risk Unflag Rate
+SMH to GMH Accumulating Error; SMH to GMH Cumulative Error
+SMH to GMH Additional Patients Waiting to Maintain Wait Time Before Week Zero; SMH to GMH Patients Waiting for Step down
+SMH to GMH Change in Error; SMH to GMH Exp Avg of Error
+SMH to GMH Cumulative Error; "SMH to GMH I-Control"
+"SMH to GMH D-Control"; "SMH to GMH PID -- Additional Patients to Maintain Wait Time"
+SMH to GMH Desired Wait Time to Step down; SMH Effect of GMH Wait Time on Recommend Step down Rate
+SMH to GMH Engagement Time Before Step down; SMH to GMH Recommend Step Down Rate
+SMH to GMH Exp Avg of Error; SMH to GMH Change in Error; SMH to GMH Trend in Error Correction
+SMH to GMH GAP Wait Time; SMH to GMH Accumulating Error; SMH to GMH Change in Error; "SMH to GMH P-Control"; SMH to GMH Trend in Error Correction
+SMH to GMH High Risk Flag Step Down Rate; GMH High Risk Flag Patients; GMH High Risk Flag Stepped Care Rate; Openings from Transfers in SMH; SMH High Risk Flag Patients; Total Openings Used by HRF Patients
+"SMH to GMH I-Control"; "SMH to GMH PID -- Additional Patients to Maintain Wait Time"
+SMH to GMH Patients Waiting for Step down; GMH Patients Waiting to Start; Max Transfers to GMH from SMH; SMH to GMH Wait Time to Step down
+"SMH to GMH P-Control"; "SMH to GMH PID -- Additional Patients to Maintain Wait Time"
+"SMH to GMH PID -- Additional Patients to Maintain Wait Time"; SMH to GMH Additional Patients Waiting to Maintain Wait Time Before Week Zero
+SMH to GMH Recommend Step Down Rate; Openings from Transfers in SMH; SMH Low Symptom Patients; SMH to GMH Recommend Step Down Rate2
+SMH to GMH Recommend Step Down Rate2; Initial Patients Waiting for Return to GMH from SMH; SMH to GMH Patients Waiting for Step down; SMH to GMH Step Down Rate
+SMH to GMH Step Down Rate; GMH Patient Start Rate; SMH to GMH Patients Waiting for Step down; SMH to GMH Step Down Rate2; SMH to GMH Wait Time to Step down
+SMH to GMH Step Down Rate2; GMH Patients Early in Care
+SMH to GMH Trend in Error Correction; "SMH to GMH D-Control"
+SMH to GMH Wait Time; SMH Effect of GMH Wait Time on Recommend Step down Rate
+SMH to GMH Wait Time to Step down; GMH Wait Times; SMH to GMH GAP Wait Time; SMH to GMH Wait Time
+"SMH to PC/PCMHI Accumulating Error"; "SMH to PC/PCMHI to GMH Cumulative Error"
+"SMH to PC/PCMHI Additional Patients Waiting for Step down to Maintain Wait Time"; "SMH to PC/PCMHI Patients Waiting for Step down"
+"SMH to PC/PCMHI Change in Error"; "SMH to PC/PCMHI Exp Avg of Error"
+"SMH to PC/PCMHI D-Control"; "SMH to PC/PCMHI PID -- Additional Patients to Maintain Wait Time"
+"SMH to PC/PCMHI Desired Wait Time to Step down"; "SMH Effect of PC/PCMHI Wait Time on Recommend Step down Rate"
+"SMH to PC/PCMHI Engagement Time Before Step down"; "SMH to PC/PCMHI Recommend Step Down Rate"
+"SMH to PC/PCMHI Exp Avg of Error"; "SMH to PC/PCMHI Change in Error"; "SMH to PC/PCMHI Trend in Error Correction"
+"SMH to PC/PCMHI GAP Wait Time"; "SMH to PC/PCMHI Accumulating Error"; "SMH to PC/PCMHI Change in Error"; "SMH to PC/PCMHI P-Control"; "SMH to PC/PCMHI Trend in Error Correction"
+"SMH to PC/PCMHI I-Control"; "SMH to PC/PCMHI PID -- Additional Patients to Maintain Wait Time"
+"SMH to PC/PCMHI Patients Waiting for Step down"; Max Transfers to PCMHI from SMH; "PC/PCMHI Patients Waiting to Start"; "SMH to PC/PCMHI Wait Time to Step down"
+"SMH to PC/PCMHI P-Control"; "SMH to PC/PCMHI PID -- Additional Patients to Maintain Wait Time"
+"SMH to PC/PCMHI PID -- Additional Patients to Maintain Wait Time"; "SMH to PC/PCMHI Additional Patients Waiting for Step down to Maintain Wait Time"
+"SMH to PC/PCMHI Recommend Step Down Rate"; Openings from Transfers in SMH; SMH Low Symptom Patients; "SMH to PC/PCMHI Recommend Step Down Rate2"
+"SMH to PC/PCMHI Recommend Step Down Rate2"; "Initial Patients Waiting for PC/PCMHI from SMH"; "SMH to PC/PCMHI Patients Waiting for Step down"; "SMH to PC/PCMHI Step Down Rate"
+"SMH to PC/PCMHI Step Down Rate"; "PC/PCMHI Patient Start Rate"; "PC/PCMHI Patients Early in Care"; "SMH to PC/PCMHI Patients Waiting for Step down"; "SMH to PC/PCMHI Wait Time to Step down"
+"SMH to PC/PCMHI to GMH Cumulative Error"; "SMH to PC/PCMHI I-Control"
+"SMH to PC/PCMHI Trend in Error Correction"; "SMH to PC/PCMHI D-Control"
+"SMH to PC/PCMHI Wait Time"; "SMH Effect of PC/PCMHI Wait Time on Recommend Step down Rate"
+"SMH to PC/PCMHI Wait Time to Step down"; "PC/PCMHI Wait Times"; "SMH to PC/PCMHI GAP Wait Time"; "SMH to PC/PCMHI Wait Time"
+SMH to Residential Rate
+SMH Total Patients; Openings from Capacity in SMH; SMH Patient Load
+SMH Transfer from InPt Rate; SMH Pts from Inpt; SMH Step down from Inpatient Rate
+SMH Wait Time Affects New Care Episode Start Rate; SMH Effect of Wait Time on Start Rate 0
+SMH Wait Times; SMH Wait Time Affects New Care Episode Start Rate
+Sum EpC no HRF; Flag GMH Engagement Time before Ending EpC; Flag GMH New Episode of Care Start Rate EpC; "Flag GMH to PC/PCMHI Engagement Time before Step down EpC"; Flag GMH to Residential Engagment Time before Step up EpC; Flag GMH to SMH Engagement Time before Step up EpC; "Flag PC/PCMHI Engagement Time before Ending EpC"; "Flag PC/PCMHI New Episode of Care Start Rate EpC"; "Flag PC/PCMHI to GMH Engagement Time to Step up EpC"; "Flag PC/PCMHI to Residential Engagement Time before Step up EpC"; "Flag PC/PCMHI to SMH Engagement Time to Step up EpC"; Flag SMH New Episode of Care Start Rate EpC; Flag SMH to GMH Engagement Time before Step down EpC; "Flag SMH to PC/PCMHI Engagement Time before Step Down EpC"; Flag SMH to Residential Engagement Time before Step up EpC; SMH Engagement Time before Ending EpC
+Sum EpC w High Risk Flag; Flag GMH High Risk Flag Rate EpC; Flag GMH Time to Unflag High Risk Patients EpC; "Flag GMH to ResTime from Flag to Step up/down Epc"; "Flag PC/PCMHI High Risk Flag Rate Epc"; "Flag PC/PCMHI Time to Unflag High Risk Patients EpC"; "Flag PC/PCMHI to GMH Time from Flag to Step up/down Epc"; "Flag PC/PCMHI to Res Time from Flag to Step up/down Epc"; Flag SMH High Risk Flag Rate EpC; Flag SMH Time to Unflag High Risk Patients EpC; "Flag SMH to GMH Time from Flag to Step up/down Epc"; "Flag SMH to ResTime from Flag to Step up/down Epc"
+Threshold for Inclusion; Flag GMH Engagement Time before Ending EpC; Flag GMH High Risk Flag Rate EpC; Flag GMH New Episode of Care Start Rate EpC; Flag GMH Time to Unflag High Risk Patients EpC; "Flag GMH to PC/PCMHI Engagement Time before Step down EpC"; Flag GMH to Residential Engagment Time before Step up EpC; "Flag GMH to ResTime from Flag to Step up/down Epc"; Flag GMH to SMH Engagement Time before Step up EpC; "Flag PC/PCMHI Engagement Time before Ending EpC"; "Flag PC/PCMHI High Risk Flag Rate Epc"; "Flag PC/PCMHI New Episode of Care Start Rate EpC"; "Flag PC/PCMHI Time to Unflag High Risk Patients EpC"; "Flag PC/PCMHI to GMH Engagement Time to Step up EpC"; "Flag PC/PCMHI to GMH Time from Flag to Step up/down Epc"; "Flag PC/PCMHI to Res Time from Flag to Step up/down Epc"; "Flag PC/PCMHI to Residential Engagement Time before Step up EpC"; "Flag PC/PCMHI to SMH Engagement Time to Step up EpC"; Flag SMH High Risk Flag Rate EpC; Flag SMH New Episode of Care Start Rate EpC; Flag SMH Time to Unflag High Risk Patients EpC; Flag SMH to GMH Engagement Time before Step down EpC; "Flag SMH to GMH Time from Flag to Step up/down Epc"; "Flag SMH to PC/PCMHI Engagement Time before Step Down EpC"; Flag SMH to Residential Engagement Time before Step up EpC; "Flag SMH to ResTime from Flag to Step up/down Epc"; SMH Engagement Time before Ending EpC
+Time for Load to Affect Start Rate; GMH Patient Load Affects New Care Episode Start Rate; "PC/PCMHI Patient Load Affects New Care Episode Start Rate"; SMH Patient Load Affects New Care Episode Start Rate
+Time for Wait Time to Affect Start Rate; GMH Wait Time Affects New Care Episode Start Rate; "PC/PCMHI Wait Time Affects New Care Episode Start Rate"; SMH Wait Time Affects New Care Episode Start Rate
+Time for Wait Time to Stepped Care Referral Decisions; "GMH Effect of PC/PCMHI Wait Time on Recommend Step down Rate"; GMH Effect of SMH Wait Time on Recommend Step up Rate; "PC/PCMHI Effect of GMH Wait Time on Recommend Step up Rate"; "PC/PCMHI Effect of SMH Wait Time on Recommend Step up Rate"; SMH Effect of GMH Wait Time on Recommend Step down Rate; "SMH Effect of PC/PCMHI Wait Time on Recommend Step down Rate"
+Time from Flag PCMHI to GMH; "PC/PCMHI to GMH High Risk Flag Step Up Rate"
+Time from Flag SMH to GMH; SMH to GMH High Risk Flag Step Down Rate
+TIME STEP; SAVEPER; White Noise
+Time to Affect Care Quality; GMH Effect of Patient Load on Care Quality; "PC/PCMHI Effect of Patient Load on Care Quality"; SMH Effect of Patient Load on Care Quality
+Time to Affect Detection Time; GMH Effect of Patient Load on Ability to Detect Symptom Changes; "PC/PCMHI Effect of Patient Load on Ability to Detect Symptom Changes"; SMH Effect of Patient Load on Ability to Detect Symptom Changes
+Time to Affect Supply; GMH Effect of Patient Load on Manageable Total Patients; "PC/PCMHI Effect of Patient Load on Manageable Total Patients"; SMH Effect of Patient Load on Manageable Total Patients
+Time to Fill Capacity Opening; Openings from Capacity in GMH; Openings from Capacity in PC; Openings from Capacity in SMH
+Total Delayable Inflow GMH; "EQ Initial GMH Openings for New Patients %"; "EQ Initial GMH Openings for PC/PCMHI %"; "EQ Initial GMH Openings for SMH %"
+Total Openings in GMH; GMH New Patient Start Rate; "PC/PCMHI to GMH Step Up Rate"; SMH to GMH Step Down Rate
+Total Openings in PCMHI; "GMH to PC/PCMHI Step Down Rate"; "PC/PCMHI New Patient Start Rate"; "SMH to PC/PCMHI Step Down Rate"
+Total Openings in SMH; GMH to SMH Step up Rate; "PC/PCMHI to SMH Step up Rate"; SMH New Patient Start Rate
+Total Openings Used by HRF Patients; Total Openings in GMH
+Total Patients Waiting
+"User GMH and PC/PCMHI Implement Stepped Care"; Effect of Implementing Stepped Care between PCMHI and GMH in Week Zero
+User GMH and SMH Implement Stepped Care; Effect of Implementing Stepped Care between GMH and SMH in Week Zero
+User GMH Delay to Starting Community Care; GMH Delayed User High Comm Rate; GMH Delayed User Low Comm Rate
+User GMH Desired Wait Time; GMH Desired Wait Time
+User GMH High Risk Flag Patient Time to Residential; GMH High Risk Flag Patient Time to Residential
+"User GMH High Risk Patient Flag Rate %"; "GMH High Risk Patient Flag Rate %"
+"User GMH High Symptom Patient %"; "GMH High Symptom Patient %"
+User GMH High Symptom Patients Community Care Rate; GMH Delayed User High Comm Rate
+User GMH Implement MBC; GMH Effect of Implementing MBC in Week Zero
+User GMH Low Symptom Patients Community Care Rate; GMH Delayed User Low Comm Rate
+User GMH Manageable Total Patients; GMH Manageable Total Patients
+User GMH New Patient Start Rate; GMH New Patient Recommend Rate
+"User GMH Openings for New Patients %"; "GMH Openings for New Patients %"
+"User GMH Openings for PC/PCMHI %"; "GMH Openings for PC/PCMHI %"
+"User GMH Openings for SMH %"; "GMH Openings for SMH %"
+User GMH Sensitivity of Care Quality to Patient Load; GMH Effect of Patient Load on Care Quality
+User GMH Sensitivity of Detection to Patient Load; GMH Effect of Patient Load on Ability to Detect Symptom Changes
+User GMH Sensitivity of Manageable Total Patients to Increased Patient Load; GMH Effect of Patient Load on Manageable Total Patients
+User GMH Sensitivity of Start Rate to Patient Load; GMH Patient Load Affects New Care Episode Start Rate
+User GMH Sensitivity of Start Rate to Wait Time; GMH Wait Time Affects New Care Episode Start Rate
+User GMH Sensitivity of Step Down Decisions to Wait Time; "GMH Effect of PC/PCMHI Wait Time on Recommend Step down Rate"
+User GMH Sensitivity of Step Up Decisions to Wait Time; GMH Effect of SMH Wait Time on Recommend Step up Rate
+User GMH Step down from Inpatient Rate; Adjusted User GMH Step down from Inpatient Rate; GMH Transfer from InPt Rate
+User GMH Time to Detect; GMH Time to Detect
+User GMH Time to Ending; GMH Time to Ending
+User GMH Time to Improve; GMH Time to Improve
+User GMH Time to Residential; GMH Time to Residential
+User GMH Time to UnFlag High Risk Patients; GMH Time to UnFlag
+"User GMH to PC/PCMHI Desired Wait Time to Step down"; "GMH to PC/PCMHI Desired Wait Time to Step down"
+"User GMH to PC/PCMHI Engagement Time Before Step down"; "GMH to PC/PCMHI Engagement Time Before Step down"
+User GMH to SMH Desired Wait Time to Step up; GMH to SMH Desired Wait Time to Step up
+User GMH to SMH Engagement Time Before Step up; GMH to SMH Engagement Time Before Step up
+"User PC/PCMHI Delay to Starting Community Care"; "PC/PCMHI Delayed User High Comm Rate"; "PC/PCMHI Delayed User Low Comm Rate"
+"User PC/PCMHI Desired Wait Time"; "PC/PCMHI Desired Wait Time"
+"User PC/PCMHI High Risk Flag Patient Time to Residential"; "PC/PCMHI High Risk Flag Patient Time to Residential"
+"User PC/PCMHI High Risk Patient Flag Rate %"; "PC/PCMHI High Risk Patient Flag Rate %"
+"User PC/PCMHI High Symptom Patient %"; "PC/PCMHI High Symptom Patient %"
+"User PC/PCMHI High Symptom Patients Community Care Rate"; "PC/PCMHI Delayed User High Comm Rate"
+"User PC/PCMHI Implement MBC"; "PC/PCMHI Effect of Implementing MBC in Week Zero"
+"User PC/PCMHI Low Symptom Patients Community Care Rate"; "PC/PCMHI Delayed User Low Comm Rate"
+"User PC/PCMHI Manageable Total Patients"; "PC/PCMHI Manageable Total Patients"
+"User PC/PCMHI New Patient Start Rate"; "PC/PCMHI New Patient Recommend Rate"
+"User PC/PCMHI Openings for GMH %"; "PC/PCMHI Openings for GMH %"
+"User PC/PCMHI Openings for New Patients %"; "PC/PCMHI Openings for New Patients %"
+"User PC/PCMHI Openings for SMH %"; "PC/PCMHI Openings for SMH %"
+"User PC/PCMHI Sensitivity of Care Quality to Patient Load"; "PC/PCMHI Effect of Patient Load on Care Quality"
+"User PC/PCMHI Sensitivity of Detection to Patient Load"; "PC/PCMHI Effect of Patient Load on Ability to Detect Symptom Changes"
+"User PC/PCMHI Sensitivity of Manageable Total Patients to Increased Patient Load"; "PC/PCMHI Effect of Patient Load on Manageable Total Patients"
+"User PC/PCMHI Sensitivity of Start Rate to Patient Load"; "PC/PCMHI Patient Load Affects New Care Episode Start Rate"
+"User PC/PCMHI Sensitivity of Start Rate to Wait Time"; "PC/PCMHI Wait Time Affects New Care Episode Start Rate"
+"User PC/PCMHI Step down from Inpatient Rate"; "Adjusted User PC/PCMHI Step down from Inpatient Rate"; "PC/PCMHI Transfer from InPt Rate"
+"User PC/PCMHI Time to Detect"; "PC/PCMHI Time to Detect"
+"User PC/PCMHI Time to Ending"; "PC/PCMHI Time to Ending"
+"User PC/PCMHI Time to Improve"; "PC/PCMHI Time to Improve"
+"User PC/PCMHI Time to Residential"; "PC/PCMHI Time to Residential"
+"User PC/PCMHI Time to UnFlag High Risk Patients"; "PC/PCMHI Time to UnFlag"
+"User PC/PCMHI to GMH Desired Wait Time to Step up"; "PC/PCMHI to GMH Desired Wait Time to Step up"
+"User PC/PCMHI to GMH Engagement Time Before Step up"; "PC/PCMHI to GMH Engagement Time Before Step up"
+"User PC/PCMHI to GMH Sensitivity of Step up Decisions to Wait Time"; "PC/PCMHI Effect of GMH Wait Time on Recommend Step up Rate"
+"User PC/PCMHI to SMH Desired Wait Time to Step up"; "PC/PCMHI to SMH Desired Wait Time to Step up"
+"User PC/PCMHI to SMH Engagement Time Before Step up"; "PC/PCMHI to SMH Engagement Time Before Step up"
+"User PC/PCMHI to SMH Sensitivity of Step up Decisions to Wait Time"; "PC/PCMHI Effect of SMH Wait Time on Recommend Step up Rate"
+"User SMH and PC/PCMHI Implement Stepped Care"; Effect of Implementing Stepped Care between SMH and PCMHI in Week Zero
+User SMH Delay to Starting Community Care; SMH Delayed User High Comm Rate; SMH Delayed User Low Comm Rate
+User SMH Desired Wait Time; SMH Desired Wait Time
+User SMH High Risk Flag Patient Time to Residential; SMH High Risk Flag Patient Time to Residential
+"User SMH High Risk Patient Flag Rate %"; "SMH High Risk Patient Flag Rate %"
+"User SMH High Symptom Patient %"; "SMH High Symptom Patient %"
+User SMH High Symptom Patients Community Care Rate; SMH Delayed User High Comm Rate
+User SMH Implement MBC; SMH Effect of Implementing MBC in Week Zero
+User SMH Low Symptom Patients Community Care Rate; SMH Delayed User Low Comm Rate
+User SMH Manageable Total Patients; SMH Manageable Total Patients
+User SMH New Patient Start Rate; SMH New Patient Recommend Rate
+"User SMH Openings for GMH %"; "SMH Openings for GMH %"
+"User SMH Openings for New Patients %"; "SMH Openings for New Patients %"
+"User SMH Openings for PC/PCMHI %"; "SMH Openings for PC/PCMHI %"
+User SMH Sensitivity of Care Quality to Patient Load; SMH Effect of Patient Load on Care Quality
+User SMH Sensitivity of Detection to Patient Load; SMH Effect of Patient Load on Ability to Detect Symptom Changes
+User SMH Sensitivity of Manageable Total Patients to Increased Patient Load; SMH Effect of Patient Load on Manageable Total Patients
+User SMH Sensitivity of Start Rate to Patient Load; SMH Patient Load Affects New Care Episode Start Rate
+User SMH Sensitivity of Start Rate to Wait Time; SMH Wait Time Affects New Care Episode Start Rate
+User SMH Step down from Inpatient Rate; Adjusted User SMH Step down from Inpatient Rate
+User SMH Time to Detect; SMH Time to Detect
+User SMH Time to Ending; SMH Time to Ending
+User SMH Time to Improve; SMH Time to Improve
+User SMH Time to Residential; SMH Time to Residential
+User SMH Time to UnFlag High Risk Patients; SMH Time to Unflag
+User SMH to GMH Desired Wait Time to Step down; SMH to GMH Desired Wait Time to Step down
+User SMH to GMH Engagement Time Before Step down; SMH to GMH Engagement Time Before Step down
+User SMH to GMH Sensitivity of Step Down Decisions to Wait Time; SMH Effect of GMH Wait Time on Recommend Step down Rate
+"User SMH to PC/PCMHI Desired Wait Time to Step down"; "SMH to PC/PCMHI Desired Wait Time to Step down"
+"User SMH to PC/PCMHI Engagement Time Before Step down"; "SMH to PC/PCMHI Engagement Time Before Step down"
+"User SMH to PC/PCMHI Sensitivity of Step Down Decisions to Wait Time"; "SMH Effect of PC/PCMHI Wait Time on Recommend Step down Rate"
+User Time from Flag PCMHI to GMH; Time from Flag PCMHI to GMH
+User Time from Flag SMH to GMH; Time from Flag SMH to GMH
+Usual Initial Patients; Initial GMH Early in Care Patients; Initial GMH High Risk Flag Patients; "Initial PC/PCMHI Early in Care Patients"; Initial SMH Early in Care Patients
+Weeks to Patients BS Conversion; "GMH to PC/PCMHI PID -- Additional Patients to Maintain Wait Time"; "GMH to SMH PID -- Additional Patients to Maintain Wait Time"; "PC/PCMHI to GMH PID -- Additional Patients to Maintain Wait Time"; "PC/PCMHI to SMH PID -- Additional Patients to Maintain Wait Time"; "SMH to GMH PID -- Additional Patients to Maintain Wait Time"; "SMH to PC/PCMHI PID -- Additional Patients to Maintain Wait Time"
+White Noise; Change in Pink Noise
+WhiteRabbitObjectGMH; Openings from Transfers in GMH
+WhiteRabbitObjectPCMHI; Openings from Transfers in PC
+WhiteRabbitObjectSMH; Openings from Transfers in SMH
