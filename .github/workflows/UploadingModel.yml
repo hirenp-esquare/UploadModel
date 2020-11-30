@@ -83,7 +83,7 @@ jobs:
       if: always()  
       run: |
         echo "SPECIAL>NOINTERACTION" > .github/workflows/DevUtility/vensimInput.cmd 
-        .github/workflows/DevUtility/makeVensimInputFile.bat "${{ ${{ needs.getFileJ.outputs.outputFile }}  }}" ".github/workflows/DevUtility/vensimInput.cmd" "${{ github.workspace }}\"
+        .github/workflows/DevUtility/makeVensimInputFile.bat "${{ needs.getFileJ.outputs.outputFile }}" ".github/workflows/DevUtility/vensimInput.cmd" "${{ github.workspace }}\"
         echo "MENU>EXIT" >> .github/workflows/DevUtility/vensimInput.cmd
    
      
