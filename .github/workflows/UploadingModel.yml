@@ -7,19 +7,19 @@ name: UploadModel
 on:
   push:
     branches: [ main ]
-    #paths:
-    #- '**.mdl'
+    paths:
+    - '**.mdl'
   #pull_request:
     #branches: [ main ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  getFileJ:
+  getFileNameList:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest #windows-latest #ubuntu-latest
     outputs:
-      outputFile: ${{ steps.getfile.outputs.files }}
+      outputFileName: ${{ steps.getFileName.outputs.fileName }}
       #output2: ${{ steps.step2.outputs.test }}
       
     # Steps represent a sequence of tasks that will be executed as part of the job
@@ -33,22 +33,22 @@ jobs:
         uses: jitterbit/get-changed-files@v1
 
       - name: '' #get changed files
-        id: getfile
+        id: getFileName
         run: |
           chmod +x .github/workflows/changedFilesFilter.sh
           awk '{ sub("\r$", ""); print }' .github/workflows/changedFilesFilter.sh > .github/workflows/changedFilesFilter2.sh
           mv .github/workflows/changedFilesFilter2.sh .github/workflows/changedFilesFilter.sh
           chmod +x .github/workflows/changedFilesFilter.sh
-          echo "::set-output name=files::$(.github/workflows/changedFilesFilter.sh "${{ steps.changedFiles.outputs.added_modified }}")"
+          echo "::set-output name=fileName::$(.github/workflows/changedFilesFilter.sh "${{ steps.changedFiles.outputs.added_modified }}")"
 
-      - name: echo output
+      - name: File Name List
         run: |
-         echo ${{ steps.getfile.outputs.files }}
+         echo ${{ steps.getFileName.outputs.fileName }}
          
-  job2:
+  UploadModel:
     # The type of runner that the job will run on
     runs-on: windows-latest
-    needs: getFileJ
+    needs: getFileNameList
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -60,7 +60,7 @@ jobs:
     - name: '' #get changed Dir Name
       id: getDirName
       run: |
-        echo "::set-output name=dirs::$(dirname ${{ needs.getFileJ.outputs.outputFile }})"
+        echo "::set-output name=dirs::$(dirname ${{ needs.getFileNameList.outputs.outputFileName }})"
     
     #- name: echo output
       #run: |
@@ -68,7 +68,7 @@ jobs:
         #echo ${{ steps.getDirName.outputs.dirs }}
     
     - name: SDM Doc
-      run: '.github\workflows\DevUtility\SDMDocUtility\ConSDM "${{ needs.getFileJ.outputs.outputFile }}" "${{ github.workspace }}\"'
+      run: '.github\workflows\DevUtility\SDMDocUtility\ConSDM "${{ needs.getFileNameList.outputs.outputFileName }}" "${{ github.workspace }}\"'
     
    
     - name: Run a one-line script
@@ -83,7 +83,7 @@ jobs:
       if: always()  
       run: |
         echo "SPECIAL>NOINTERACTION" > .github/workflows/DevUtility/vensimInput.cmd 
-        .github/workflows/DevUtility/makeVensimInputFile.bat "${{ needs.getFileJ.outputs.outputFile }}" ".github/workflows/DevUtility/vensimInput.cmd" "${{ github.workspace }}\"
+        .github/workflows/DevUtility/makeVensimInputFile.bat "${{ needs.getFileNameList.outputs.outputFileName }}" ".github/workflows/DevUtility/vensimInput.cmd" "${{ github.workspace }}\"
         echo "MENU>EXIT" >> .github/workflows/DevUtility/vensimInput.cmd
    
      
@@ -93,7 +93,7 @@ jobs:
    
     - name: Run a Deploy script # echo ${GITHUB_REF##*/} this is code for getting dynamic branch name
       if: always()   
-      run: '.github\workflows\DevUtility\DeployFilesUtility\deploy "${{ secrets.TEMPDATA }}" "${{ needs.getFileJ.outputs.outputFile }}" "Dev"'
+      run: '.github\workflows\DevUtility\DeployFilesUtility\deploy "${{ secrets.TEMPDATA }}" "${{ needs.getFileNameList.outputs.outputFileName }}" "Dev"'
     
     
     #- name: Run a one-line script
