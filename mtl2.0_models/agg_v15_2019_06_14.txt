@@ -1,6 +1,6 @@
 * Input file for SDM-Struc Tool (list of "used-by" variables).
-* Source: D:\a\UploadModel\UploadModel\mtl2.0_models/agg_v15_2019_06_14.mdl (12/1/20 - 12:50 PM)
-* This file created on 12/1/20 - 12:50 PM
+* Source: D:\a\UploadModel\UploadModel\mtl2.0_models/agg_v15_2019_06_14.mdl (12/1/20 - 12:53 PM)
+* This file created on 12/1/20 - 12:53 PM
 * This file created by SDM-Doc Tool 1.0
 * Decision and Information Sciences Division
 * Argonne National Laboratory
@@ -191,7 +191,7 @@ EBPsych Official Hours Available for Service; "EBPsych % of Hours per Service"; 
 EBPsych Patient Start Rate; EBPsych Service Proportions Balanced Across Team Variables; EBPsych Starting a Service Rate
 EBPsych Patients in Service; "EBPsych Current Pt Appts / week"; EBPsych Ending Service Rate; EBPsych Patients w AUD; EBPsych Patients w DEP; EBPsych Patients w Other Needs; EBPsych Patients w OUD; EBPsych Patients w PTSD; Total Patients in all Services
 EBPsych Patients per Appointment; "EBPsych Current Pt Appts / week"; EBPsych Demand per Patient per Week
-EBPsych Patients w AUD; Total Patients w AUD
+EBPsych Patients w AUD
 EBPsych Patients w DEP; Total Patients w DEP
 EBPsych Patients w Other Needs; Total Patients w Other Needs
 EBPsych Patients w OUD; Total Patients w OUD

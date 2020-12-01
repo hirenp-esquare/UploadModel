@@ -266,7 +266,7 @@
 		</tr>
 		<tr>
 			<td><div title='Unused Variables'><a href='#unusedVariables'>Unused Variables</a></div></td>
-			<td><center>1</center></td>
+			<td><center>2</center></td>
 		</tr>
 		<tr>
 			<td><div title='Supplementary Variables'><a href='#supplementary'>Supplementary Variables</a></div></td>
@@ -3889,9 +3889,6 @@ hi there'><a href='#complexForm'>Complex Variable Formulations (Richardson's Rul
 <ul>
 <li><a href='agg_v15_2019_06_14-V.html#view0'>View&#32;1</a></li>
 </ul>
-<b>Used by:</b><ul>
-
-<li><a href='#a460'>Total&#32;Patients&#32;w&#32;AUD</a> - <span style='color:Green'>The&#32;total&#32;number&#32;of&#32;patients&#32;across&#32;all&#32;services&#32;who&#32;have&#32;AUD&#32;as&#32;a&#32;primary&#32;diagnosis&#46;</span></li></ul>
 </td>
 </tr>
 
@@ -9759,7 +9756,7 @@ hi there'><a href='#complexForm'>Complex Variable Formulations (Richardson's Rul
 </td>
 <td>
 <a name='a460' /><b></b> (<span style='color:Red'>pts</span>)
-<br/> = <a href='#a366'>Adjunctive&#32;Patients&#32;w&#32;AUD</a>+<a href='#a500'>CC&#32;Patients&#32;w&#32;AUD</a>+<a href='#a409'>EBPsych&#32;Patients&#32;w&#32;AUD</a>+Group Patients Patients w Patients  AUD+<a href='#a503'>MM&#32;Patients&#32;w&#32;AUD</a>+<a href='#a459'>Psych&#32;Patients&#32;w&#32;AUD</a><br/><b>Description: </b><i>The&#32;total&#32;number&#32;of&#32;patients&#32;across&#32;all&#32;services&#32;who&#32;have&#32;AUD&#32;as&#32;a&#32;primary&#32;diagnosis&#46;</i><br/><b>Present in 1 view:</b>
+<br/> = <a href='#a366'>Adjunctive&#32;Patients&#32;w&#32;AUD</a>+<a href='#a500'>CC&#32;Patients&#32;w&#32;AUD</a>+EBPsych Patients w  AUD+<a href='#a503'>MM&#32;Patients&#32;w&#32;AUD</a>+<a href='#a459'>Psych&#32;Patients&#32;w&#32;AUD</a><br/><b>Description: </b><i>The&#32;total&#32;number&#32;of&#32;patients&#32;across&#32;all&#32;services&#32;who&#32;have&#32;AUD&#32;as&#32;a&#32;primary&#32;diagnosis&#46;</i><br/><b>Present in 1 view:</b>
 <ul>
 <li><a href='agg_v15_2019_06_14-V.html#view0'>View&#32;1</a></li>
 </ul>
@@ -13857,15 +13854,8 @@ hi there'><a href='#complexForm'>Complex Variable Formulations (Richardson's Rul
 <tr>
 <td style='text-align:center'>Default</td>
 <td style='text-align:center'>agg v15 2019 06 14</td>
-<td style='text-align:center'>L</td>
-<td><a href='#a463'>Intake&#32;Appointments</a> (<span style='color:Red'>appt</span>)</td>
-<td><center>4</center></td>
-</tr>
-<tr>
-<td style='text-align:center'>Default</td>
-<td style='text-align:center'>agg v15 2019 06 14</td>
-<td style='text-align:center'>A</td>
-<td><a href='#a339'>EBPsych&#32;Service&#32;Proportions</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td style='text-align:center'>LI,F,A</td>
+<td><a href='#a187'>Adjunctive&#32;Treatment&#32;Decision&#32;Rate</a> (<span style='color:Red'>pts&#47;wk&#32;&#91;0&#44;&#63;&#93;</span>)</td>
 <td><center>4</center></td>
 </tr>
 <tr>
@@ -13873,6 +13863,13 @@ hi there'><a href='#complexForm'>Complex Variable Formulations (Richardson's Rul
 <td style='text-align:center'>agg v15 2019 06 14</td>
 <td style='text-align:center'>LI,F,A</td>
 <td><a href='#a295'>Group&#32;Treatment&#32;Decision&#32;Rate</a> (<span style='color:Red'>pts&#47;wk&#32;&#91;0&#44;&#63;&#93;</span>)</td>
+<td><center>4</center></td>
+</tr>
+<tr>
+<td style='text-align:center'>Default</td>
+<td style='text-align:center'>agg v15 2019 06 14</td>
+<td style='text-align:center'>A</td>
+<td><a href='#a460'>Total&#32;Patients&#32;w&#32;AUD</a> (<span style='color:Red'>pts</span>)</td>
 <td><center>4</center></td>
 </tr>
 <tr>
@@ -13899,8 +13896,8 @@ hi there'><a href='#complexForm'>Complex Variable Formulations (Richardson's Rul
 <tr>
 <td style='text-align:center'>Default</td>
 <td style='text-align:center'>agg v15 2019 06 14</td>
-<td style='text-align:center'>LI,F,A</td>
-<td><a href='#a187'>Adjunctive&#32;Treatment&#32;Decision&#32;Rate</a> (<span style='color:Red'>pts&#47;wk&#32;&#91;0&#44;&#63;&#93;</span>)</td>
+<td style='text-align:center'>A</td>
+<td><a href='#a339'>EBPsych&#32;Service&#32;Proportions</a> (<span style='color:Red'>Dmnl</span>)</td>
 <td><center>4</center></td>
 </tr>
 <tr>
@@ -13934,13 +13931,6 @@ hi there'><a href='#complexForm'>Complex Variable Formulations (Richardson's Rul
 <tr>
 <td style='text-align:center'>Default</td>
 <td style='text-align:center'>agg v15 2019 06 14</td>
-<td style='text-align:center'>A</td>
-<td><a href='#a380'>Psych&#32;Service&#32;Proportions</a> (<span style='color:Red'>Dmnl</span>)</td>
-<td><center>4</center></td>
-</tr>
-<tr>
-<td style='text-align:center'>Default</td>
-<td style='text-align:center'>agg v15 2019 06 14</td>
 <td style='text-align:center'>LI,F,A</td>
 <td><a href='#a242'>EBPsych&#32;Treatment&#32;Decision&#32;Rate</a> (<span style='color:Red'>pts&#47;wk&#32;&#91;0&#44;&#63;&#93;</span>)</td>
 <td><center>4</center></td>
@@ -13949,8 +13939,15 @@ hi there'><a href='#complexForm'>Complex Variable Formulations (Richardson's Rul
 <td style='text-align:center'>Default</td>
 <td style='text-align:center'>agg v15 2019 06 14</td>
 <td style='text-align:center'>A</td>
-<td><a href='#a460'>Total&#32;Patients&#32;w&#32;AUD</a> (<span style='color:Red'>pts</span>)</td>
-<td><center>5</center></td>
+<td><a href='#a380'>Psych&#32;Service&#32;Proportions</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td><center>4</center></td>
+</tr>
+<tr>
+<td style='text-align:center'>Default</td>
+<td style='text-align:center'>agg v15 2019 06 14</td>
+<td style='text-align:center'>L</td>
+<td><a href='#a463'>Intake&#32;Appointments</a> (<span style='color:Red'>appt</span>)</td>
+<td><center>4</center></td>
 </tr>
 <tr>
 <td style='text-align:center'>Default</td>
@@ -14005,13 +14002,6 @@ hi there'><a href='#complexForm'>Complex Variable Formulations (Richardson's Rul
 <td style='text-align:center'>Default</td>
 <td style='text-align:center'>agg v15 2019 06 14</td>
 <td style='text-align:center'>A</td>
-<td><a href='#a450'>Total&#32;Patients&#32;w&#32;OUD</a> (<span style='color:Red'>pts</span>)</td>
-<td><center>6</center></td>
-</tr>
-<tr>
-<td style='text-align:center'>Default</td>
-<td style='text-align:center'>agg v15 2019 06 14</td>
-<td style='text-align:center'>A</td>
 <td><a href='#a310'>Total&#32;Patients&#32;w&#32;Other&#32;Needs</a> (<span style='color:Red'>pts</span>)</td>
 <td><center>6</center></td>
 </tr>
@@ -14033,6 +14023,20 @@ hi there'><a href='#complexForm'>Complex Variable Formulations (Richardson's Rul
 <td style='text-align:center'>Default</td>
 <td style='text-align:center'>agg v15 2019 06 14</td>
 <td style='text-align:center'>A</td>
+<td><a href='#a450'>Total&#32;Patients&#32;w&#32;OUD</a> (<span style='color:Red'>pts</span>)</td>
+<td><center>6</center></td>
+</tr>
+<tr>
+<td style='text-align:center'>Default</td>
+<td style='text-align:center'>agg v15 2019 06 14</td>
+<td style='text-align:center'>L</td>
+<td><a href='#a404'>Adjunctive&#32;Appointments</a> (<span style='color:Red'>appt</span>)</td>
+<td><center>7</center></td>
+</tr>
+<tr>
+<td style='text-align:center'>Default</td>
+<td style='text-align:center'>agg v15 2019 06 14</td>
+<td style='text-align:center'>A</td>
 <td><a href='#a452'>&#34;Total&#32;Appt&#46;&#32;Supply&#34;</a> (<span style='color:Red'>hrs&#47;wk</span>)</td>
 <td><center>7</center></td>
 </tr>
@@ -14047,7 +14051,7 @@ hi there'><a href='#complexForm'>Complex Variable Formulations (Richardson's Rul
 <td style='text-align:center'>Default</td>
 <td style='text-align:center'>agg v15 2019 06 14</td>
 <td style='text-align:center'>L</td>
-<td><a href='#a404'>Adjunctive&#32;Appointments</a> (<span style='color:Red'>appt</span>)</td>
+<td><a href='#a477'>Group&#32;Appointments</a> (<span style='color:Red'>appt</span>)</td>
 <td><center>7</center></td>
 </tr>
 <tr>
@@ -14061,7 +14065,7 @@ hi there'><a href='#complexForm'>Complex Variable Formulations (Richardson's Rul
 <td style='text-align:center'>Default</td>
 <td style='text-align:center'>agg v15 2019 06 14</td>
 <td style='text-align:center'>L</td>
-<td><a href='#a477'>Group&#32;Appointments</a> (<span style='color:Red'>appt</span>)</td>
+<td><a href='#a471'>Psych&#32;Appointments</a> (<span style='color:Red'>appt</span>)</td>
 <td><center>7</center></td>
 </tr>
 <tr>
@@ -14076,13 +14080,6 @@ hi there'><a href='#complexForm'>Complex Variable Formulations (Richardson's Rul
 <td style='text-align:center'>agg v15 2019 06 14</td>
 <td style='text-align:center'>L</td>
 <td><a href='#a438'>EBPsych&#32;Appointments</a> (<span style='color:Red'>appt</span>)</td>
-<td><center>7</center></td>
-</tr>
-<tr>
-<td style='text-align:center'>Default</td>
-<td style='text-align:center'>agg v15 2019 06 14</td>
-<td style='text-align:center'>L</td>
-<td><a href='#a471'>Psych&#32;Appointments</a> (<span style='color:Red'>appt</span>)</td>
 <td><center>7</center></td>
 </tr>
 </table>
@@ -14511,12 +14508,18 @@ hi there'><a href='#complexForm'>Complex Variable Formulations (Richardson's Rul
 </table>
 <hr style='height:1px; color:Blue'/>
 <a name='unusedVariables' />
-<h3>List of 1 Unused Variable</h3><table class='sample'>
+<h3>List of 2 Unused Variables</h3><table class='sample'>
 <tr>
 <td style='vertical-align:bottom; color:Blue'><center>Module</center></td>
 <td style='vertical-align:bottom; color:Blue'><center><b><i>Group</i></b></center></td>
 <td style='vertical-align:bottom; color:Blue'><center>Type</center></td>
-<td style='vertical-align:bottom; color:Blue'>Variable (1)</td>
+<td style='vertical-align:bottom; color:Blue'>Variable (2)</td>
+</tr>
+<tr>
+<td style='text-align:center'>Default</td>
+<td style='text-align:center'>agg v15 2019 06 14</td>
+<td style='text-align:center'>A</td>
+<td><a href='#a409'>EBPsych&#32;Patients&#32;w&#32;AUD</a> (<span style='color:Red'>pts</span>)</td>
 </tr>
 <tr>
 <td style='text-align:center'>Default</td>
@@ -18135,8 +18138,8 @@ hi there'><a href='#complexForm'>Complex Variable Formulations (Richardson's Rul
 <hr style='height:1px; color:Blue'/>
 <div align='right' style='font-size:small;'>
 <span style='font-family:Microsoft Sans Serif; font-size:x-small;'>
-Source file: agg_v15_2019_06_14.mdl (1Dec2020 - 12:50:42 PM)
-<br />Report Created on 1/Dec/2020 - 12:50:55 PM<br/><a href='http://www.dis.anl.gov/feedback/sys_dyn_model.php?tname=your name&temail=your email&tphone=&tlocation=&tversion=1.0'>SDM-Doc Tool</a> Version 1.0
+Source file: agg_v15_2019_06_14.mdl (1Dec2020 - 12:53:23 PM)
+<br />Report Created on 1/Dec/2020 - 12:53:35 PM<br/><a href='http://www.dis.anl.gov/feedback/sys_dyn_model.php?tname=your name&temail=your email&tphone=&tlocation=&tversion=1.0'>SDM-Doc Tool</a> Version 1.0
 <br /><a href='http://www.dis.anl.gov'>Decision and Information Sciences Division</a>
 <br /><a href='http://www.anl.gov'>Argonne National Laboratory</a>
 </span>

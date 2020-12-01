@@ -266,7 +266,7 @@
 		</tr>
 		<tr>
 			<td><div title='Unused Variables'><a href='#unusedVariables'>Unused Variables</a></div></td>
-			<td><center>1</center></td>
+			<td><center>2</center></td>
 		</tr>
 		<tr>
 			<td><div title='Supplementary Variables'><a href='#supplementary'>Supplementary Variables</a></div></td>
@@ -3905,9 +3905,6 @@ y-z&nbsp;&nbsp;&nbsp;
 <ul>
 <li><a href=''>View&#32;1</a></li>
 </ul>
-<b>Used by:</b><ul>
-
-<li><a href='#a460'>Total&#32;Patients&#32;w&#32;AUD</a> - <span style='color:Green'>The&#32;total&#32;number&#32;of&#32;patients&#32;across&#32;all&#32;services&#32;who&#32;have&#32;AUD&#32;as&#32;a&#32;primary&#32;diagnosis&#46;</span></li></ul>
 </td>
 </tr>
 
@@ -9825,7 +9822,7 @@ y-z&nbsp;&nbsp;&nbsp;
 </td>
 <td>
 <a name='a460' /><b></b> (<span style='color:Red'>pts</span>)
-<br/> = <a href='#a366'>Adjunctive&#32;Patients&#32;w&#32;AUD</a>+<a href='#a500'>CC&#32;Patients&#32;w&#32;AUD</a>+<a href='#a409'>EBPsych&#32;Patients&#32;w&#32;AUD</a>+Group Patients Patients w Patients  AUD+<a href='#a503'>MM&#32;Patients&#32;w&#32;AUD</a>+<a href='#a459'>Psych&#32;Patients&#32;w&#32;AUD</a><br/><b>Description: </b><i>The&#32;total&#32;number&#32;of&#32;patients&#32;across&#32;all&#32;services&#32;who&#32;have&#32;AUD&#32;as&#32;a&#32;primary&#32;diagnosis&#46;</i><br/><b>Present in 1 view:</b>
+<br/> = <a href='#a366'>Adjunctive&#32;Patients&#32;w&#32;AUD</a>+<a href='#a500'>CC&#32;Patients&#32;w&#32;AUD</a>+EBPsych Patients w  AUD+<a href='#a503'>MM&#32;Patients&#32;w&#32;AUD</a>+<a href='#a459'>Psych&#32;Patients&#32;w&#32;AUD</a><br/><b>Description: </b><i>The&#32;total&#32;number&#32;of&#32;patients&#32;across&#32;all&#32;services&#32;who&#32;have&#32;AUD&#32;as&#32;a&#32;primary&#32;diagnosis&#46;</i><br/><b>Present in 1 view:</b>
 <ul>
 <li><a href=''>View&#32;1</a></li>
 </ul>
@@ -13862,6 +13859,13 @@ y-z&nbsp;&nbsp;&nbsp;
 <tr>
 <td style='text-align:center'>Default</td>
 <td style='text-align:center'>agg v15 2019 06 14</td>
+<td style='text-align:center'>A</td>
+<td><a href='#a460'>Total&#32;Patients&#32;w&#32;AUD</a> (<span style='color:Red'>pts</span>)</td>
+<td><center>4</center></td>
+</tr>
+<tr>
+<td style='text-align:center'>Default</td>
+<td style='text-align:center'>agg v15 2019 06 14</td>
 <td style='text-align:center'>LI,F,A</td>
 <td><a href='#a295'>Group&#32;Treatment&#32;Decision&#32;Rate</a> (<span style='color:Red'>pts&#47;wk&#32;&#91;0&#44;&#63;&#93;</span>)</td>
 <td><center>4</center></td>
@@ -13897,43 +13901,8 @@ y-z&nbsp;&nbsp;&nbsp;
 <tr>
 <td style='text-align:center'>Default</td>
 <td style='text-align:center'>agg v15 2019 06 14</td>
-<td style='text-align:center'>LI,F,A</td>
-<td><a href='#a242'>EBPsych&#32;Treatment&#32;Decision&#32;Rate</a> (<span style='color:Red'>pts&#47;wk&#32;&#91;0&#44;&#63;&#93;</span>)</td>
-<td><center>4</center></td>
-</tr>
-<tr>
-<td style='text-align:center'>Default</td>
-<td style='text-align:center'>agg v15 2019 06 14</td>
 <td style='text-align:center'>A</td>
 <td><a href='#a339'>EBPsych&#32;Service&#32;Proportions</a> (<span style='color:Red'>Dmnl</span>)</td>
-<td><center>4</center></td>
-</tr>
-<tr>
-<td style='text-align:center'>Default</td>
-<td style='text-align:center'>agg v15 2019 06 14</td>
-<td style='text-align:center'>A</td>
-<td><a href='#a418'>CC&#32;Service&#32;Proportions</a> (<span style='color:Red'>Dmnl</span>)</td>
-<td><center>4</center></td>
-</tr>
-<tr>
-<td style='text-align:center'>Default</td>
-<td style='text-align:center'>agg v15 2019 06 14</td>
-<td style='text-align:center'>A</td>
-<td><a href='#a380'>Psych&#32;Service&#32;Proportions</a> (<span style='color:Red'>Dmnl</span>)</td>
-<td><center>4</center></td>
-</tr>
-<tr>
-<td style='text-align:center'>Default</td>
-<td style='text-align:center'>agg v15 2019 06 14</td>
-<td style='text-align:center'>A</td>
-<td><a href='#a419'>MM&#32;Service&#32;Proportions</a> (<span style='color:Red'>Dmnl</span>)</td>
-<td><center>4</center></td>
-</tr>
-<tr>
-<td style='text-align:center'>Default</td>
-<td style='text-align:center'>agg v15 2019 06 14</td>
-<td style='text-align:center'>LI,F,A</td>
-<td><a href='#a300'>Psych&#32;Treatment&#32;Decision&#32;Rate</a> (<span style='color:Red'>pts&#47;wk&#32;&#91;0&#44;&#63;&#93;</span>)</td>
 <td><center>4</center></td>
 </tr>
 <tr>
@@ -13953,36 +13922,57 @@ y-z&nbsp;&nbsp;&nbsp;
 <tr>
 <td style='text-align:center'>Default</td>
 <td style='text-align:center'>agg v15 2019 06 14</td>
+<td style='text-align:center'>LI,F,A</td>
+<td><a href='#a242'>EBPsych&#32;Treatment&#32;Decision&#32;Rate</a> (<span style='color:Red'>pts&#47;wk&#32;&#91;0&#44;&#63;&#93;</span>)</td>
+<td><center>4</center></td>
+</tr>
+<tr>
+<td style='text-align:center'>Default</td>
+<td style='text-align:center'>agg v15 2019 06 14</td>
 <td style='text-align:center'>A</td>
-<td><a href='#a460'>Total&#32;Patients&#32;w&#32;AUD</a> (<span style='color:Red'>pts</span>)</td>
-<td><center>5</center></td>
+<td><a href='#a419'>MM&#32;Service&#32;Proportions</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td><center>4</center></td>
+</tr>
+<tr>
+<td style='text-align:center'>Default</td>
+<td style='text-align:center'>agg v15 2019 06 14</td>
+<td style='text-align:center'>A</td>
+<td><a href='#a380'>Psych&#32;Service&#32;Proportions</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td><center>4</center></td>
+</tr>
+<tr>
+<td style='text-align:center'>Default</td>
+<td style='text-align:center'>agg v15 2019 06 14</td>
+<td style='text-align:center'>LI,F,A</td>
+<td><a href='#a300'>Psych&#32;Treatment&#32;Decision&#32;Rate</a> (<span style='color:Red'>pts&#47;wk&#32;&#91;0&#44;&#63;&#93;</span>)</td>
+<td><center>4</center></td>
+</tr>
+<tr>
+<td style='text-align:center'>Default</td>
+<td style='text-align:center'>agg v15 2019 06 14</td>
+<td style='text-align:center'>A</td>
+<td><a href='#a418'>CC&#32;Service&#32;Proportions</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td><center>4</center></td>
+</tr>
+<tr>
+<td style='text-align:center'>Default</td>
+<td style='text-align:center'>agg v15 2019 06 14</td>
+<td style='text-align:center'>A</td>
+<td><a href='#a223'>Total&#32;Starting&#32;any&#32;Service&#32;w&#32;DEP</a> (<span style='color:Red'>pts&#47;wk</span>)</td>
+<td><center>6</center></td>
+</tr>
+<tr>
+<td style='text-align:center'>Default</td>
+<td style='text-align:center'>agg v15 2019 06 14</td>
+<td style='text-align:center'>A</td>
+<td><a href='#a219'>Total&#32;Starting&#32;any&#32;Service&#32;w&#32;OUD</a> (<span style='color:Red'>pts&#47;wk</span>)</td>
+<td><center>6</center></td>
 </tr>
 <tr>
 <td style='text-align:center'>Default</td>
 <td style='text-align:center'>agg v15 2019 06 14</td>
 <td style='text-align:center'>A</td>
 <td><a href='#a127'>Total&#32;Starting&#32;any&#32;Service&#32;w&#32;Other&#32;Needs</a> (<span style='color:Red'>pts&#47;wk</span>)</td>
-<td><center>6</center></td>
-</tr>
-<tr>
-<td style='text-align:center'>Default</td>
-<td style='text-align:center'>agg v15 2019 06 14</td>
-<td style='text-align:center'>A</td>
-<td><a href='#a310'>Total&#32;Patients&#32;w&#32;Other&#32;Needs</a> (<span style='color:Red'>pts</span>)</td>
-<td><center>6</center></td>
-</tr>
-<tr>
-<td style='text-align:center'>Default</td>
-<td style='text-align:center'>agg v15 2019 06 14</td>
-<td style='text-align:center'>A</td>
-<td><a href='#a442'>Total&#32;Patients&#32;w&#32;DEP</a> (<span style='color:Red'>pts</span>)</td>
-<td><center>6</center></td>
-</tr>
-<tr>
-<td style='text-align:center'>Default</td>
-<td style='text-align:center'>agg v15 2019 06 14</td>
-<td style='text-align:center'>A</td>
-<td><a href='#a273'>Total&#32;Patients&#32;in&#32;all&#32;Services</a> (<span style='color:Red'>pts</span>)</td>
 <td><center>6</center></td>
 </tr>
 <tr>
@@ -14003,14 +13993,14 @@ y-z&nbsp;&nbsp;&nbsp;
 <td style='text-align:center'>Default</td>
 <td style='text-align:center'>agg v15 2019 06 14</td>
 <td style='text-align:center'>A</td>
-<td><a href='#a223'>Total&#32;Starting&#32;any&#32;Service&#32;w&#32;DEP</a> (<span style='color:Red'>pts&#47;wk</span>)</td>
+<td><a href='#a357'>Total&#32;Starting&#32;any&#32;Service</a> (<span style='color:Red'>pts&#47;wk</span>)</td>
 <td><center>6</center></td>
 </tr>
 <tr>
 <td style='text-align:center'>Default</td>
 <td style='text-align:center'>agg v15 2019 06 14</td>
 <td style='text-align:center'>A</td>
-<td><a href='#a219'>Total&#32;Starting&#32;any&#32;Service&#32;w&#32;OUD</a> (<span style='color:Red'>pts&#47;wk</span>)</td>
+<td><a href='#a273'>Total&#32;Patients&#32;in&#32;all&#32;Services</a> (<span style='color:Red'>pts</span>)</td>
 <td><center>6</center></td>
 </tr>
 <tr>
@@ -14024,7 +14014,14 @@ y-z&nbsp;&nbsp;&nbsp;
 <td style='text-align:center'>Default</td>
 <td style='text-align:center'>agg v15 2019 06 14</td>
 <td style='text-align:center'>A</td>
-<td><a href='#a357'>Total&#32;Starting&#32;any&#32;Service</a> (<span style='color:Red'>pts&#47;wk</span>)</td>
+<td><a href='#a442'>Total&#32;Patients&#32;w&#32;DEP</a> (<span style='color:Red'>pts</span>)</td>
+<td><center>6</center></td>
+</tr>
+<tr>
+<td style='text-align:center'>Default</td>
+<td style='text-align:center'>agg v15 2019 06 14</td>
+<td style='text-align:center'>A</td>
+<td><a href='#a310'>Total&#32;Patients&#32;w&#32;Other&#32;Needs</a> (<span style='color:Red'>pts</span>)</td>
 <td><center>6</center></td>
 </tr>
 <tr>
@@ -14516,12 +14513,18 @@ y-z&nbsp;&nbsp;&nbsp;
 </table>
 <hr style='height:1px; color:Blue'/>
 <a name='unusedVariables' />
-<h3>List of 1 Unused Variable</h3><table class='sample'>
+<h3>List of 2 Unused Variables</h3><table class='sample'>
 <tr>
 <td style='vertical-align:bottom; color:Blue'><center>Module</center></td>
 <td style='vertical-align:bottom; color:Blue'><center>Group</center></td>
 <td style='vertical-align:bottom; color:Blue'><center>Type</center></td>
-<td style='vertical-align:bottom; color:Blue'><b><i>Unused Variable</i></b> (1)</td>
+<td style='vertical-align:bottom; color:Blue'><b><i>Unused Variable</i></b> (2)</td>
+</tr>
+<tr>
+<td style='text-align:center'>Default</td>
+<td style='text-align:center'>agg v15 2019 06 14</td>
+<td style='text-align:center'>A</td>
+<td><a href='#a409'>EBPsych&#32;Patients&#32;w&#32;AUD</a> (<span style='color:Red'>pts</span>)</td>
 </tr>
 <tr>
 <td style='text-align:center'>Default</td>
@@ -18140,8 +18143,8 @@ y-z&nbsp;&nbsp;&nbsp;
 <hr style='height:1px; color:Blue'/>
 <div align='right' style='font-size:small;'>
 <span style='font-family:Microsoft Sans Serif; font-size:x-small;'>
-Source file: agg_v15_2019_06_14.mdl (1Dec2020 - 12:50:42 PM)
-<br />Report Created on 1/Dec/2020 - 12:50:54 PM<br/><a href='http://www.dis.anl.gov/feedback/sys_dyn_model.php?tname=your name&temail=your email&tphone=&tlocation=&tversion=1.0'>SDM-Doc Tool</a> Version 1.0
+Source file: agg_v15_2019_06_14.mdl (1Dec2020 - 12:53:23 PM)
+<br />Report Created on 1/Dec/2020 - 12:53:35 PM<br/><a href='http://www.dis.anl.gov/feedback/sys_dyn_model.php?tname=your name&temail=your email&tphone=&tlocation=&tversion=1.0'>SDM-Doc Tool</a> Version 1.0
 <br /><a href='http://www.dis.anl.gov'>Decision and Information Sciences Division</a>
 <br /><a href='http://www.anl.gov'>Argonne National Laboratory</a>
 </span>
