@@ -61,10 +61,15 @@ jobs:
       id: getDirName
       run: |
         echo "::set-output name=dirs::$(dirname ${{ needs.getFileNameList.outputs.outputFileName }})"
+        
+    - name: '' #get changed Dir Name
+      id: getSDMDocFile
+      run: |
+        echo "::set-output name=SDMDocFile::$(sdmDocFileCommit.bat "${{ needs.getFileNameList.outputs.outputFileName }}" "cc_v36_2019_09_06.mdl psy_v21_2019_11_04.mdl mm_v36_2019_09_06.mdl")"
     
-    #- name: echo output
-      #run: |
-        #echo ${{ steps.getfile.outputs.files }}
+    - name: echo output
+      run: |
+        echo ${{ steps.getSDMDocFile.outputs.SDMDocFile }}
         #echo ${{ steps.getDirName.outputs.dirs }}
     
     - name: SDM Doc
