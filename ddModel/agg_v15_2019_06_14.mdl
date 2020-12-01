@@ -1,6 +1,6 @@
 {UTF-8}
 Total Patients w AUD=
-	Adjunctive Patients w AUD+CC Patients w AUD+EBPsych Patients w AUD+Group Patients w AUD\
+	Adjunctive Patients w AUD+CC Patients w AUD+EBPsych Patients w AUD+Group Patients Patients w AUD\
 		+MM Patients w AUD+Psych Patients w AUD
 	~	pts
 	~	The total number of patients across all services who have AUD as a primary \
