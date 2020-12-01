@@ -65,7 +65,7 @@ jobs:
     - name: '' #get changed Dir Name
       id: getSDMDocFile
       run: |
-        echo "::set-output name=SDMDocFile::$(.github/workflows/DevUtility/sdmDocFileCommit.bat "cc_v36_2019_09_06.mdl psy_v21_2019_11_04.mdl mm_v36_2019_09_06.mdl")"
+        echo "::set-output name=SDMDocFile::$(.github/workflows/DevUtility/sdmDocFileCommit.bat "${{ needs.getFileNameList.outputs.outputFileName }}")"
     
     - name: echo output
       run: |
