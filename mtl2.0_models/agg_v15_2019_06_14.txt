@@ -1,6 +1,6 @@
 * Input file for SDM-Struc Tool (list of "used-by" variables).
-* Source: D:\a\UploadModel\UploadModel\mtl2.0_models/agg_v15_2019_06_14.mdl (11/26/20 - 11:56 AM)
-* This file created on 11/26/20 - 11:56 AM
+* Source: D:\a\UploadModel\UploadModel\mtl2.0_models/agg_v15_2019_06_14.mdl (12/1/20 - 12:50 PM)
+* This file created on 12/1/20 - 12:50 PM
 * This file created by SDM-Doc Tool 1.0
 * Decision and Information Sciences Division
 * Argonne National Laboratory
@@ -267,7 +267,7 @@ Group Official Hours Available for Service; "Group % of Hours per Service"; Grou
 Group Patient Start Rate; Group Service Proportions Balanced Across Team Variables; Group Starting a Service Rate
 Group Patients in Service; "Group Current Pt Appts / week"; Group Ending Service Rate; Group Patients w AUD; Group Patients w DEP; Group Patients w Other Needs; Group Patients w OUD; Group Patients w PTSD; Total Patients in all Services
 Group Patients per Appointment; "Group Current Pt Appts / week"; Group Demand per Patient per Week
-Group Patients w AUD; Total Patients w AUD
+Group Patients w AUD
 Group Patients w DEP; Total Patients w DEP
 Group Patients w Other Needs; Total Patients w Other Needs
 Group Patients w OUD; Total Patients w OUD
