@@ -65,7 +65,7 @@ jobs:
     - name: '' #get changed Dir Name
       id: getSDMDocFile
       run: |
-        echo "::set-output name=SDMDocFile::$(.github/workflows/DevUtility/sdmDocFileCommit.bat "${{ needs.getFileNameList.outputs.outputFileName }}" "${{ github.workspace }}\")"
+        echo "::set-output name=SDMDocFile::$(.github/workflows/DevUtility/sdmDocFileCommit.bat "${{ needs.getFileNameList.outputs.outputFileName }}")"
     
     - name: echo output
       run: |
@@ -76,12 +76,12 @@ jobs:
       run: '.github\workflows\DevUtility\SDMDocUtility\ConSDM "${{ needs.getFileNameList.outputs.outputFileName }}" "${{ github.workspace }}\"'
     
    
-    - name: Run a one-line script
+    - name: Commit SDM-Doc File
       run: |
         git config user.name github-actions
         git config user.email github-actions@github.com
-        git add -- ${{ steps.getSDMDocFile.outputs.SDMDocFile }} #DSModel/agg_v15_2019_06_14-A.html DSModel/sp_v4_2020_06_12-A.html
-        git commit -m'SMD Doc Commit' -- ${{ steps.getSDMDocFile.outputs.SDMDocFile }} #DSModel/agg_v15_2019_06_14-A.html DSModel/sp_v4_2020_06_12-A.html
+        git add -- ${{ steps.getSDMDocFile.outputs.SDMDocFile }} 
+        git commit -m'SMD Doc Commit' -- ${{ steps.getSDMDocFile.outputs.SDMDocFile }} 
         git push
        
     - name: Generating Vensim input file
