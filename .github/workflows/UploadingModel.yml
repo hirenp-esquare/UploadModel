@@ -80,7 +80,7 @@ jobs:
       run: |
         git config user.name github-actions
         git config user.email github-actions@github.com
-        git add -- ${{ steps.getSDMDocFile.outputs.SDMDocFile }}
+        git add -- "${{ steps.getSDMDocFile.outputs.SDMDocFile }}"
         git commit -m'SMD Doc Commit' 
         git push
        
