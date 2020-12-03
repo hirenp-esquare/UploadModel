@@ -6,11 +6,14 @@ name: UploadModel
 # events but only for the master branch
 on:
   push:
-    branches: [ main ]
+    branches: [ Test,Dev ]
     paths:
     - '**.mdl'
-  #pull_request:
-    #branches: [ main ]
+  pull_request:
+    branches: [master]
+    types: [closed]
+    paths:
+    - '**.mdl'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -20,6 +23,7 @@ jobs:
     runs-on: ubuntu-latest #windows-latest #ubuntu-latest
     outputs:
       outputFileName: ${{ steps.getFileName.outputs.fileName }}
+      outputBranchName: ${{ steps.extract_branch.outputs.branch }}
       #output2: ${{ steps.step2.outputs.test }}
       
     # Steps represent a sequence of tasks that will be executed as part of the job
@@ -31,6 +35,11 @@ jobs:
 
       - id: changedFiles
         uses: jitterbit/get-changed-files@v1
+      
+      - name: Extract branch name
+        #shell: bash
+        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+        id: extract_branch
 
       - name: '' #get changed files
         id: getFileName
@@ -70,6 +79,7 @@ jobs:
     - name: echo output
       run: |
         echo ${{ steps.getSDMDocFile.outputs.SDMDocFile }}
+        echo ${{ needs.getFileNameList.outputs.outputBranchName }}
         #echo ${{ steps.getDirName.outputs.dirs }}
     
     - name: SDM Doc
@@ -98,7 +108,7 @@ jobs:
    
     - name: Run a Deploy script # echo ${GITHUB_REF##*/} this is code for getting dynamic branch name
       if: always()   
-      run: '.github\workflows\DevUtility\DeployFilesUtility\deploy "${{ secrets.TEMPDATA }}" "${{ needs.getFileNameList.outputs.outputFileName }}" "Dev"'
+      run: '.github\workflows\DevUtility\DeployFilesUtility\deploy "${{ secrets.TEMPDATA }}" "${{ needs.getFileNameList.outputs.outputFileName }}" "${{ needs.getFileNameList.outputs.outputBranchName }}"'
     
     
     #- name: Run a one-line script
