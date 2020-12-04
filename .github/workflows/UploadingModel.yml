@@ -6,7 +6,7 @@ name: UploadModel
 # events but only for the master branch
 on:
   push:
-    branches: [ Test,Dev ]
+    branches: [main] #[ Test,Dev ]
     paths:
     - '**.mdl'
   pull_request:
@@ -112,6 +112,11 @@ jobs:
     - name: Convert .mdl to .VFM and .mdl to .xmile
       if: always()  
       run: .github\workflows\DevUtility\VensimUtility\vensim ".github\workflows\DevUtility\vensimInput.cmd"
+      
+    - name: Run a one-line script
+      run: | 
+        git status
+        type  .github/workflows/DevUtility/vensimInput.cmd    
     
     - name: Commit XMile File
       run: |
