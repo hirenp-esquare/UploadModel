@@ -76,9 +76,15 @@ jobs:
       run: |
         echo "::set-output name=SDMDocFile::$(.github/workflows/DevUtility/sdmDocFileCommit.bat "${{ needs.getFileNameList.outputs.outputFileName }}")"
     
+    - name: '' #get changed Dir Name
+      id: getModelXmileFile
+      run: |
+        echo "::set-output name=ModelXmileFile::$(.github/workflows/DevUtility/model_xmile_FileCommit.bat "${{ needs.getFileNameList.outputs.outputFileName }}")"
+    
     - name: echo output
       run: |
         echo ${{ steps.getSDMDocFile.outputs.SDMDocFile }}
+        echo ${{ steps.getModelXmileFile.outputs.ModelXmileFile }}
         echo ${{ needs.getFileNameList.outputs.outputBranchName }}
         #echo ${{ steps.getDirName.outputs.dirs }}
     
@@ -93,6 +99,7 @@ jobs:
         git add -- ${{ steps.getSDMDocFile.outputs.SDMDocFile }} 
         git commit -m'SMD Doc Commit' -- ${{ steps.getSDMDocFile.outputs.SDMDocFile }} 
         git push
+      
        
     - name: Generating Vensim input file
       if: always()  
@@ -102,9 +109,17 @@ jobs:
         echo "MENU>EXIT" >> .github/workflows/DevUtility/vensimInput.cmd
    
      
-    - name: Convert .mdl to .VFM
+    - name: Convert .mdl to .VFM and .mdl to .xmile
       if: always()  
       run: .github\workflows\DevUtility\VensimUtility\vensim ".github\workflows\DevUtility\vensimInput.cmd"
+    
+    - name: Commit XMile File
+      run: |
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git add -- ${{ steps.getModelXmileFile.outputs.ModelXmileFile }}
+        git commit -m'Model Xmile Commit' -- ${{ steps.getModelXmileFile.outputs.ModelXmileFile }}
+        git push
    
     - name: Run a Deploy script # echo ${GITHUB_REF##*/} this is code for getting dynamic branch name
       if: always()   
