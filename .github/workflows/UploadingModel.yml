@@ -111,7 +111,7 @@ jobs:
      
     - name: Convert .mdl to .VFM and .mdl to .xmile
       if: always()  
-      run: .github\workflows\DevUtility\VensimUtility\vensim ".github\workflows\DevUtility\vensimInput.cmd"
+      run: .github\workflows\DevUtility\VensimUtility\vendss64 ".github\workflows\DevUtility\vensimInput.cmd"
     
     - name: Commit XMile File
       run: |
