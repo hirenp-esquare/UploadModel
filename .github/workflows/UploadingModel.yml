@@ -105,7 +105,9 @@ jobs:
       if: always()  
       run: |
         echo "SPECIAL>NOINTERACTION" > .github/workflows/DevUtility/vensimInput.cmd 
+        echo "SPECIAL>CONTINUEONERROR|1" >> .github/workflows/DevUtility/vensimInput.cmd 
         .github/workflows/DevUtility/makeVensimInputFile.bat "${{ needs.getFileNameList.outputs.outputFileName }}" ".github/workflows/DevUtility/vensimInput.cmd" "${{ github.workspace }}\"
+        echo "SPECIAL>CONTINUEONERROR|0" >> .github/workflows/DevUtility/vensimInput.cmd
         echo "MENU>EXIT" >> .github/workflows/DevUtility/vensimInput.cmd
    
      
