@@ -115,6 +115,11 @@ jobs:
       if: always()  
       run: .github\workflows\DevUtility\VensimUtility\vendss64 ".github\workflows\DevUtility\vensimInput.cmd"
     
+    - name: Run a one-line script
+      run: | 
+        git status
+        type  .github/workflows/DevUtility/vensimInput.cmd 
+    
     - name: Commit XMile File
       run: |
         git config user.name github-actions
@@ -122,6 +127,7 @@ jobs:
         git add -- ${{ steps.getModelXmileFile.outputs.ModelXmileFile }}
         git commit -m'Model Xmile Commit' -- ${{ steps.getModelXmileFile.outputs.ModelXmileFile }}
         git push
+    
    
     - name: Run a Deploy script # echo ${GITHUB_REF##*/} this is code for getting dynamic branch name
       if: always()   
