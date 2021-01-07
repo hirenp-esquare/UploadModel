@@ -7,15 +7,3 @@ patel
 
 Test
 
-
-hello
-patel
-
-
-Test
-
-Hello
-Hello
-
-Hello
-Hello
