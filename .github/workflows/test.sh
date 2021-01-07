@@ -44,11 +44,11 @@ fi
 
 echo "Adding git commit"
 echo git add .
-if echo git status | grep -q "Changes to be committed"
-then
-  echo git commit --message "$INPUT_COMMIT_MESSAGE"
-  echo "Pushing git commit"
-  echo git push -u origin HEAD:$OUTPUT_BRANCH
-else
-  echo "No changes detected"
-fi
+#if echo git status | grep -q "Changes to be committed"
+#then
+echo git commit --message "$INPUT_COMMIT_MESSAGE"
+echo "Pushing git commit"
+echo git push -u origin HEAD:$OUTPUT_BRANCH
+#else
+ # echo "No changes detected"
+#fi
