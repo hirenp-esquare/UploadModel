@@ -56,7 +56,7 @@ jobs:
          
       - name: Uploading Model to another Repository (sim_ui)
         run: |
-         chmod +x .github/workflows/test.sh
+         chmod +x .github/workflows/UploadingModel.sh
          awk '{ sub("\r$", ""); print }' .github/workflows/UploadingModel.sh > .github/workflows/UploadingModel2.sh
          mv .github/workflows/UploadingModel2.sh .github/workflows/UploadingModel.sh
          chmod +x .github/workflows/UploadingModel.sh 
