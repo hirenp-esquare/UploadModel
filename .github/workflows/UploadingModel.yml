@@ -39,9 +39,9 @@ jobs:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
           source_file: 'test2.md'
-          destination_repo: 'hirenp-waferwire/sim_ui'
-          destination_branch: 'Dev'
-          destination_folder: 'model'
+          destination_repo: 'hirenp-waferwire/Demo'
+          destination_branch: 'main'
+          destination_folder: 'modelData'
           user_email: 'hirenp@waferwire.com'
           user_name: 'hirenp-waferwire'
           commit_message: 'Model Upload'
