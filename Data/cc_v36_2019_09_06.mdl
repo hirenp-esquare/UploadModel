@@ -19,7 +19,7 @@ Target New Patient Wait Time=
 		(Time<Experiment Week,"Adjusted New Patient Wait Time (median)"
 	,Target Wait Time))
 	~	wk
-	~	The acceptable average wait time for new patients to start Care \
+	~	The acceptable average wait time Dev Testing for new patients to start Care \
 		Coordination, based on the team's data. The user can also enter their own \
 		new patient wait time goal.
 	|
