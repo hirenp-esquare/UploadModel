@@ -6,9 +6,9 @@ name: UploadModel
 # events but only for the master branch
 on:
   push:
-    branches: [ Test,Dev ]
-    paths:
-    - '**.mdl'
+    branches: [main] #[ Test,Dev ]
+    #paths:
+    #- '**.mdl'
   pull_request:
     branches: [master]
     types: [closed]
@@ -32,6 +32,19 @@ jobs:
       - uses: actions/checkout@v2
         with:
          fetch-depth: "0"
+         
+      - name: Pushes test file
+        uses: dmnemec/copy_file_to_another_repo_action@v1.0.4
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source_file: 'test2.md'
+          destination_repo: 'https://github.com/hirenp-waferwire/sim_ui'
+          destination_branch: 'Dev'
+          destination_folder: 'model'
+          user_email: 'hirenp@waferwire.com'
+          user_name: 'hirenp-waferwire'
+          commit_message: 'Model Upload'
 
       - id: changedFiles
         uses: jitterbit/get-changed-files@v1
