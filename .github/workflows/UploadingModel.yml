@@ -110,9 +110,9 @@ jobs:
         git commit -m'SMD Doc Commit' -- ${{ steps.getSDMDocFile.outputs.SDMDocFile }} 
         git push
  
-    - name: Run a Deploy script # echo ${GITHUB_REF##*/} this is code for getting dynamic branch name
-      if: always()   
-      run: '.github\workflows\DevUtility\DeployFilesUtility\deploy "${{ secrets.TEMPDATA }}" "${{ needs.getFileNameList.outputs.outputFileName }}" "${{ needs.getFileNameList.outputs.outputBranchName }}"'
+    #- name: Run a Deploy script # echo ${GITHUB_REF##*/} this is code for getting dynamic branch name
+    #  if: always()   
+    #  run: '.github\workflows\DevUtility\DeployFilesUtility\deploy "${{ secrets.TEMPDATA }}" "${{ needs.getFileNameList.outputs.outputFileName }}" "${{ needs.getFileNameList.outputs.outputBranchName }}"'
     
     
     #- name: Run a one-line script
