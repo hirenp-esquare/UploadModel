@@ -44,7 +44,7 @@ fi
 
 echo "Adding git commit"
 echo git add .
-if git status | grep -q "Changes to be committed"
+if echo git status | grep -q "Changes to be committed"
 then
   echo git commit --message "$INPUT_COMMIT_MESSAGE"
   echo "Pushing git commit"
