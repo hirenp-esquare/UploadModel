@@ -39,7 +39,7 @@ jobs:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
           source_file: 'test2.md'
-          destination_repo: 'https://github.com/hirenp-waferwire/sim_ui'
+          destination_repo: 'hirenp-waferwire/sim_ui'
           destination_branch: 'Dev'
           destination_folder: 'model'
           user_email: 'hirenp@waferwire.com'
