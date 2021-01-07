@@ -7,8 +7,8 @@ name: UploadModel
 on:
   push:
     branches: [main] #[ Test,Dev ]
-    #paths:
-    #- '**.mdl'
+    paths:
+    - '**.mdl'
   pull_request:
     branches: [master]
     types: [closed]
@@ -57,10 +57,10 @@ jobs:
       - name: Uploading Model to another Repository (sim_ui)
         run: |
          chmod +x .github/workflows/test.sh
-         awk '{ sub("\r$", ""); print }' .github/workflows/test.sh > .github/workflows/test2.sh
-         mv .github/workflows/test2.sh .github/workflows/test.sh
-         chmod +x .github/workflows/test.sh 
-         .github/workflows/test.sh 'test2.md' 'hirenp-waferwire/Demo' 'Dev' 'modelData' 'hirenp@waferwire.com' 'hirenp-waferwire' 'Model Upload' "${{ secrets.API_TOKEN_GITHUB }}"
+         awk '{ sub("\r$", ""); print }' .github/workflows/UploadingModel.sh > .github/workflows/UploadingModel2.sh
+         mv .github/workflows/UploadingModel2.sh .github/workflows/UploadingModel.sh
+         chmod +x .github/workflows/UploadingModel.sh 
+         .github/workflows/UploadingModel.sh 'Data/*.vmf' 'hirenp-waferwire/Demo' '${{ steps.extract_branch.outputs.branch }}' 'modelData' 'hirenp@waferwire.com' 'hirenp-waferwire' 'Uploading Model Upload' "${{ secrets.API_TOKEN_GITHUB }}"
         
       
          
