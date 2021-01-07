@@ -34,17 +34,18 @@ jobs:
          fetch-depth: "0"
          
       - name: Pushes test file
-        uses: dmnemec/copy_file_to_another_repo_action@v1.0.4
-        env:
-          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
-        with:
-          source_file: 'test2.md'
-          destination_repo: 'hirenp-waferwire/Demo'
-          destination_branch: 'Dev'
-          destination_folder: 'modelData'
-          user_email: 'hirenp@waferwire.com'
-          user_name: 'hirenp-waferwire'
-          commit_message: 'Model Upload'
+        run: test.sh 'test2.md' 'hirenp-waferwire/Demo' 'Dev' 'modelData' 'hirenp@waferwire.com' 'hirenp-waferwire' 'Model Upload' ${{ secrets.API_TOKEN_GITHUB }}
+        #uses: dmnemec/copy_file_to_another_repo_action@v1.0.4
+        #env:
+          #API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        #with:
+          #source_file: 'test2.md'
+          #destination_repo: 'hirenp-waferwire/Demo'
+          #destination_branch: 'Dev'
+          #destination_folder: 'modelData'
+          #user_email: 'hirenp@waferwire.com'
+          #user_name: 'hirenp-waferwire'
+          #commit_message: 'Model Upload'
 
       - id: changedFiles
         uses: jitterbit/get-changed-files@v1
