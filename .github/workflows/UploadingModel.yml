@@ -60,7 +60,7 @@ jobs:
          awk '{ sub("\r$", ""); print }' .github/workflows/UploadingModel.sh > .github/workflows/UploadingModel2.sh
          mv .github/workflows/UploadingModel2.sh .github/workflows/UploadingModel.sh
          chmod +x .github/workflows/UploadingModel.sh 
-         .github/workflows/UploadingModel.sh 'Data/*.vmfx' 'hirenp-waferwire/Demo' '${{ steps.extract_branch.outputs.branch }}' 'modelData' 'hirenp@waferwire.com' 'hirenp-waferwire' 'Uploading Model Upload' "${{ secrets.API_TOKEN_GITHUB }}"
+         .github/workflows/UploadingModel.sh 'Data/psy_v21_2019_11_04.vmfx' 'hirenp-waferwire/Demo' '${{ steps.extract_branch.outputs.branch }}' 'modelData' 'hirenp@waferwire.com' 'hirenp-waferwire' 'Uploading Model Upload' "${{ secrets.API_TOKEN_GITHUB }}"
         
       
          
