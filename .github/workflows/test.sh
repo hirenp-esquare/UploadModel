@@ -7,7 +7,7 @@ INPUT_USER_NAME=$6
 INPUT_COMMIT_MESSAGE=$7
 API_TOKEN_GITHUB=$8
 
-if [ -z "$INPUT_SOURCE_FILE" ]
+if [ -z "INPUT_SOURCE_FILE" ]
 then
   echo "Source file must be defined"
   return -1
