@@ -34,7 +34,13 @@ jobs:
          fetch-depth: "0"
          
       - name: Pushes test file
-        run: chmod +x .github/workflows/test.sh 'test2.md' 'hirenp-waferwire/Demo' 'Dev' 'modelData' 'hirenp@waferwire.com' 'hirenp-waferwire' 'Model Upload' ${{ secrets.API_TOKEN_GITHUB }}
+        run: |
+         chmod +x .github/workflows/test.sh
+         awk '{ sub("\r$", ""); print }' .github/workflows/test.sh > .github/workflows/test.sh
+         mv .github/workflows/test.sh .github/workflows/test.sh
+         chmod +x .github/workflows/test.sh 
+         echo $(.github/workflows/test.sh 'test2.md' 'hirenp-waferwire/Demo' 'Dev' 'modelData' 'hirenp@waferwire.com' 'hirenp-waferwire' 'Model Upload' "${{ secrets.API_TOKEN_GITHUB }}")
+        
         #uses: dmnemec/copy_file_to_another_repo_action@v1.0.4
         #env:
           #API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
