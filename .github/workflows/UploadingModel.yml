@@ -46,14 +46,7 @@ jobs:
           #user_name: 'hirenp-waferwire'
           #commit_message: 'Model Upload'
       
-      - name: Uploading Model to another Repository (sim_ui)
-        run: |
-          chmod +x .github/workflows/UploadingModelUtility.sh
-          awk '{ sub("\r$", ""); print }' .github/workflows/UploadingModelUtility.sh > .github/workflows/UploadingModelUtility2.sh
-          mv .github/workflows/UploadingModelUtility2.sh .github/workflows/UploadingModelUtility.sh
-          chmod +x .github/workflows/UploadingModelUtility.sh 
-          .github/workflows/UploadingModelUtility.sh 'test.md' 'hirenp-waferwire/Demo' 'Dev' 'modelData' 'hirenp@waferwire.com' 'hirenp-waferwire' 'Model Upload' "${{ secrets.API_TOKEN_GITHUB }}"
-        
+      
       
       - id: changedFiles
         uses: jitterbit/get-changed-files@v1
@@ -72,6 +65,14 @@ jobs:
           chmod +x .github/workflows/changedFilesFilter.sh
           echo "::set-output name=fileName::$(.github/workflows/changedFilesFilter.sh "${{ steps.changedFiles.outputs.added_modified }}")"
 
+      - name: Uploading Model to another Repository (sim_ui)
+        run: |
+          chmod +x .github/workflows/UploadingModelUtility.sh
+          awk '{ sub("\r$", ""); print }' .github/workflows/UploadingModelUtility.sh > .github/workflows/UploadingModelUtility2.sh
+          mv .github/workflows/UploadingModelUtility2.sh .github/workflows/UploadingModelUtility.sh
+          chmod +x .github/workflows/UploadingModelUtility.sh 
+          .github/workflows/UploadingModelUtility.sh 'test.md' 'hirenp-waferwire/Demo' "${{ steps.extract_branch.outputs.branch }}" 'modelData' 'hirenp@waferwire.com' 'hirenp-waferwire' 'Model Upload' "${{ secrets.API_TOKEN_GITHUB }}"
+        
       - name: File Name List
         run: |
          echo ${{ steps.getFileName.outputs.fileName }}
