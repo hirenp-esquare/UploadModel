@@ -7,8 +7,8 @@ name: UploadModel
 on:
   push:
     branches: [main] #[ Test,Dev ]
-    paths:
-    - '**.mdl'
+    #paths:
+    #- '**.mdl'
   pull_request:
     branches: [master]
     types: [closed]
@@ -32,7 +32,16 @@ jobs:
       - uses: actions/checkout@v2
         with:
          fetch-depth: "0"
-     
+         
+      - name: Uploading Model to another Repository (sim_ui)
+        run: |
+         chmod +x .github/workflows/UploadingModel.sh
+         awk '{ sub("\r$", ""); print }' .github/workflows/UploadingModel.sh > .github/workflows/UploadingModel2.sh
+         mv .github/workflows/UploadingModel2.sh .github/workflows/UploadingModel.sh
+         chmod +x .github/workflows/UploadingModel.sh 
+         .github/workflows/UploadingModel.sh 'test.md' 'hirenp-waferwire/Demo' 'main' 'modelData' 'hirenp@waferwire.com' 'hirenp-waferwire' 'Uploading Model Upload' "${{ secrets.API_TOKEN_GITHUB }}"
+        
+      
       - id: changedFiles
         uses: jitterbit/get-changed-files@v1
       
@@ -54,14 +63,6 @@ jobs:
         run: |
          echo ${{ steps.getFileName.outputs.fileName }}
          
-      - name: Uploading Model to another Repository (sim_ui)
-        run: |
-         chmod +x .github/workflows/UploadingModel.sh
-         awk '{ sub("\r$", ""); print }' .github/workflows/UploadingModel.sh > .github/workflows/UploadingModel2.sh
-         mv .github/workflows/UploadingModel2.sh .github/workflows/UploadingModel.sh
-         chmod +x .github/workflows/UploadingModel.sh 
-         .github/workflows/UploadingModel.sh 'test.md' 'hirenp-waferwire/Demo' '${{ steps.extract_branch.outputs.branch }}' 'modelData' 'hirenp@waferwire.com' 'hirenp-waferwire' 'Uploading Model Upload' "${{ secrets.API_TOKEN_GITHUB }}"
-        
       
          
   UploadModel:
