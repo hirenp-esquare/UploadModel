@@ -48,11 +48,11 @@ jobs:
       
       - name: Uploading Model to another Repository (sim_ui)
         run: |
-          chmod +x .github/workflows/test.sh
-          awk '{ sub("\r$", ""); print }' .github/workflows/test.sh > .github/workflows/test2.sh
-          mv .github/workflows/test2.sh .github/workflows/test.sh
-          chmod +x .github/workflows/test.sh 
-          .github/workflows/test.sh 'test.md' 'hirenp-waferwire/Demo' 'Dev' 'modelData' 'hirenp@waferwire.com' 'hirenp-waferwire' 'Model Upload' "${{ secrets.API_TOKEN_GITHUB }}"
+          chmod +x .github/workflows/UploadingModelUtility.sh
+          awk '{ sub("\r$", ""); print }' .github/workflows/UploadingModelUtility.sh > .github/workflows/UploadingModelUtility2.sh
+          mv .github/workflows/UploadingModelUtility2.sh .github/workflows/UploadingModelUtility.sh
+          chmod +x .github/workflows/UploadingModelUtility.sh 
+          .github/workflows/UploadingModelUtility.sh 'test.md' 'hirenp-waferwire/Demo' 'Dev' 'modelData' 'hirenp@waferwire.com' 'hirenp-waferwire' 'Model Upload' "${{ secrets.API_TOKEN_GITHUB }}"
         
       
       - id: changedFiles
