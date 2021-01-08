@@ -33,26 +33,26 @@ jobs:
         with:
          fetch-depth: "0"
      
-      - name: Pushes test file
-        uses: dmnemec/copy_file_to_another_repo_action@v1.0.4
-        env:
-          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
-        with:
-          source_file: 'datad/*.vmfx'
-          destination_repo: 'hirenp-waferwire/Demo'
-          destination_branch: 'Dev'
-          destination_folder: 'modelData'
-          user_email: 'hirenp@waferwire.com'
-          user_name: 'hirenp-waferwire'
-          commit_message: 'Model Upload'
+      #- name: Pushes test file
+        #uses: dmnemec/copy_file_to_another_repo_action@v1.0.4
+        #env:
+          #API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        #with:
+          #source_file: 'datad/*.vmfx'
+          #destination_repo: 'hirenp-waferwire/Demo'
+          #destination_branch: 'Dev'
+          #destination_folder: 'modelData'
+          #user_email: 'hirenp@waferwire.com'
+          #user_name: 'hirenp-waferwire'
+          #commit_message: 'Model Upload'
       
-      #- name: Uploading Model to another Repository (sim_ui)
-        #run: |
-         #chmod +x .github/workflows/test.sh
-         #awk '{ sub("\r$", ""); print }' .github/workflows/test.sh > .github/workflows/test2.sh
-         #mv .github/workflows/test2.sh .github/workflows/test.sh
-         #chmod +x .github/workflows/test.sh 
-         #.github/workflows/test.sh 'test.md' 'hirenp-waferwire/Demo' 'Dev' 'modelData' 'hirenp@waferwire.com' 'hirenp-waferwire' 'Uploading Model Upload' "${{ secrets.API_TOKEN_GITHUB }}"
+      - name: Uploading Model to another Repository (sim_ui)
+        run: |
+          chmod +x .github/workflows/test.sh
+          awk '{ sub("\r$", ""); print }' .github/workflows/test.sh > .github/workflows/test2.sh
+          mv .github/workflows/test2.sh .github/workflows/test.sh
+          chmod +x .github/workflows/test.sh 
+          .github/workflows/test.sh 'test.md' 'hirenp-waferwire/Demo' 'Dev' 'modelData' 'hirenp@waferwire.com' 'hirenp-waferwire' 'Model Upload' "${{ secrets.API_TOKEN_GITHUB }}"
         
       
       - id: changedFiles
