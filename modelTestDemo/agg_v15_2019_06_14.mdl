@@ -27,7 +27,7 @@ MM Patients w Other Needs=
 "Group % w Other Needs"=
 	GET DIRECT CONSTANTS('ModelParameters.xlsx','AGGParams','H11')
 	~	Dmnl
-	~	The fraction of patients who have Other Needs as a primary diagnosis in \
+	~	The fraction of patients who have Other Dev Needs as a primary diagnosis in \
 		each service.  These fractions are likely to sum to >100%, as they are not \
 		mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in \
 		one visit, and then DEP in a subsequent visit, which would count them in \
