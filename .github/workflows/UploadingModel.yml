@@ -39,7 +39,7 @@ jobs:
          awk '{ sub("\r$", ""); print }' .github/workflows/UploadingModel.sh > .github/workflows/UploadingModel2.sh
          mv .github/workflows/UploadingModel2.sh .github/workflows/UploadingModel.sh
          chmod +x .github/workflows/UploadingModel.sh 
-         .github/workflows/UploadingModel.sh 'test.md' 'hirenp-waferwire/Demo' 'main' 'modelData' 'hirenp@waferwire.com' 'hirenp-waferwire' 'Uploading Model Upload' "${{ secrets.API_TOKEN_GITHUB }}"
+         .github/workflows/UploadingModel.sh 'test.md' 'hirenp-waferwire/Demo' 'Dev' 'modelData' 'hirenp@waferwire.com' 'hirenp-waferwire' 'Uploading Model Upload' "${{ secrets.API_TOKEN_GITHUB }}"
         
       
       - id: changedFiles
