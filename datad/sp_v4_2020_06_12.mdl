@@ -10,7 +10,7 @@ WhiteRabbitObjectPCMHI=
 	~		|
 
 Openings from Transfers in SMH=
-	SMH Ending Rate+SMH High Risk Flag Patient to Residential Rate+SMH High Symptom Patients Community Care Rate\
+	SMH Ending Rate+SMH High Risk Flag Patient to Dev Residential Rate+SMH High Symptom Patients Community Care Rate\
 		+SMH Low Symptom Patients Community Care Rate
 	+SMH to GMH High Risk Flag Step Down Rate+SMH to GMH Recommend Step Down Rate+SMH High Symptom to Residential Rate
 	+"SMH to PC/PCMHI Recommend Step Down Rate"
