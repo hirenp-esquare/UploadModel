@@ -63,7 +63,7 @@ Waiting to Start= INTEG (
 	Referral Rate-Starting Rate,
 		Initial Patients Waiting to Start)
 	~	pts
-	~	The total number of patients waiting dEV tESTING to start care coordination. (pts)
+	~	The total number of patients Dev waiting dEV tESTING to start care coordination. (pts)
 	|
 
 Referral Rate inferred from Data= INITIAL(
