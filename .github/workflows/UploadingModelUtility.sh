@@ -35,32 +35,16 @@ fi
 echo "Copying contents to git repo"
 mkdir -p $CLONE_DIR/INPUT_DESTINATION_FOLDER
 cp -R $INPUT_SOURCE_FILE "$CLONE_DIR/$INPUT_DESTINATION_FOLDER"
-
-echo "Rename file for forio model"
-#cd "$CLONE_DIR/$INPUT_DESTINATION_FOLDER"
-#mv cc_*.vmfx CC_PROD.vmfx
-#mv mm_*.vmfx MM_PROD.vmfx
-#mv psy_*.vmfx Psy_PROD.vmfx
-#mv agg_*.vmfx Agg_PROD.vmfx
-#mv sp_*.vmfx SuicidePrevention_PROD.vmfx
-#cd ..
-#End rename file for forio model
-
 cd "$CLONE_DIR"
 
-echo "Rename file for forio model"
+# "Start Rename file for forio model"
 #cd "$CLONE_DIR/$INPUT_DESTINATION_FOLDER"
 mv $INPUT_DESTINATION_FOLDER/cc_*.vmfx $INPUT_DESTINATION_FOLDER/CC_PROD.vmfx
-#mv $INPUT_DESTINATION_FOLDER/mm_*.vmfx MM_PROD.vmfx
-#mv $INPUT_DESTINATION_FOLDER/psy_*.vmfx Psy_PROD.vmfx
-#mv $INPUT_DESTINATION_FOLDER/agg_*.vmfx Agg_PROD.vmfx
-#mv $INPUT_DESTINATION_FOLDER/sp_*.vmfx SuicidePrevention_PROD.vmfx
-#cd ..
-#End rename file for forio model
-ls
-
-
-
+mv $INPUT_DESTINATION_FOLDER/mm_*.vmfx $INPUT_DESTINATION_FOLDER/MM_PROD.vmfx
+mv $INPUT_DESTINATION_FOLDER/psy_*.vmfx $INPUT_DESTINATION_FOLDER/Psy_PROD.vmfx
+mv $INPUT_DESTINATION_FOLDER/agg_*.vmfx $INPUT_DESTINATION_FOLDER/Agg_PROD.vmfx
+mv $INPUT_DESTINATION_FOLDER/sp_*.vmfx $INPUT_DESTINATION_FOLDER/SuicidePrevention_PROD.vmfx
+#End Rename file for forio model
 
 
 if [ -z "$INPUT_COMMIT_MESSAGE" ]
