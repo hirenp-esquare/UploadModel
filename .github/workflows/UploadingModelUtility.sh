@@ -39,7 +39,7 @@ cd "$CLONE_DIR"
 
 echo "Rename file for forio model"
 cd 
-mv "$INPUT_DESTINATION_FOLDER"/[cc_]*.vmfx "$INPUT_DESTINATION_FOLDER"/CC_PROD.vmfx
+mv $INPUT_DESTINATION_FOLDER/[cc_]*.vmfx $INPUT_DESTINATION_FOLDER/CC_PROD.vmfx
 #mv [mm_]*.vmfx MM_PROD.vmfx
 mv [psy_]*.vmfx Psy_PROD.vmfx
 #mv [agg_]*.vmfx Agg_PROD.vmfx
