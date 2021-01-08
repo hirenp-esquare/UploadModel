@@ -82,7 +82,7 @@ RVI used when Booking=
 		,IF THEN ELSE(Use Team Data for Starting Rate or Return Visit Interval=1,fRVI,"Return Visit Interval (median)"\
 		))
 	~	wks
-	~	The team's goal to see each patient in this service once in every x weeks. \
+	~	The team's goal to see each patient in this dev service once in every x weeks. \
 		The default value for return visit interval is based on the team's data, \
 		unless the team chooses to use the data for New Patient Start Rate \
 		instead. If the user inputs their desired RVI, then the model uses that \
