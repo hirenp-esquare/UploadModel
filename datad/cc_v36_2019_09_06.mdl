@@ -5,7 +5,7 @@
 		, "New Patient Wait Time (median)")
 	)
 	~	wk
-	~	It is possible for the estimate for dev dev the median new patient wait time to be \
+	~	It is possible for the estimate for devdev dev the median new patient wait time to be \
 		zero, if the team seeDevs many walk-in patients. However the Target New \
 		Patient Wait Time needs to be an average, thus a value of zero is not \
 		feasible. In these rare cases, we prevent the model from using a zero \
