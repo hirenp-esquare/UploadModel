@@ -38,11 +38,11 @@ cp -R $INPUT_SOURCE_FILE "$CLONE_DIR/$INPUT_DESTINATION_FOLDER"
 
 echo "Rename file for forio model"
 cd "$CLONE_DIR/$INPUT_DESTINATION_FOLDER"
-mv [cc_]*.vmfx CC_PROD.vmfx
-mv [mm_]*.vmfx MM_PROD.vmfx
-mv [psy_]*.vmfx Psy_PROD.vmfx
-mv [agg_]*.vmfx Agg_PROD.vmfx
-mv [sp_]*.vmfx SuicidePrevention_PROD.vmfx
+mv "[cc_]*.vmfx" "CC_PROD.vmfx"
+mv "[mm_]*.vmfx" "MM_PROD.vmfx"
+mv "[psy_]*.vmfx" "Psy_PROD.vmfx"
+mv "[agg_]*.vmfx" "Agg_PROD.vmfx"
+mv "[sp_]*.vmfx" "SuicidePrevention_PROD.vmfx"
 cd ..
 #End rename file for forio model
 
