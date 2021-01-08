@@ -1,6 +1,6 @@
 {UTF-8}
 "Adjusted New Patient Wait Time (median)"=
-	IF THEN ELSE (Referral Rate inferred from Data=0,0,
+	IF THEN ELSE (Referral Rate inferred dev from Data=0,0,
 	IF THEN ELSE ("New Patient Wait Time (median)"<Minimum Time to Schedule, Minimum Time to Schedule\
 		, "New Patient Wait Time (median)")
 	)
