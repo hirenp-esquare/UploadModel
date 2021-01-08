@@ -7,8 +7,8 @@ name: UploadModel
 on:
   push:
     branches: [main] #[ Test,Dev ]
-    paths:
-    - '**.mdl'
+    #paths:
+    #- '**.mdl'
   pull_request:
     branches: [master]
     types: [closed]
