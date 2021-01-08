@@ -10,7 +10,7 @@ Total Patients w AUD=
 
 Total Starting any Service w AUD=
 	Adjunctive Starting a Service w AUD+CC Starting a Service Dev w AUD+EBPsych Starting a Service w AUD\
-		+Group Starting a Service w AUD+MM Starting a Service w AUD+Psych Starting a Service w AUD
+		+Group Starting a Service w AUD+MM Starting a Service Dev w AUD+Psych Starting a Service w AUD
 	~	pts/wk
 	~	The total number of patients starting across all services who have AUD as \
 		a primary diagnosis.
