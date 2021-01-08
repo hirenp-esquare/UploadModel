@@ -7,8 +7,8 @@ name: UploadModel
 on:
   push:
     branches: [main] #[ Test,Dev ]
-    #paths:
-    #- '**.mdl'
+    paths:
+    - '**.mdl'
   pull_request:
     branches: [master]
     types: [closed]
@@ -38,7 +38,7 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source_file: 'test.md'
+          source_file: 'datad/*.vmfx'
           destination_repo: 'hirenp-waferwire/Demo'
           destination_branch: 'Dev'
           destination_folder: 'modelData'
