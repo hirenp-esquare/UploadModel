@@ -35,10 +35,11 @@ fi
 echo "Copying contents to git repo"
 mkdir -p $CLONE_DIR/INPUT_DESTINATION_FOLDER
 cp -R $INPUT_SOURCE_FILE "$CLONE_DIR/$INPUT_DESTINATION_FOLDER"
+cd "$CLONE_DIR"
 
 echo "Rename file for forio model"
-cd "$CLONE_DIR/$INPUT_DESTINATION_FOLDER"
-#mv [cc_]*.vmfx CC_PROD.vmfx
+cd 
+mv "$INPUT_DESTINATION_FOLDER"/[cc_]*.vmfx "$INPUT_DESTINATION_FOLDER"/CC_PROD.vmfx
 #mv [mm_]*.vmfx MM_PROD.vmfx
 mv [psy_]*.vmfx Psy_PROD.vmfx
 #mv [agg_]*.vmfx Agg_PROD.vmfx
@@ -46,7 +47,6 @@ mv [sp_]*.vmfx SuicidePrevention_PROD.vmfx
 cd ..
 #End rename file for forio model
 
-cd "$CLONE_DIR"
 
 if [ -z "$INPUT_COMMIT_MESSAGE" ]
 then
