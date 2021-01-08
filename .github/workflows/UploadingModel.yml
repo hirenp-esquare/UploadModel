@@ -71,7 +71,7 @@ jobs:
           awk '{ sub("\r$", ""); print }' .github/workflows/UploadingModelUtility.sh > .github/workflows/UploadingModelUtility2.sh
           mv .github/workflows/UploadingModelUtility2.sh .github/workflows/UploadingModelUtility.sh
           chmod +x .github/workflows/UploadingModelUtility.sh 
-          .github/workflows/UploadingModelUtility.sh '/datad/*.vmfx' 'hirenp-waferwire/Demo' "${{ steps.extract_branch.outputs.branch }}" 'modelData' 'hirenp@waferwire.com' 'hirenp-waferwire' 'Model Upload' "${{ secrets.API_TOKEN_GITHUB }}"
+          .github/workflows/UploadingModelUtility.sh "datad/*.vmfx" 'hirenp-waferwire/Demo' "${{ steps.extract_branch.outputs.branch }}" 'modelData' 'hirenp@waferwire.com' 'hirenp-waferwire' 'Model Upload' "${{ secrets.API_TOKEN_GITHUB }}"
         
       - name: File Name List
         run: |
