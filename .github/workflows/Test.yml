@@ -32,7 +32,7 @@ jobs:
       
       - name: Sleep for 60 seconds
         uses: jakejarvis/wait-action@master
-         with:
+        with:
           time: '3m'
       
       - id: changedFiles
@@ -54,11 +54,7 @@ jobs:
         
     
           
-        
-      - name: File Name List
-        run: |
-         echo ${{ steps.getFileName.outputs.fileName }}
-         
+     
       
          
   
