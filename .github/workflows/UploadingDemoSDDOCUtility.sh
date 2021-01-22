@@ -7,7 +7,7 @@ INPUT_USER_NAME=$6
 INPUT_COMMIT_MESSAGE=$7
 API_TOKEN_GITHUB=$8
 
-ls blue/mtl2.0_models
+ls
 
 if [ -z "$INPUT_SOURCE_FILE" ]
 then
