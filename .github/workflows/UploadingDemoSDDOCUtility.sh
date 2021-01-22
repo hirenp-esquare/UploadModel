@@ -34,10 +34,9 @@ fi
 
 echo "Copying contents to git repo"
 mkdir -p $CLONE_DIR/INPUT_DESTINATION_FOLDER
-#cp -R $INPUT_SOURCE_FILE "$CLONE_DIR/$INPUT_DESTINATION_FOLDER"
-#cd "$CLONE_DIR"
-cd $INPUT_SOURCE_FILE
-ls
+cp -R $INPUT_SOURCE_FILE "$CLONE_DIR/$INPUT_DESTINATION_FOLDER"
+cd "$CLONE_DIR"
+ls ./blue/mtl2.0_models
 
 # "Start Rename file for forio model"
 #cd "$CLONE_DIR/$INPUT_DESTINATION_FOLDER"
