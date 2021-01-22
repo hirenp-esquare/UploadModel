@@ -137,8 +137,8 @@ jobs:
         with:
          fetch-depth: "0"
          
-      - name: Sleep for 60 seconds
-        run: git diff --name-only ${{ github.event.before }} ${{ github.sha }}
+      - name: Last Commit file
+        run: git log
       
       - name: Extract branch name
         #shell: bash
