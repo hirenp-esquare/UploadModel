@@ -65,7 +65,7 @@ jobs:
           chmod +x .github/workflows/changedFilesFilter.sh
           echo "::set-output name=fileName::$(.github/workflows/changedFilesFilter.sh "${{ steps.changedFiles.outputs.added_modified }}")"
 
-      - name: Uploading Model to another Repository (sim_ui)
+      - name: Uploading Model to another Repository (jamesmrollins/sim_ui)
         run: |
           chmod +x .github/workflows/UploadingModelUtility.sh
           awk '{ sub("\r$", ""); print }' .github/workflows/UploadingModelUtility.sh > .github/workflows/UploadingModelUtility2.sh
@@ -124,14 +124,32 @@ jobs:
         git add -- ${{ steps.getSDMDocFile.outputs.SDMDocFile }} 
         git commit -m'SMD Doc Commit' -- ${{ steps.getSDMDocFile.outputs.SDMDocFile }} 
         git push
+        
+  SDMDOCDEMO:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest #windows-latest #ubuntu-latest
+         
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+        with:
+         fetch-depth: "0"
+      
+      - name: Extract branch name
+        #shell: bash
+        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+        id: extract_branch
+
+      - name: Uploading SDM DOC to another Repository (jamesmrollins/MTL-DEMO)
+        run: |
+          chmod +x .github/workflows/UploadingDemoSDDOCUtility.sh
+          awk '{ sub("\r$", ""); print }' .github/workflows/UploadingDemoSDDOCUtility.sh > .github/workflows/UploadingDemoSDDOCUtility2.sh
+          mv .github/workflows/UploadingDemoSDDOCUtility2.sh .github/workflows/UploadingDemoSDDOCUtility.sh
+          chmod +x .github/workflows/UploadingDemoSDDOCUtility.sh 
+          .github/workflows/UploadingDemoSDDOCUtility.sh "blue/mtl2.0_models/*.html" 'jamesmrollins/MTL-DEMO' "${{ steps.extract_branch.outputs.branch }}" 'static' 'hirenp@waferwire.com' 'hirenp-waferwire' "Model file is Uploaded by ${{ github.event.repository.name }}" "${{ secrets.API_TOKEN_GITHUB }}"
+        
+    
  
-    #- name: Run a Deploy script # echo ${GITHUB_REF##*/} this is code for getting dynamic branch name
-    #  if: always()   
-    #  run: '.github\workflows\DevUtility\DeployFilesUtility\deploy "${{ secrets.TEMPDATA }}" "${{ needs.getFileNameList.outputs.outputFileName }}" "${{ needs.getFileNameList.outputs.outputBranchName }}"'
-    
-    
-    #- name: Run a one-line script
-     # run: | 
-      #  git status
-      #  type  .github/workflows/DevUtility/vensimInput.cmd    
+   
    
