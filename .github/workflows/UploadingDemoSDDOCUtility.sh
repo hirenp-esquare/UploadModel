@@ -7,6 +7,8 @@ INPUT_USER_NAME=$6
 INPUT_COMMIT_MESSAGE=$7
 API_TOKEN_GITHUB=$8
 
+ls blue/mtl2.0_models
+
 if [ -z "$INPUT_SOURCE_FILE" ]
 then
   echo "Source file must be defined"
@@ -36,7 +38,7 @@ echo "Copying contents to git repo"
 mkdir -p $CLONE_DIR/INPUT_DESTINATION_FOLDER
 cp -R $INPUT_SOURCE_FILE "$CLONE_DIR/$INPUT_DESTINATION_FOLDER"
 cd "$CLONE_DIR"
-ls blue/mtl2.0_models
+
 
 # "Start Rename file for forio model"
 #cd "$CLONE_DIR/$INPUT_DESTINATION_FOLDER"
