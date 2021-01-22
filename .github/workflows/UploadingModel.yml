@@ -137,8 +137,10 @@ jobs:
         with:
          fetch-depth: "0"
          
-      - id: changedFiles
-        uses: jitterbit/get-changed-files@v1
+      - name: Sleep for 60 seconds
+        uses: jakejarvis/wait-action@master
+        with:
+          time: '60s'
       
       - name: Extract branch name
         #shell: bash
