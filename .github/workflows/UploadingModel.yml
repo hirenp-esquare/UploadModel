@@ -136,7 +136,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 2
-      - run: git checkout HEAD^ HEAD
+      - run: git show HEAD
          
       - name: Last Commit file
         run: git log
