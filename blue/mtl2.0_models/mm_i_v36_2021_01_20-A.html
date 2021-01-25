@@ -2167,7 +2167,7 @@ y-z&nbsp;&nbsp;&nbsp;
 </td>
 <td>
 <a name='a57' /><b></b> (<span style='color:Red'>wk</span>)
-<br/> = IF THEN ELSE (<a href='#a120'>DEP&#32;Referral&#32;Rate&#32;inferred&#32;from&#32;Data</a>=0,0,IF THEN ELSE (<a href='#a86'>&#34;Data&#32;DEP&#32;New&#32;Patient&#32;Wait&#32;Time&#32;&#40;median&#41;&#34;</a>&lt;<a href='#a195'>DEP&#32;Minimum&#32;Time&#32;to&#32;Schedule</a>,<a href='#a195'>DEP&#32;Minimum&#32;Time&#32;to&#32;Schedule</a>,<a href='#a86'>&#34;Data&#32;DEP&#32;New&#32;Patient&#32;Wait&#32;Time&#32;&#40;median&#41;&#34;</a>))<br/><b>Description: </b><i>It&#32;is&#32;possible&#32;for&#32;the&#32;estimate&#32;for&#32;the&#32;median&#32;new&#32;patient&#32;wait&#32;time&#32;to&#32;be&#32;zero&#44;&#32;if&#32;the&#32;team&#32;sees&#32;many&#32;walk&#45;in&#32;patients&#46;&#32;However&#32;the&#32;Target&#32;New&#32;Patient&#32;Wait&#32;Time&#32;needs&#32;to&#32;be&#32;an&#32;average&#44;&#32;thus&#32;a&#32;value&#32;of&#32;zero&#32;is&#32;not&#32;feasible&#46;&#32;In&#32;these&#32;rare&#32;cases&#44;&#32;we&#32;prevent&#32;the&#32;model&#32;from&#32;using&#32;a&#32;zero&#32;average&#32;wait&#32;time&#44;&#32;instead&#32;using&#32;the&#32;Minimum&#32;Time&#32;to&#32;Schedule&#46;&#32;If&#32;the&#32;relevant&#32;start&#32;rate&#32;is&#32;zero&#32;&#40;indicating&#32;no&#32;patients&#32;follow&#32;this&#32;pathway&#41;&#44;&#32;then&#32;the&#32;wait&#32;time&#32;is&#32;also&#32;set&#32;to&#32;zero&#46;</i><br/><b>Present in 1 view:</b>
+<br/> = IF THEN ELSE (<a href='#a297'>DEP&#32;Referral&#32;Rate</a> Dev inferred from Data=0,0,IF THEN ELSE (<a href='#a86'>&#34;Data&#32;DEP&#32;New&#32;Patient&#32;Wait&#32;Time&#32;&#40;median&#41;&#34;</a>&lt;<a href='#a195'>DEP&#32;Minimum&#32;Time&#32;to&#32;Schedule</a>,<a href='#a195'>DEP&#32;Minimum&#32;Time&#32;to&#32;Schedule</a>,<a href='#a86'>&#34;Data&#32;DEP&#32;New&#32;Patient&#32;Wait&#32;Time&#32;&#40;median&#41;&#34;</a>))<br/><b>Description: </b><i>It&#32;is&#32;possible&#32;for&#32;the&#32;estimate&#32;for&#32;the&#32;median&#32;new&#32;patient&#32;wait&#32;time&#32;to&#32;be&#32;zero&#44;&#32;if&#32;the&#32;team&#32;sees&#32;many&#32;walk&#45;in&#32;patients&#46;&#32;However&#32;the&#32;Target&#32;New&#32;Patient&#32;Wait&#32;Time&#32;needs&#32;to&#32;be&#32;an&#32;average&#44;&#32;thus&#32;a&#32;value&#32;of&#32;zero&#32;is&#32;not&#32;feasible&#46;&#32;In&#32;these&#32;rare&#32;cases&#44;&#32;we&#32;prevent&#32;the&#32;model&#32;from&#32;using&#32;a&#32;zero&#32;average&#32;wait&#32;time&#44;&#32;instead&#32;using&#32;the&#32;Minimum&#32;Time&#32;to&#32;Schedule&#46;&#32;If&#32;the&#32;relevant&#32;start&#32;rate&#32;is&#32;zero&#32;&#40;indicating&#32;no&#32;patients&#32;follow&#32;this&#32;pathway&#41;&#44;&#32;then&#32;the&#32;wait&#32;time&#32;is&#32;also&#32;set&#32;to&#32;zero&#46;</i><br/><b>Present in 1 view:</b>
 <ul>
 <li><a href=''>Model</a></li>
 </ul>
@@ -2837,6 +2837,7 @@ y-z&nbsp;&nbsp;&nbsp;
 </ul>
 <b>Used by:</b><ul>
 
+<li><a href='#a57'>&#34;DEP&#32;Adjusted&#32;New&#32;Patient&#32;Wait&#32;Time&#32;&#40;median&#41;&#34;</a> - <span style='color:Green'>It&#32;is&#32;possible&#32;for&#32;the&#32;estimate&#32;for&#32;the&#32;median&#32;new&#32;patient&#32;wait&#32;time&#32;to&#32;be&#32;zero&#44;&#32;if&#32;the&#32;team&#32;sees&#32;many&#32;walk&#45;in&#32;patients&#46;&#32;However&#32;the&#32;Target&#32;New&#32;Patient&#32;Wait&#32;Time&#32;needs&#32;to&#32;be&#32;an&#32;average&#44;&#32;thus&#32;a&#32;value&#32;of&#32;zero&#32;is&#32;not&#32;feasible&#46;&#32;In&#32;these&#32;rare&#32;cases&#44;&#32;we&#32;prevent&#32;the&#32;model&#32;from&#32;using&#32;a&#32;zero&#32;average&#32;wait&#32;time&#44;&#32;instead&#32;using&#32;the&#32;Minimum&#32;Time&#32;to&#32;Schedule&#46;&#32;If&#32;the&#32;relevant&#32;start&#32;rate&#32;is&#32;zero&#32;&#40;indicating&#32;no&#32;patients&#32;follow&#32;this&#32;pathway&#41;&#44;&#32;then&#32;the&#32;wait&#32;time&#32;is&#32;also&#32;set&#32;to&#32;zero&#46;</span></li>
 <li><a href='#a270'>DEP&#32;Waiting&#32;to&#32;Start</a> - <span style='color:Green'>The&#32;total&#32;number&#32;of&#32;patients&#32;waiting&#32;to&#32;start&#32;medication&#32;management&#46;&#32;&#40;pts&#41;</span></li></ul>
 </td>
 </tr>
@@ -2855,7 +2856,6 @@ y-z&nbsp;&nbsp;&nbsp;
 </ul>
 <b>Used by:</b><ul>
 
-<li><a href='#a57'>&#34;DEP&#32;Adjusted&#32;New&#32;Patient&#32;Wait&#32;Time&#32;&#40;median&#41;&#34;</a> - <span style='color:Green'>It&#32;is&#32;possible&#32;for&#32;the&#32;estimate&#32;for&#32;the&#32;median&#32;new&#32;patient&#32;wait&#32;time&#32;to&#32;be&#32;zero&#44;&#32;if&#32;the&#32;team&#32;sees&#32;many&#32;walk&#45;in&#32;patients&#46;&#32;However&#32;the&#32;Target&#32;New&#32;Patient&#32;Wait&#32;Time&#32;needs&#32;to&#32;be&#32;an&#32;average&#44;&#32;thus&#32;a&#32;value&#32;of&#32;zero&#32;is&#32;not&#32;feasible&#46;&#32;In&#32;these&#32;rare&#32;cases&#44;&#32;we&#32;prevent&#32;the&#32;model&#32;from&#32;using&#32;a&#32;zero&#32;average&#32;wait&#32;time&#44;&#32;instead&#32;using&#32;the&#32;Minimum&#32;Time&#32;to&#32;Schedule&#46;&#32;If&#32;the&#32;relevant&#32;start&#32;rate&#32;is&#32;zero&#32;&#40;indicating&#32;no&#32;patients&#32;follow&#32;this&#32;pathway&#41;&#44;&#32;then&#32;the&#32;wait&#32;time&#32;is&#32;also&#32;set&#32;to&#32;zero&#46;</span></li>
 <li><a href='#a297'>DEP&#32;Referral&#32;Rate</a> - <span style='color:Green'>The&#32;number&#32;of&#32;patients&#32;referred&#32;to&#32;medication&#32;management&#32;in&#32;this&#32;team&#32;each&#32;&#13;&#10;week&#46;&#32;This&#32;rate&#32;is&#32;estimated&#32;from&#32;the&#32;team&#39;s&#32;supply&#32;and&#32;historical&#32;new&#32;&#13;&#10;patient&#32;wait&#32;time&#46;&#32;&#40;pts&#47;wk&#41;</span></li></ul>
 </td>
 </tr>
@@ -11106,7 +11106,7 @@ y-z&nbsp;&nbsp;&nbsp;
 <div>
 <hr style='height:1px; color:Blue'/>
 <a name='dimensionlessErrors' />
-<h3>List of 149 Equations with Dimensionless Units</h3><table class='sample'>
+<h3>List of 95 Equations with Dimensionless Units</h3><table class='sample'>
 <tr>
 <td style='color:Blue'><center>Module</center></td>
 <td style='color:Blue'><center>Group</center></td>
@@ -11115,904 +11115,580 @@ y-z&nbsp;&nbsp;&nbsp;
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a175'>&#34;Adjunctive&#95;&#37;&#95;of&#95;Hours&#95;per&#95;Service&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td style='vertical-align:top'><a href='#a115'>&#34;AUD&#32;&#37;&#32;Slots&#32;Allocated&#32;&#40;no&#32;X&#32;w&#32;RVI&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a78'>&#34;Adjunctive&#95;Actual&#95;True&#95;Missed&#95;Appointment&#95;&#37;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td style='vertical-align:top'><a href='#a136'>&#34;AUD&#32;&#37;&#32;Slots&#32;Allocated&#32;&#40;w&#32;X&#32;w&#32;RVI&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a4'>Adjunctive&#95;Difference&#95;between&#95;Actual&#95;and&#95;Acceptable&#95;Start&#95;Delays</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td style='vertical-align:top'><a href='#a27'>&#34;AUD&#32;&#37;&#32;Slots&#32;Allocated&#32;to&#32;Each&#32;Diagnosis&#32;&#40;no&#32;X&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a30'>Adjunctive&#95;Difference&#95;between&#95;Actual&#95;and&#95;Standard&#95;RVI</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td style='vertical-align:top'><a href='#a36'>&#34;AUD&#32;&#37;&#32;Slots&#32;Allocated&#32;to&#32;Each&#32;Diagnosis&#32;&#40;w&#32;X&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a25'>Adjunctive&#95;Effect&#95;of&#95;Care&#95;Delays&#95;on&#95;Treatment&#95;Decisions</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td style='vertical-align:top'><a href='#a146'>&#34;AUD&#32;Actual&#32;Missed&#32;Appointment&#32;&#37;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a28'>Adjunctive&#95;Effect&#95;of&#95;RVI&#95;Delays&#95;on&#95;Treatment&#95;Decisions</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td style='vertical-align:top'><a href='#a128'>AUD&#32;Effect&#32;of&#32;Wait&#32;Time&#32;on&#32;Referrals</a> (<span style='color:Red'>Dmnl</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a20'>Adjunctive&#95;Effect&#95;of&#95;Start&#95;Delays&#95;on&#95;Treatment&#95;Decisions</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td style='vertical-align:top'><a href='#a42'>&#34;AUD&#32;Normalized&#32;&#37;&#32;Patients&#32;by&#32;Diagnosis&#32;&#40;no&#32;X&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a68'>Adjunctive&#95;Effect&#95;of&#95;Work&#95;Pressure&#95;on&#95;Overtime</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td style='vertical-align:top'><a href='#a48'>&#34;AUD&#32;Normalized&#32;&#37;&#32;Patients&#32;by&#32;Diagnosis&#32;&#40;w&#32;X&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a0'>Adjunctive&#95;Effect&#95;of&#95;Work&#95;Pressure&#95;on&#95;Scheduled&#95;Return&#95;Visit&#95;Interval</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td style='vertical-align:top'><a href='#a38'>&#34;AUD&#32;Normalized&#32;&#37;&#32;Slots&#32;Allocated&#32;&#40;no&#32;X&#32;w&#32;RVI&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a267'>Adjunctive&#95;Service&#95;Proportions</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td style='vertical-align:top'><a href='#a49'>&#34;AUD&#32;Normalized&#32;&#37;&#32;Slots&#32;Allocated&#32;&#40;w&#32;X&#32;w&#32;RVI&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a11'>Adjunctive&#95;Service&#95;Proportions&#95;Balanced&#95;Across&#95;Team&#95;Variables</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td style='vertical-align:top'><a href='#a140'>AUD&#32;Ratio&#32;of&#32;Appts&#32;for&#32;Existing&#32;Pts</a> (<span style='color:Red'>Dmnl</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a399'>Adjunctive&#95;Work&#95;Pressure</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td style='vertical-align:top'><a href='#a184'>AUD&#32;Ratio&#32;of&#32;Appts&#32;for&#32;New&#32;Pts</a> (<span style='color:Red'>Dmnl</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a335'>&#34;CC&#95;&#37;&#95;of&#95;Hours&#95;per&#95;Service&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td style='vertical-align:top'><a href='#a81'>&#34;AUD&#32;Ratio&#32;of&#32;Appts&#32;for&#32;New&#32;Pts&#32;w&#47;DataRVI&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a159'>&#34;CC&#95;Actual&#95;True&#95;Missed&#95;Appointment&#95;&#37;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td style='vertical-align:top'><a href='#a319'>AUD&#32;Relative&#32;RVI</a> (<span style='color:Red'>Dmnl</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>G</td>
+<td style='vertical-align:top'><a href='#a87'>AUD&#32;Sensitivity&#32;of&#32;Referrals&#32;to&#32;Wait&#32;Time</a> (<span style='color:Red'>Dmnl&#32;&#91;0&#44;2&#44;0&#46;1&#93;</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a22'>CC&#95;Difference&#95;between&#95;Actual&#95;and&#95;Acceptable&#95;Start&#95;Delays</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td style='vertical-align:top'><a href='#a77'>&#34;Data&#32;Appointment&#32;Slots&#32;&#37;&#32;&#40;with&#32;X&#32;waiver&#41;&#34;</a> (<span style='color:Red'>Dmnl&#32;&#91;0&#44;1&#93;</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a79'>CC&#95;Difference&#95;between&#95;Actual&#95;and&#95;Standard&#95;RVI</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td style='vertical-align:top'><a href='#a58'>&#34;Data&#32;AUD&#32;Slots&#32;Allocation&#32;&#37;&#32;&#40;with&#32;X&#32;waiver&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a61'>CC&#95;Effect&#95;of&#95;Care&#95;Delays&#95;on&#95;Treatment&#95;Decisions</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td style='vertical-align:top'><a href='#a34'>&#34;Data&#32;AUD&#32;Slots&#32;Allocation&#32;&#37;&#32;&#40;without&#32;X&#32;waiver&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a65'>CC&#95;Effect&#95;of&#95;RVI&#95;Delays&#95;on&#95;Treatment&#95;Decisions</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td style='vertical-align:top'><a href='#a117'>&#34;Data&#32;AUD&#32;True&#32;Missed&#32;Appointment&#32;&#37;&#34;</a> (<span style='color:Red'>Dmnl&#32;&#91;0&#44;1&#44;0&#46;1&#93;</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a56'>CC&#95;Effect&#95;of&#95;Start&#95;Delays&#95;on&#95;Treatment&#95;Decisions</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td style='vertical-align:top'><a href='#a59'>&#34;Data&#32;DEP&#32;Slots&#32;Allocation&#32;&#37;&#32;&#40;with&#32;X&#32;waiver&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a153'>CC&#95;Effect&#95;of&#95;Work&#95;Pressure&#95;on&#95;Overtime</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td style='vertical-align:top'><a href='#a31'>&#34;Data&#32;DEP&#32;Slots&#32;Allocation&#32;&#37;&#32;&#40;without&#32;X&#32;waiver&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a8'>CC&#95;Effect&#95;of&#95;Work&#95;Pressure&#95;on&#95;Scheduled&#95;Return&#95;Visit&#95;Interval</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td style='vertical-align:top'><a href='#a127'>&#34;Data&#32;DEP&#32;True&#32;Missed&#32;Appointment&#32;&#37;&#34;</a> (<span style='color:Red'>Dmnl&#32;&#91;0&#44;1&#44;0&#46;1&#93;</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a418'>CC&#95;Service&#95;Proportions</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td style='vertical-align:top'><a href='#a22'>&#34;Data&#32;OtherNeeds&#32;Slots&#32;Allocation&#32;&#37;&#32;&#40;with&#32;X&#32;waiver&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a36'>CC&#95;Service&#95;Proportions&#95;Balanced&#95;Across&#95;Team&#95;Variables</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td style='vertical-align:top'><a href='#a9'>&#34;Data&#32;OtherNeeds&#32;Slots&#32;Allocation&#32;&#37;&#32;&#40;without&#32;X&#32;waiver&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a523'>CC&#95;Work&#95;Pressure</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td style='vertical-align:top'><a href='#a70'>&#34;Data&#32;OtherNeeds&#32;True&#32;Missed&#32;Appointment&#32;&#37;&#34;</a> (<span style='color:Red'>Dmnl&#32;&#91;0&#44;1&#44;0&#46;1&#93;</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a388'>&#34;Data&#95;Adjuctive&#95;&#37;&#95;w&#95;PTSD&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td style='vertical-align:top'><a href='#a60'>&#34;Data&#32;OUD&#32;Slots&#32;Allocation&#32;&#37;&#32;&#40;with&#32;X&#32;waiver&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a375'>&#34;Data&#95;Adjunctive&#95;&#37;&#95;w&#95;AUD&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td style='vertical-align:top'><a href='#a33'>&#34;Data&#32;OUD&#32;Slots&#32;Allocation&#32;&#37;&#32;&#40;without&#32;X&#32;waiver&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a374'>&#34;Data&#95;Adjunctive&#95;&#37;&#95;w&#95;DEP&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td style='vertical-align:top'><a href='#a125'>&#34;Data&#32;OUD&#32;True&#32;Missed&#32;Appointment&#32;&#37;&#34;</a> (<span style='color:Red'>Dmnl&#32;&#91;0&#44;1&#44;0&#46;1&#93;</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a210'>&#34;Data&#95;Adjunctive&#95;&#37;&#95;w&#95;Other&#95;Needs&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td style='vertical-align:top'><a href='#a119'>&#34;DEP&#32;&#37;&#32;Slots&#32;Allocated&#32;&#40;no&#32;X&#32;w&#32;RVI&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a373'>&#34;Data&#95;Adjunctive&#95;&#37;&#95;w&#95;OUD&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td style='vertical-align:top'><a href='#a135'>&#34;DEP&#32;&#37;&#32;Slots&#32;Allocated&#32;&#40;w&#32;X&#32;w&#32;RVI&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a44'>Data&#95;Adjunctive&#95;Service&#95;Proportions&#95;from&#95;Team&#95;Data</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td style='vertical-align:top'><a href='#a29'>&#34;DEP&#32;&#37;&#32;Slots&#32;Allocated&#32;to&#32;Each&#32;Diagnosis&#32;&#40;no&#32;X&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>LI,A</td>
-<td style='vertical-align:top'><a href='#a88'>&#34;Data&#95;Adjunctive&#95;True&#95;Missed&#95;Appointment&#95;&#37;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a40'>&#34;DEP&#32;&#37;&#32;Slots&#32;Allocated&#32;to&#32;Each&#32;Diagnosis&#32;&#40;w&#32;X&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a152'>&#34;DEP&#32;Actual&#32;Missed&#32;Appointment&#32;&#37;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a122'>DEP&#32;Effect&#32;of&#32;Wait&#32;Time&#32;on&#32;Referrals</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a41'>&#34;DEP&#32;Normalized&#32;&#37;&#32;Patients&#32;by&#32;Diagnosis&#32;&#40;no&#32;X&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a47'>&#34;DEP&#32;Normalized&#32;&#37;&#32;Patients&#32;by&#32;Diagnosis&#32;&#40;w&#32;X&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a37'>&#34;DEP&#32;Normalized&#32;&#37;&#32;Slots&#32;Allocated&#32;&#40;no&#32;X&#32;w&#32;RVI&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a46'>&#34;DEP&#32;Normalized&#32;&#37;&#32;Slots&#32;Allocated&#32;&#40;w&#32;X&#32;w&#32;RVI&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a138'>DEP&#32;Ratio&#32;of&#32;Appts&#32;for&#32;Existing&#32;Pts</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a180'>DEP&#32;Ratio&#32;of&#32;Appts&#32;for&#32;New&#32;Pts</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a84'>&#34;DEP&#32;Ratio&#32;of&#32;Appts&#32;for&#32;New&#32;Pts&#32;w&#47;DataRVI&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a318'>DEP&#32;Relative&#32;RVI</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>G</td>
+<td style='vertical-align:top'><a href='#a95'>DEP&#32;Sensitivity&#32;of&#32;Referrals&#32;to&#32;Wait&#32;Time</a> (<span style='color:Red'>Dmnl&#32;&#91;0&#44;2&#44;0&#46;1&#93;</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a20'>Effect&#32;of&#32;Other&#32;MM&#32;Tasks&#32;Time&#32;on&#32;Missed&#32;Appointments</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a205'>Measured&#32;versus&#32;Actual&#32;Time</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a69'>&#34;OtherNeeds&#32;&#37;&#32;Slots&#32;Allocated&#32;&#40;no&#32;X&#32;w&#32;RVI&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a76'>&#34;OtherNeeds&#32;&#37;&#32;Slots&#32;Allocated&#32;&#40;w&#32;X&#32;w&#32;RVI&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a8'>&#34;OtherNeeds&#32;&#37;&#32;Slots&#32;Allocated&#32;to&#32;Each&#32;Diagnosis&#32;&#40;no&#32;X&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a11'>&#34;OtherNeeds&#32;&#37;&#32;Slots&#32;Allocated&#32;to&#32;Each&#32;Diagnosis&#32;&#40;w&#32;X&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a97'>&#34;OtherNeeds&#32;Actual&#32;Missed&#32;Appointment&#32;&#37;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a65'>OtherNeeds&#32;Effect&#32;of&#32;Wait&#32;Time&#32;on&#32;Referrals</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a12'>&#34;OtherNeeds&#32;Normalized&#32;&#37;&#32;Patients&#32;by&#32;Diagnosis&#32;&#40;no&#32;X&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a16'>&#34;OtherNeeds&#32;Normalized&#32;&#37;&#32;Patients&#32;by&#32;Diagnosis&#32;&#40;w&#32;X&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a10'>&#34;OtherNeeds&#32;Normalized&#32;&#37;&#32;Slots&#32;Allocated&#32;&#40;no&#32;X&#32;w&#32;RVI&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a15'>&#34;OtherNeeds&#32;Normalized&#32;&#37;&#32;Slots&#32;Allocated&#32;&#40;w&#32;X&#32;w&#32;RVI&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a78'>OtherNeeds&#32;Ratio&#32;of&#32;Appts&#32;for&#32;Existing&#32;Pts</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a111'>OtherNeeds&#32;Ratio&#32;of&#32;Appts&#32;for&#32;New&#32;Pts</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a25'>&#34;OtherNeeds&#32;Ratio&#32;of&#32;Appts&#32;for&#32;New&#32;Pts&#32;w&#47;DataRVI&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a234'>OtherNeeds&#32;Relative&#32;RVI</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>G</td>
+<td style='vertical-align:top'><a href='#a30'>OtherNeeds&#32;Sensitivity&#32;of&#32;Referrals&#32;to&#32;Wait&#32;Time</a> (<span style='color:Red'>Dmnl&#32;&#91;0&#44;2&#44;0&#46;1&#93;</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a118'>&#34;OUD&#32;&#37;&#32;Slots&#32;Allocated&#32;&#40;no&#32;X&#32;w&#32;RVI&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a139'>&#34;OUD&#32;&#37;&#32;Slots&#32;Allocated&#32;&#40;w&#32;X&#32;w&#32;RVI&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a28'>&#34;OUD&#32;&#37;&#32;Slots&#32;Allocated&#32;to&#32;Each&#32;Diagnosis&#32;&#40;no&#32;X&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a39'>&#34;OUD&#32;&#37;&#32;Slots&#32;Allocated&#32;to&#32;Each&#32;Diagnosis&#32;&#40;w&#32;X&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a150'>&#34;OUD&#32;Actual&#32;Missed&#32;Appointment&#32;&#37;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a130'>OUD&#32;Effect&#32;of&#32;Wait&#32;Time&#32;on&#32;Referrals</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a44'>&#34;OUD&#32;Normalized&#32;&#37;&#32;Patients&#32;by&#32;Diagnosis&#32;&#40;no&#32;X&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a51'>&#34;OUD&#32;Normalized&#32;&#37;&#32;Patients&#32;by&#32;Diagnosis&#32;&#40;w&#32;X&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a43'>&#34;OUD&#32;Normalized&#32;&#37;&#32;Slots&#32;Allocated&#32;&#40;no&#32;X&#32;w&#32;RVI&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a53'>&#34;OUD&#32;Normalized&#32;&#37;&#32;Slots&#32;Allocated&#32;&#40;w&#32;X&#32;w&#32;RVI&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a137'>OUD&#32;Ratio&#32;of&#32;Appts&#32;for&#32;Existing&#32;Pts</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a170'>OUD&#32;Ratio&#32;of&#32;Appts&#32;for&#32;New&#32;Pts</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a80'>&#34;OUD&#32;Ratio&#32;of&#32;Appts&#32;for&#32;New&#32;Pts&#32;w&#47;DataRVI&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a321'>OUD&#32;Relative&#32;RVI</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>G</td>
+<td style='vertical-align:top'><a href='#a90'>OUD&#32;Sensitivity&#32;of&#32;Referrals&#32;to&#32;Wait&#32;Time</a> (<span style='color:Red'>Dmnl&#32;&#91;0&#44;2&#44;0&#46;1&#93;</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a5'>&#34;Proportion&#32;of&#32;Appointment&#32;Slots&#32;where&#32;Provider&#32;has&#32;X&#45;Waiver&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>G</td>
+<td style='vertical-align:top'><a href='#a4'>Sensitivity&#32;of&#32;Changes&#32;in&#32;Other&#32;MM&#32;Tasks&#32;Time&#32;on&#32;Missed&#32;Appointments</a> (<span style='color:Red'>Dmnl&#32;&#91;0&#44;2&#44;0&#46;1&#93;</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a75'>&#34;Total&#32;Slots&#32;Allocation&#32;&#37;&#32;&#40;with&#32;X&#32;waiver&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a54'>&#34;Total&#32;Slots&#32;Allocation&#32;&#37;&#32;&#40;without&#32;X&#32;waiver&#41;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a412'>Total&#32;x</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>A</td>
+<td style='vertical-align:top'><a href='#a413'>Total&#32;y</a> (<span style='color:Red'>Dmnl</span>)</td>
+</tr>
+<tr>
+<td style='vertical-align:top; text-align:center'>Default</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>C</td>
-<td ><a href='#a212'>&#34;Data&#95;Appointment&#95;Supply&#95;&#40;Total&#41;&#34;</a></td>
+<td style='vertical-align:top'><a href='#a7'>Use&#32;Team&#32;Data&#32;for&#32;Starting&#32;Rate&#32;or&#32;Return&#32;Visit&#32;Interval</a> (<span style='color:Red'>Dmnl&#32;&#91;0&#44;1&#44;1&#93;</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a502'>&#34;Data&#95;CC&#95;&#37;&#95;w&#95;AUD&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a504'>&#34;Data&#95;CC&#95;&#37;&#95;w&#95;DEP&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a378'>&#34;Data&#95;CC&#95;&#37;&#95;w&#95;Other&#95;Needs&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a506'>&#34;Data&#95;CC&#95;&#37;&#95;w&#95;OUD&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a486'>&#34;Data&#95;CC&#95;&#37;&#95;w&#95;PTSD&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a101'>Data&#95;CC&#95;Service&#95;Proportions&#95;from&#95;Team&#95;Data</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>LI,A</td>
-<td style='vertical-align:top'><a href='#a178'>&#34;Data&#95;CC&#95;True&#95;Missed&#95;Appointment&#95;&#37;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a432'>&#34;Data&#95;EBPsych&#95;&#37;&#95;w&#95;AUD&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a433'>&#34;Data&#95;EBPsych&#95;&#37;&#95;w&#95;DEP&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a269'>&#34;Data&#95;EBPsych&#95;&#37;&#95;w&#95;Other&#95;Needs&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a429'>&#34;Data&#95;EBPsych&#95;&#37;&#95;w&#95;OUD&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a410'>&#34;Data&#95;EBPsych&#95;&#37;&#95;w&#95;PTSD&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a62'>Data&#95;EBPsych&#95;Service&#95;Proportions&#95;from&#95;Team&#95;Data</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>LI,A</td>
-<td style='vertical-align:top'><a href='#a118'>&#34;Data&#95;EBPsych&#95;True&#95;Missed&#95;Appointment&#95;&#37;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a454'>&#34;Data&#95;Group&#95;&#37;&#95;w&#95;AUD&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a450'>&#34;Data&#95;Group&#95;&#37;&#95;w&#95;DEP&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a332'>&#34;Data&#95;Group&#95;&#37;&#95;w&#95;Other&#95;Needs&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a449'>&#34;Data&#95;Group&#95;&#37;&#95;w&#95;OUD&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a448'>&#34;Data&#95;Group&#95;&#37;&#95;w&#95;PTSD&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a75'>Data&#95;Group&#95;Service&#95;Proportions&#95;from&#95;Team&#95;Data</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>LI,A</td>
-<td style='vertical-align:top'><a href='#a148'>&#34;Data&#95;Group&#95;True&#95;Missed&#95;Appointment&#95;&#37;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a140'>&#34;Data&#95;Intake&#95;True&#95;Missed&#95;Appointment&#95;&#37;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a519'>&#34;Data&#95;MM&#95;&#37;&#95;w&#95;AUD&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a511'>&#34;Data&#95;MM&#95;&#37;&#95;w&#95;DEP&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a379'>&#34;Data&#95;MM&#95;&#37;&#95;w&#95;Other&#95;Needs&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a512'>&#34;Data&#95;MM&#95;&#37;&#95;w&#95;OUD&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a485'>&#34;Data&#95;MM&#95;&#37;&#95;w&#95;PTSD&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a100'>Data&#95;MM&#95;Service&#95;Proportions&#95;from&#95;Team&#95;Data</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>LI,A</td>
-<td style='vertical-align:top'><a href='#a185'>&#34;Data&#95;MM&#95;True&#95;Missed&#95;Appointment&#95;&#37;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a466'>&#34;Data&#95;Psych&#95;&#37;&#95;w&#95;AUD&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a467'>&#34;Data&#95;Psych&#95;&#37;&#95;w&#95;DEP&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a318'>&#34;Data&#95;Psych&#95;&#37;&#95;w&#95;Other&#95;Needs&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a469'>&#34;Data&#95;Psych&#95;&#37;&#95;w&#95;OUD&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a442'>&#34;Data&#95;Psych&#95;&#37;&#95;w&#95;PTSD&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a71'>Data&#95;Psych&#95;Service&#95;Proportions&#95;from&#95;Team&#95;Data</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>LI,A</td>
-<td style='vertical-align:top'><a href='#a149'>&#34;Data&#95;Psych&#95;True&#95;Missed&#95;Appointment&#95;&#37;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a51'>Difference&#95;between&#95;Excess&#95;and&#95;Official&#95;Team&#95;Hours</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a230'>&#34;EBPsych&#95;&#37;&#95;of&#95;Hours&#95;per&#95;Service&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a99'>&#34;EBPsych&#95;Actual&#95;True&#95;Missed&#95;Appointment&#95;&#37;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a9'>EBPsych&#95;Difference&#95;between&#95;Actual&#95;and&#95;Acceptable&#95;Start&#95;Delays</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a42'>EBPsych&#95;Difference&#95;between&#95;Actual&#95;and&#95;Standard&#95;RVI</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a38'>EBPsych&#95;Effect&#95;of&#95;Care&#95;Delays&#95;on&#95;Treatment&#95;Decisions</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a40'>EBPsych&#95;Effect&#95;of&#95;RVI&#95;Delays&#95;on&#95;Treatment&#95;Decisions</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a35'>EBPsych&#95;Effect&#95;of&#95;Start&#95;Delays&#95;on&#95;Treatment&#95;Decisions</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a87'>EBPsych&#95;Effect&#95;of&#95;Work&#95;Pressure&#95;on&#95;Overtime</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a2'>EBPsych&#95;Effect&#95;of&#95;Work&#95;Pressure&#95;on&#95;Scheduled&#95;Return&#95;Visit&#95;Interval</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a349'>EBPsych&#95;Service&#95;Proportions</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a17'>EBPsych&#95;Service&#95;Proportions&#95;Balanced&#95;Across&#95;Team&#95;Variables</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a446'>EBPsych&#95;Work&#95;Pressure</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a111'>&#34;Effect&#95;of&#95;Long&#45;Term&#95;Overtime&#95;on&#95;Burnout&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a26'>Effect&#95;of&#95;Provider&#95;Fatigue&#95;on&#95;Patient&#39;s&#95;Engagement&#95;Time</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a29'>&#34;Effect&#95;of&#95;Short&#45;Term&#95;Overtime&#95;on&#95;Missed&#95;Appointments&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a288'>&#34;Group&#95;&#37;&#95;of&#95;Hours&#95;per&#95;Service&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a123'>&#34;Group&#95;Actual&#95;True&#95;Missed&#95;Appointment&#95;&#37;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a13'>Group&#95;Difference&#95;between&#95;Actual&#95;and&#95;Acceptable&#95;Start&#95;Delays</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a52'>Group&#95;Difference&#95;between&#95;Actual&#95;and&#95;Standard&#95;RVI</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a46'>Group&#95;Effect&#95;of&#95;Care&#95;Delays&#95;on&#95;Treatment&#95;Decisions</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a49'>Group&#95;Effect&#95;of&#95;RVI&#95;Delays&#95;on&#95;Treatment&#95;Decisions</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a41'>Group&#95;Effect&#95;of&#95;Start&#95;Delays&#95;on&#95;Treatment&#95;Decisions</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a110'>Group&#95;Effect&#95;of&#95;Work&#95;Pressure&#95;on&#95;Overtime</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a6'>Group&#95;Effect&#95;of&#95;Work&#95;Pressure&#95;on&#95;Scheduled&#95;Return&#95;Visit&#95;Interval</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a396'>Group&#95;Service&#95;Proportions</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a21'>Group&#95;Service&#95;Proportions&#95;Balanced&#95;Across&#95;Team&#95;Variables</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a478'>Group&#95;Work&#95;Pressure</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a254'>&#34;Intake&#95;&#37;&#95;of&#95;Hours&#95;per&#95;Service&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a108'>&#34;Intake&#95;Actual&#95;True&#95;Missed&#95;Appointment&#95;&#37;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a54'>Intake&#95;Difference&#95;between&#95;Intake&#95;Eval&#95;Wait&#95;Times</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a32'>Intake&#95;Effect&#95;of&#95;Wait&#95;Times&#95;on&#95;Intake&#95;Evaluation&#95;Rate</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a96'>Intake&#95;Effect&#95;of&#95;Work&#95;Pressure&#95;on&#95;Overtime</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>G</td>
-<td style='vertical-align:top'><a href='#a15'>Intake&#95;Sensitivity&#95;of&#95;Intake&#95;Evaluation&#95;Rate&#95;to&#95;Wait&#95;Times</a> (<span style='color:Red'>Dmnl&#32;&#91;0&#44;2&#44;0&#46;1&#93;</span>)</td>
+<td style='vertical-align:top'><a href='#a13'>&#34;User&#32;&#37;&#32;Appointment&#32;Slots&#32;Where&#32;Provider&#32;has&#32;X&#45;Waiver&#34;</a> (<span style='color:Red'>Dmnl&#32;&#91;&#45;1&#44;1&#44;0&#46;05&#93;</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a451'>Intake&#95;Work&#95;Pressure</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>SM</td>
-<td style='vertical-align:top'><a href='#a472'>&#34;Long&#45;Term&#95;Overtime&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a348'>&#34;MM&#95;&#37;&#95;of&#95;Hours&#95;per&#95;Service&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a162'>&#34;MM&#95;Actual&#95;True&#95;Missed&#95;Appointment&#95;&#37;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a18'>MM&#95;Difference&#95;between&#95;Actual&#95;and&#95;Acceptable&#95;Start&#95;Delays</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a76'>MM&#95;Difference&#95;between&#95;Actual&#95;and&#95;Standard&#95;RVI</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a63'>MM&#95;Effect&#95;of&#95;Care&#95;Delays&#95;on&#95;Treatment&#95;Decisions</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a69'>MM&#95;Effect&#95;of&#95;RVI&#95;Delays&#95;on&#95;Treatment&#95;Decisions</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a59'>MM&#95;Effect&#95;of&#95;Start&#95;Delays&#95;on&#95;Treatment&#95;Decisions</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a152'>MM&#95;Effect&#95;of&#95;Work&#95;Pressure&#95;on&#95;Overtime</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a10'>MM&#95;Effect&#95;of&#95;Work&#95;Pressure&#95;on&#95;Scheduled&#95;Return&#95;Visit&#95;Interval</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a422'>MM&#95;Service&#95;Proportions</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a33'>MM&#95;Service&#95;Proportions&#95;Balanced&#95;Across&#95;Team&#95;Variables</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a525'>MM&#95;Work&#95;Pressure</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a271'>&#34;Psych&#95;&#37;&#95;of&#95;Hours&#95;per&#95;Service&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a124'>&#34;Psych&#95;Actual&#95;True&#95;Missed&#95;Appointment&#95;&#37;&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a14'>Psych&#95;Difference&#95;between&#95;Actual&#95;and&#95;Acceptable&#95;Start&#95;Delays</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a57'>Psych&#95;Difference&#95;between&#95;Actual&#95;and&#95;Standard&#95;RVI</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a47'>Psych&#95;Effect&#95;of&#95;Care&#95;Delays&#95;on&#95;Treatment&#95;Decisions</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a50'>Psych&#95;Effect&#95;of&#95;RVI&#95;Delays&#95;on&#95;Treatment&#95;Decisions</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a39'>Psych&#95;Effect&#95;of&#95;Start&#95;Delays&#95;on&#95;Treatment&#95;Decisions</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a107'>Psych&#95;Effect&#95;of&#95;Work&#95;Pressure&#95;on&#95;Overtime</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a5'>Psych&#95;Effect&#95;of&#95;Work&#95;Pressure&#95;on&#95;Scheduled&#95;Return&#95;Visit&#95;Interval</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a376'>Psych&#95;Service&#95;Proportions</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a19'>Psych&#95;Service&#95;Proportions&#95;Balanced&#95;Across&#95;Team&#95;Variables</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>A</td>
-<td style='vertical-align:top'><a href='#a473'>Psych&#95;Work&#95;Pressure</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>G</td>
-<td style='vertical-align:top'><a href='#a119'>Sensitivity&#95;of&#95;Overtime&#95;to&#95;Work&#95;Pressure</a> (<span style='color:Red'>Dmnl&#32;&#91;0&#44;2&#44;0&#46;1&#93;</span>)</td>
+<td style='vertical-align:top'><a href='#a94'>&#34;User&#32;AUD&#32;Slots&#32;Allocation&#32;&#40;No&#32;X&#32;Waiver&#41;&#34;</a> (<span style='color:Red'>Dmnl&#32;&#91;&#45;1&#44;1&#44;0&#46;01&#93;</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>G</td>
-<td style='vertical-align:top'><a href='#a12'>Sensitivity&#95;of&#95;Patient&#39;s&#95;Engagement&#95;Time&#95;to&#95;Provider&#95;Fatigue</a> (<span style='color:Red'>Dmnl&#32;&#91;0&#44;2&#44;0&#46;1&#93;</span>)</td>
+<td style='vertical-align:top'><a href='#a72'>&#34;User&#32;AUD&#32;Slots&#32;Allocation&#32;&#40;with&#32;X&#32;Waiver&#41;&#34;</a> (<span style='color:Red'>Dmnl&#32;&#91;&#45;1&#44;1&#44;0&#46;01&#93;</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>G</td>
-<td style='vertical-align:top'><a href='#a7'>Sensitivity&#95;of&#95;Scheduled&#95;Return&#95;Visit&#95;Interval&#95;to&#95;Work&#95;Pressure</a> (<span style='color:Red'>Dmnl&#32;&#91;0&#44;2&#44;0&#46;1&#93;</span>)</td>
+<td style='vertical-align:top'><a href='#a126'>&#34;User&#32;AUD&#32;True&#32;Missed&#32;Appointment&#32;&#37;&#34;</a> (<span style='color:Red'>Dmnl&#32;&#91;&#45;1&#44;1&#44;0&#46;01&#93;</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>G</td>
-<td style='vertical-align:top'><a href='#a23'>&#34;Sensitivity&#95;of&#95;Staff&#95;Burnout&#95;Due&#95;to&#95;Long&#45;Term&#95;Overtime&#34;</a> (<span style='color:Red'>Dmnl&#32;&#91;0&#44;2&#44;0&#46;1&#93;</span>)</td>
+<td style='vertical-align:top'><a href='#a63'>&#34;User&#32;DEP&#32;Slots&#32;Allocation&#32;&#40;with&#32;X&#32;waiver&#41;&#34;</a> (<span style='color:Red'>Dmnl&#32;&#91;&#45;1&#44;1&#44;0&#46;01&#93;</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>G</td>
-<td style='vertical-align:top'><a href='#a1'>&#34;Sensitivity&#95;of&#95;Staff&#95;Missed&#95;Appointments&#95;Due&#95;to&#95;Short&#45;Term&#95;Overtime&#34;</a> (<span style='color:Red'>Dmnl&#32;&#91;0&#44;2&#44;0&#46;1&#93;</span>)</td>
+<td style='vertical-align:top'><a href='#a50'>&#34;User&#32;DEP&#32;Slots&#32;Allocation&#32;&#40;without&#32;X&#32;waiver&#41;&#34;</a> (<span style='color:Red'>Dmnl&#32;&#91;&#45;1&#44;1&#44;0&#46;01&#93;</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>G</td>
-<td style='vertical-align:top'><a href='#a3'>Sensitivity&#95;of&#95;Treatment&#95;Decisions&#95;to&#95;Existing&#95;Patient&#95;Care&#95;Delays</a> (<span style='color:Red'>Dmnl&#32;&#91;0&#44;2&#44;0&#46;1&#93;</span>)</td>
+<td style='vertical-align:top'><a href='#a129'>&#34;User&#32;DEP&#32;True&#32;Missed&#32;Appointment&#32;&#37;&#34;</a> (<span style='color:Red'>Dmnl&#32;&#91;&#45;1&#44;1&#44;0&#46;01&#93;</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>SM</td>
-<td style='vertical-align:top'><a href='#a439'>&#34;Short&#45;Term&#95;Overtime&#34;</a> (<span style='color:Red'>Dmnl</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>G</td>
-<td style='vertical-align:top'><a href='#a211'>Use&#95;Team&#95;Data&#95;on&#95;New&#95;Pt&#95;Referrals</a> (<span style='color:Red'>Dmnl&#32;&#91;0&#44;1&#44;1&#93;</span>)</td>
+<td style='vertical-align:top'><a href='#a23'>&#34;User&#32;OtherNeeds&#32;Slots&#32;Allocation&#32;&#40;with&#32;X&#32;waiver&#41;&#34;</a> (<span style='color:Red'>Dmnl&#32;&#91;&#45;1&#44;1&#44;0&#46;01&#93;</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>G</td>
-<td style='vertical-align:top'><a href='#a43'>User&#95;Adjunctive&#95;Service&#95;Proportions&#95;from&#95;Team&#95;Data</a> (<span style='color:Red'>Dmnl&#32;&#91;&#45;1&#44;1&#44;0&#46;01&#93;</span>)</td>
+<td style='vertical-align:top'><a href='#a14'>&#34;User&#32;OtherNeeds&#32;Slots&#32;Allocation&#32;&#40;without&#32;X&#32;waiver&#41;&#34;</a> (<span style='color:Red'>Dmnl&#32;&#91;&#45;1&#44;1&#44;0&#46;01&#93;</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>G</td>
-<td style='vertical-align:top'><a href='#a93'>&#34;User&#95;Adjunctive&#95;True&#95;Missed&#95;Appointment&#95;&#37;&#34;</a> (<span style='color:Red'>Dmnl&#32;&#91;&#45;1&#44;1&#44;0&#46;01&#93;</span>)</td>
+<td style='vertical-align:top'><a href='#a71'>&#34;User&#32;OtherNeeds&#32;True&#32;Missed&#32;Appointment&#32;&#37;&#34;</a> (<span style='color:Red'>Dmnl&#32;&#91;&#45;1&#44;1&#44;0&#46;01&#93;</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>G</td>
-<td style='vertical-align:top'><a href='#a103'>User&#95;CC&#95;Service&#95;Proportions&#95;from&#95;Team&#95;Data</a> (<span style='color:Red'>Dmnl&#32;&#91;&#45;1&#44;1&#44;0&#46;01&#93;</span>)</td>
+<td style='vertical-align:top'><a href='#a73'>&#34;User&#32;OUD&#32;Slots&#32;Allocation&#32;&#40;with&#32;X&#32;waiver&#41;&#34;</a> (<span style='color:Red'>Dmnl&#32;&#91;&#45;1&#44;1&#44;0&#46;01&#93;</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>G</td>
-<td style='vertical-align:top'><a href='#a176'>&#34;User&#95;CC&#95;True&#95;Missed&#95;Appointment&#95;&#37;&#34;</a> (<span style='color:Red'>Dmnl&#32;&#91;&#45;1&#44;1&#44;0&#46;01&#93;</span>)</td>
+<td style='vertical-align:top'><a href='#a52'>&#34;User&#32;OUD&#32;Slots&#32;Allocation&#32;&#40;without&#32;X&#32;waiver&#41;&#34;</a> (<span style='color:Red'>Dmnl&#32;&#91;&#45;1&#44;1&#44;0&#46;01&#93;</span>)</td>
 </tr>
 <tr>
 <td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
+<td style='vertical-align:top; text-align:center'>mm i v36 2021 01 20</td>
 <td style='vertical-align:top; text-align:center'>G</td>
-<td style='vertical-align:top'><a href='#a60'>User&#95;EBPsych&#95;Service&#95;Proportions&#95;from&#95;Team&#95;Data</a> (<span style='color:Red'>Dmnl&#32;&#91;&#45;1&#44;1&#44;0&#46;01&#93;</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>G</td>
-<td style='vertical-align:top'><a href='#a129'>&#34;User&#95;EBPsych&#95;True&#95;Missed&#95;Appointment&#95;&#37;&#34;</a> (<span style='color:Red'>Dmnl&#32;&#91;&#45;1&#44;1&#44;0&#46;01&#93;</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>G</td>
-<td style='vertical-align:top'><a href='#a72'>User&#95;Group&#95;Service&#95;Proportions&#95;from&#95;Team&#95;Data</a> (<span style='color:Red'>Dmnl&#32;&#91;&#45;1&#44;1&#44;0&#46;01&#93;</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>G</td>
-<td style='vertical-align:top'><a href='#a146'>&#34;User&#95;Group&#95;True&#95;Missed&#95;Appointment&#95;&#37;&#34;</a> (<span style='color:Red'>Dmnl&#32;&#91;&#45;1&#44;1&#44;0&#46;01&#93;</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>G</td>
-<td style='vertical-align:top'><a href='#a139'>&#34;User&#95;Intake&#95;True&#95;Missed&#95;Appointment&#95;&#37;&#34;</a> (<span style='color:Red'>Dmnl&#32;&#91;&#45;1&#44;1&#44;0&#46;01&#93;</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>G</td>
-<td style='vertical-align:top'><a href='#a102'>User&#95;MM&#95;Service&#95;Proportions&#95;from&#95;Team&#95;Data</a> (<span style='color:Red'>Dmnl&#32;&#91;&#45;1&#44;1&#44;0&#46;01&#93;</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>G</td>
-<td style='vertical-align:top'><a href='#a173'>&#34;User&#95;MM&#95;True&#95;Missed&#95;Appointment&#95;&#37;&#34;</a> (<span style='color:Red'>Dmnl&#32;&#91;&#45;1&#44;1&#44;0&#46;01&#93;</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>G</td>
-<td style='vertical-align:top'><a href='#a74'>User&#95;Psych&#95;Service&#95;Proportions&#95;from&#95;Team&#95;Data</a> (<span style='color:Red'>Dmnl&#32;&#91;&#45;1&#44;1&#44;0&#46;01&#93;</span>)</td>
-</tr>
-<tr>
-<td style='vertical-align:top; text-align:center'>Default</td>
-<td style='vertical-align:top; text-align:center'>agg i v15 2021 01 20</td>
-<td style='vertical-align:top; text-align:center'>G</td>
-<td style='vertical-align:top'><a href='#a147'>&#34;User&#95;Psych&#95;True&#95;Missed&#95;Appointment&#95;&#37;&#34;</a> (<span style='color:Red'>Dmnl&#32;&#91;&#45;1&#44;1&#44;0&#46;01&#93;</span>)</td>
+<td style='vertical-align:top'><a href='#a124'>&#34;User&#32;OUD&#32;True&#32;Missed&#32;Appointment&#32;&#37;&#34;</a> (<span style='color:Red'>Dmnl&#32;&#91;&#45;1&#44;1&#44;0&#46;01&#93;</span>)</td>
 </tr>
 </table>
 <hr style='height:1px; color:Blue'/>
 <div align='right' style='font-size:small;'>
 <span style='font-family:Microsoft Sans Serif; font-size:x-small;'>
-Source file: mm_i_v36_2021_01_20.mdl (25Jan2021 - 5:04:21 AM)
-<br />Report Created on 25/Jan/2021 - 5:04:34 AM<br/><a href='http://www.dis.anl.gov/feedback/sys_dyn_model.php?tname=your name&temail=your email&tphone=&tlocation=&tversion=1.0'>SDM-Doc Tool</a> Version 1.0
+Source file: mm_i_v36_2021_01_20.mdl (25Jan2021 - 6:32:23 AM)
+<br />Report Created on 25/Jan/2021 - 6:32:30 AM<br/><a href='http://www.dis.anl.gov/feedback/sys_dyn_model.php?tname=your name&temail=your email&tphone=&tlocation=&tversion=1.0'>SDM-Doc Tool</a> Version 1.0
 <br /><a href='http://www.dis.anl.gov'>Decision and Information Sciences Division</a>
 <br /><a href='http://www.anl.gov'>Argonne National Laboratory</a>
 </span>
