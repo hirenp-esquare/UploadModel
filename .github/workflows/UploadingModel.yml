@@ -139,7 +139,7 @@ jobs:
       - run: git rev-parse --short $GITHUB_SHA
          
       - name: Last Commit file
-        run: git log
+        run: $GITHUB_WORKSPACE
       
       - name: Extract branch name
         #shell: bash
