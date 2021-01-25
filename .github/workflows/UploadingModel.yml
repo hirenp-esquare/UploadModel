@@ -143,7 +143,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
       - run: |
-          ls
+          ls 'blue/mtl2.0_models'
       
       - name: Extract branch name
         #shell: bash
