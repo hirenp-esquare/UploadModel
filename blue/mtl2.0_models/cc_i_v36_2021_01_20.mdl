@@ -5,7 +5,7 @@
 		, "Data_New_Patient_Wait_Time_(median)")
 	)
 	~	wk
-	~	It is Dev possible for the estimate for the median new patient wait time to be \
+	~	It is Dev possible Dev for the estimate for the median new patient wait time to be \
 		zero, if the team sees many walk-in patients. However the Target New \
 		Patient Wait Time needs to be an average, thus a value of zero is not \
 		feasible. In these rare cases, we prevent the model from using a zero \
