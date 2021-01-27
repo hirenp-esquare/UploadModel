@@ -2,7 +2,7 @@
 "Data_Appointment_Supply_(Total)"=
 	0
 	~	
-	~	The sum of all clinical hours allocated to patient appointments. It must \
+	~	The sum of all clinical hours allocated to patient Dev appointments. It must \
 		be less than 40 hrs/week/clinician, due to administrative duties, sick \
 		leave, annual leave, training, etc. (apts/wk)
 	|
