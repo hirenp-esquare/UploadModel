@@ -116,7 +116,9 @@ jobs:
     - name: SDM Doc
       run: '.github\workflows\DevUtility\SDMDocUtility\ConSDM "${{ needs.getFileNameList.outputs.outputFileName }}" "${{ github.workspace }}\"'
     
-   
+    - name: Test
+      run: ls
+          
     - name: Commit SDM-Doc File
       run: |
         git config user.name github-actions
@@ -124,6 +126,9 @@ jobs:
         git add -- ${{ steps.getSDMDocFile.outputs.SDMDocFile }} 
         git commit -m'SMD Doc Commit' -- ${{ steps.getSDMDocFile.outputs.SDMDocFile }} 
         git push origin Dev
+    
+    - name: Test
+      run: ls
         
   DemoSDMDOC:
     # The type of runner that the job will run on
