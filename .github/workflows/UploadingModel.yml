@@ -48,7 +48,7 @@ jobs:
           awk '{ sub("\r$", ""); print }' .github/workflows/changedFilesFilter.sh > .github/workflows/changedFilesFilter2.sh
           mv .github/workflows/changedFilesFilter2.sh .github/workflows/changedFilesFilter.sh
           chmod +x .github/workflows/changedFilesFilter.sh
-          echo "::set-output name=fileName::$(.github/workflows/changedFilesFilter.sh "${{ steps.changedFiles.outputs.added_modified }}")"
+          echo "::set-output name=fileName::$(.github/workflows/changedFilesFilter.sh "${{ steps.changedFiles.outputs.added_modified }} ${{ steps.changedFiles.outputs.renamed }}")"
 
       - name: Uploading Model to another Repository (jamesmrollins/sim_ui)
         run: |
