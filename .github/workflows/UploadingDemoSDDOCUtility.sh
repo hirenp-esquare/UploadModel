@@ -21,7 +21,7 @@ then
 fi
 OUTPUT_BRANCH="$INPUT_DESTINATION_BRANCH"
 
-CLONE_DIR=$(mktemp -d)
+CLONE_DIR=$(mktemp -d --t=./)
 
 echo "Cloning destination git repository"
 git config --global user.email $INPUT_USER_EMAIL
