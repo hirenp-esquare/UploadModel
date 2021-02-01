@@ -132,56 +132,16 @@ jobs:
     - name: Test
       run: ls 'blue/mtl2.0_models'
     
+    - name: Extract branch name
+      shell: bash
+      run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+      id: extract_branch
+    
     - name: Uploading SDM DOC to another Repository (jamesmrollins/MTL-DEMO)
       run: |
           chmod +x .github/workflows/UploadingDemoSDDOCUtility.sh
           awk '{ sub("\r$", ""); print }' .github/workflows/UploadingDemoSDDOCUtility.sh > .github/workflows/UploadingDemoSDDOCUtility2.sh
           mv .github/workflows/UploadingDemoSDDOCUtility2.sh .github/workflows/UploadingDemoSDDOCUtility.sh
           chmod +x .github/workflows/UploadingDemoSDDOCUtility.sh 
-          .github/workflows/UploadingDemoSDDOCUtility.sh "blue/mtl2.0_models/*-A.html" 'jamesmrollins/MTL-DEMO' "Dev" 'static' 'hirenp@waferwire.com' 'hirenp-waferwire' "SDM DOC file is Uploaded by Dev" "${{ secrets.API_TOKEN_GITHUB }}"
-      shell: bash  
-    
- 
-         
-        
-  DemoSDMDOC:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest #windows-latest #ubuntu-latest
-    needs: UploadModel
-         
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-        with:
-          fetch-depth: 1
-      - run: git rev-parse --short $GITHUB_SHA
-         
-      - name: Set up changelog
-        uses: heinrichreimer/github-changelog-generator-action@v2.1.1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - run: |
-          ls 'blue/mtl2.0_models'
-      
-      - name: Extract branch name
-        #shell: bash
-        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
-        id: extract_branch
-      
-     #- name: Uploading SDM DOC to another Repository (jamesmrollins/MTL-DEMO)
-       # run: |
-        #  chmod +x .github/workflows/UploadingDemoSDDOCUtility.sh
-        #  awk '{ sub("\r$", ""); print }' .github/workflows/UploadingDemoSDDOCUtility.sh > .github/workflows/UploadingDemoSDDOCUtility2.sh
-       #   mv .github/workflows/UploadingDemoSDDOCUtility2.sh .github/workflows/UploadingDemoSDDOCUtility.sh
-          #chmod +x .github/workflows/UploadingDemoSDDOCUtility.sh 
-          #.github/workflows/UploadingDemoSDDOCUtility.sh "blue/mtl2.0_models/*.html" 'jamesmrollins/MTL-DEMO' "${{ steps.extract_branch.outputs.branch }}" 'static' 'hirenp@waferwire.com' 'hirenp-waferwire' "SDM DOC file is Uploaded by ${{ github.event.repository.name }}" "${{ secrets.API_TOKEN_GITHUB }}"
-        
-    
- 
-
-     
-    
- 
-   
-   
+          .github/workflows/UploadingDemoSDDOCUtility.sh "blue/mtl2.0_models/*.html" 'jamesmrollins/MTL-DEMO' "${{ steps.extract_branch.outputs.branch }}" 'static' 'hirenp@waferwire.com' 'hirenp-waferwire' "SDM DOC file is Uploaded by ${{ github.event.repository.name }}" "${{ secrets.API_TOKEN_GITHUB }}"
+      shell: bash   
