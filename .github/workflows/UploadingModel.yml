@@ -116,10 +116,6 @@ jobs:
     
     - name: SDM Doc
       run: '.github\workflows\DevUtility\SDMDocUtility\ConSDM "${{ needs.getFileNameList.outputs.outputFileName }}" "${{ github.workspace }}\"'
-    
-    - name: Test
-      run: ls 'blue/mtl2.0_models'
-    
           
     - name: Commit SDM-Doc File
       run: |
@@ -128,9 +124,6 @@ jobs:
         git add -- ${{ steps.getSDMDocFile.outputs.SDMDocFile }} 
         git commit -m'SMD Doc Commit' -- ${{ steps.getSDMDocFile.outputs.SDMDocFile }} 
         git push origin Dev
-    
-    - name: Test
-      run: ls 'blue/mtl2.0_models'
     
     - name: Extract branch name
       shell: bash
@@ -143,5 +136,5 @@ jobs:
           awk '{ sub("\r$", ""); print }' .github/workflows/UploadingDemoSDDOCUtility.sh > .github/workflows/UploadingDemoSDDOCUtility2.sh
           mv .github/workflows/UploadingDemoSDDOCUtility2.sh .github/workflows/UploadingDemoSDDOCUtility.sh
           chmod +x .github/workflows/UploadingDemoSDDOCUtility.sh 
-          .github/workflows/UploadingDemoSDDOCUtility.sh "blue/mtl2.0_models/*.html" 'jamesmrollins/MTL-DEMO' "${{ steps.extract_branch.outputs.branch }}" 'static' 'hirenp@waferwire.com' 'hirenp-waferwire' "SDM DOC file is Uploaded by ${{ github.event.repository.name }}" "${{ secrets.API_TOKEN_GITHUB }}"
+          .github/workflows/UploadingDemoSDDOCUtility.sh "blue/mtl2.0_models/*-A.html" 'jamesmrollins/MTL-DEMO' "${{ steps.extract_branch.outputs.branch }}" 'static' 'hirenp@waferwire.com' 'hirenp-waferwire' "SDM DOC file is Uploaded by ${{ github.event.repository.name }}" "${{ secrets.API_TOKEN_GITHUB }}"
       shell: bash   
