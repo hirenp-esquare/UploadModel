@@ -7,7 +7,7 @@ INPUT_USER_NAME=$6
 INPUT_COMMIT_MESSAGE=$7
 API_TOKEN_GITHUB=$8
 
-ls blue/mtl2.0_models
+#ls blue/mtl2.0_models
 
 if [ -z "$INPUT_SOURCE_FILE" ]
 then
@@ -21,7 +21,7 @@ then
 fi
 OUTPUT_BRANCH="$INPUT_DESTINATION_BRANCH"
 
-CLONE_DIR=$(mktemp -d --t=./)
+CLONE_DIR=$(mktemp -d)
 
 echo "Cloning destination git repository"
 git config --global user.email $INPUT_USER_EMAIL
