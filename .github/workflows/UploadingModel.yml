@@ -138,7 +138,7 @@ jobs:
           awk '{ sub("\r$", ""); print }' .github/workflows/UploadingDemoSDDOCUtility.sh > .github/workflows/UploadingDemoSDDOCUtility2.sh
           mv .github/workflows/UploadingDemoSDDOCUtility2.sh .github/workflows/UploadingDemoSDDOCUtility.sh
           chmod +x .github/workflows/UploadingDemoSDDOCUtility.sh 
-          .github/workflows/UploadingDemoSDDOCUtility.sh "blue/mtl2.0_models/*.html" 'jamesmrollins/MTL-DEMO' "${{ steps.extract_branch.outputs.branch }}" 'static' 'hirenp@waferwire.com' 'hirenp-waferwire' "SDM DOC file is Uploaded by ${{ github.event.repository.name }}" "${{ secrets.API_TOKEN_GITHUB }}"
+          .github/workflows/UploadingDemoSDDOCUtility.sh "blue/mtl2.0_models/*.html" 'jamesmrollins/MTL-DEMO' "Dev" 'static' 'hirenp@waferwire.com' 'hirenp-waferwire' "SDM DOC file is Uploaded by Dev" "${{ secrets.API_TOKEN_GITHUB }}"
       shell: bash  
     
  
