@@ -41,9 +41,6 @@ cd "$CLONE_DIR"
 #cp -R $INPUT_SOURCE_FILE "$CLONE_DIR/$INPUT_DESTINATION_FOLDER"
 #cd "$CLONE_DIR"
 
-ls $CLONE_DIR
-ls TempModel
-
 # "Start Rename file for forio model"
 #cd "$CLONE_DIR/$INPUT_DESTINATION_FOLDER"
 mv TempModel/cc_*.vmfx $INPUT_DESTINATION_FOLDER/CC_PROD.vmfx
