@@ -41,15 +41,16 @@ cd "$CLONE_DIR"
 #cp -R $INPUT_SOURCE_FILE "$CLONE_DIR/$INPUT_DESTINATION_FOLDER"
 #cd "$CLONE_DIR"
 
+ls $CLONE_DIR
 ls TempModel
 
 # "Start Rename file for forio model"
 #cd "$CLONE_DIR/$INPUT_DESTINATION_FOLDER"
-mv "TempModel/cc_*.vmfx" $INPUT_DESTINATION_FOLDER/CC_PROD.vmfx
-mv "TempModel/mm_*.vmfx" $INPUT_DESTINATION_FOLDER/MM_PROD.vmfx
-mv "TempModel/psy_*.vmfx" $INPUT_DESTINATION_FOLDER/Psy_PROD.vmfx
-mv "TempModel/agg_*.vmfx" $INPUT_DESTINATION_FOLDER/Agg_PROD.vmfx
-mv "TempModel/sp_*.vmfx" $INPUT_DESTINATION_FOLDER/SuicidePrevention_PROD.vmfx
+mv TempModel/cc_*.vmfx $INPUT_DESTINATION_FOLDER/CC_PROD.vmfx
+mv TempModel/mm_*.vmfx $INPUT_DESTINATION_FOLDER/MM_PROD.vmfx
+mv TempModel/psy_*.vmfx $INPUT_DESTINATION_FOLDER/Psy_PROD.vmfx
+mv TempModel/agg_*.vmfx $INPUT_DESTINATION_FOLDER/Agg_PROD.vmfx
+mv TempModel/sp_*.vmfx $INPUT_DESTINATION_FOLDER/SuicidePrevention_PROD.vmfx
 #End Rename file for forio model
 
 
