@@ -38,7 +38,7 @@ echo "Copying contents to git repo"
 cp -R $INPUT_SOURCE_FILE "$CLONE_DIR/$INPUT_DESTINATION_FOLDER"
 cd "$CLONE_DIR"
 
-ls
+ls $INPUT_DESTINATION_FOLDER
 
 # "Start Rename file for forio model"
 #cd "$CLONE_DIR/$INPUT_DESTINATION_FOLDER"
