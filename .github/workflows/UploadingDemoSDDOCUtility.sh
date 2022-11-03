@@ -49,7 +49,15 @@ mv TempSDMDOC/agg_*.html $INPUT_DESTINATION_FOLDER/aggsdmdoc.html
 mv TempSDMDOC/sp_*.html $INPUT_DESTINATION_FOLDER/spsdmdoc.html
 #End Rename file for forio model
 
-rm -r "$CLONE_DIR/TempSDMDOC"
+echo "Before remove"
+ls TempSDMDOC
+
+rm -r TempSDMDOC
+
+echo "after remove"
+ls TempSDMDOC
+
+
 
 if [ -z "$INPUT_COMMIT_MESSAGE" ]
 then
