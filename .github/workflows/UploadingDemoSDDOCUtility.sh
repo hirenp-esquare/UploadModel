@@ -33,7 +33,7 @@ then
 fi
 
 echo "Copying contents to git repo"
-mkdir "$CLONE_DIR/TempSDMDOC"
+mkdir -p "$CLONE_DIR/TempSDMDOC"
 cp -R $INPUT_SOURCE_FILE "$CLONE_DIR/TempSDMDOC"
 cd "$CLONE_DIR"
 #mkdir -p $CLONE_DIR/INPUT_DESTINATION_FOLDER
@@ -49,6 +49,7 @@ mv TempSDMDOC/agg_*.html $INPUT_DESTINATION_FOLDER/aggsdmdoc.html
 mv TempSDMDOC/sp_*.html $INPUT_DESTINATION_FOLDER/spsdmdoc.html
 #End Rename file for forio model
 
+rm -r "$CLONE_DIR/TempSDMDOC"
 
 if [ -z "$INPUT_COMMIT_MESSAGE" ]
 then
