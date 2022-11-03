@@ -34,7 +34,7 @@ then
 fi
 
 echo "Copying contents to git repo"
-mkdir "$CLONE_DIR/TempModel"
+mkdir -p "$CLONE_DIR/TempModel"
 cp -R $INPUT_SOURCE_FILE "$CLONE_DIR/TempModel"
 cd "$CLONE_DIR"
 #mkdir -p $CLONE_DIR/INPUT_DESTINATION_FOLDER
