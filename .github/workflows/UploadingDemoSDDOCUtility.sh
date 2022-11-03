@@ -40,6 +40,9 @@ cd "$CLONE_DIR"
 #cp -R $INPUT_SOURCE_FILE "$CLONE_DIR/$INPUT_DESTINATION_FOLDER"
 #cd "$CLONE_DIR"
 
+echo "Before move"
+ls TempSDMDOC
+
 # "Start Rename file for forio model"
 #cd "$CLONE_DIR/$INPUT_DESTINATION_FOLDER"
 mv TempSDMDOC/cc_*.html $INPUT_DESTINATION_FOLDER/ccsdmdoc.html
