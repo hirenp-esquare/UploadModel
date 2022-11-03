@@ -33,7 +33,7 @@ then
 fi
 
 echo "Copying contents to git repo"
-mkdir -p "$CLONE_DIR/TempSDMDOC"
+mkdir "$CLONE_DIR/TempSDMDOC"
 cp -R $INPUT_SOURCE_FILE "$CLONE_DIR/TempSDMDOC"
 cd "$CLONE_DIR"
 #mkdir -p $CLONE_DIR/INPUT_DESTINATION_FOLDER
